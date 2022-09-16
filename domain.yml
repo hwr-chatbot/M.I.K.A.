@@ -1,0 +1,63 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - tell_name
+
+responses:
+  utter_greet:
+  - text: "Hey {name}! How are you?"
+
+  utter_cheer_up:
+  - text: "I'm a chatbot that cheers people up, {name}. Here is something to cheer you up:"
+    image: "https://i.123g.us/c/ejul_cheeruplonelyday/pc/313712_pc.jpg"   
+   #image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_go_walk:
+  - text: "So, {name}, why don't you just go out for a walk?"
+  - text: "A little fresh air might do you some good, right? How about a walk, {name}?"
+  
+  utter_did_that_help:
+  - text: "Did that help you?"
+  - text: "Did this cheer you up, {name}?"
+
+  utter_happy:
+  - text: "Great {name}! Share your happiness with the world!"
+
+  utter_goodbye:
+  - text: "Goodbye {name}. I'm here for you! See you soon!"
+  - text: "Goodbye {name}. Come back whenever you need a chat. See you!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_ask_name:
+  - text: "Hi, what's your name?"
+
+  utter_ask_sports:
+  - text: "{name} do you like to do sports?"
+
+  utter_default:
+    - text: "Sorry, I didn't get that, can you rephrase?"
+  
+entities:
+  - name
+  
+slots:
+  name: #slot name and entity name are the same here, but could be different
+    type: text
+    initial_value: "my friend"
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: name
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
