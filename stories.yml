@@ -1,0 +1,56 @@
+version: "3.1"
+
+stories:
+
+- story: intro
+  steps:
+  - intent: begruessen
+  - action: utter_nameerfragen
+  - intent: name_nennen
+    entities:
+    - name: "Marco" #Can it be any random string here?
+  - action: utter_begruessen
+  
+- story: gutelaune_wetter_geschichte
+  steps:
+  - intent: gute_laune
+  - action: utter_gutelaune
+  - intent: frage_wetter
+  - action: utter_wetter
+  - intent: frage_geschichte_hwr
+  - action: utter_geschichte_hwr
+  - intent: verabschieden
+  - action: utter_verabschieden
+    
+- story: gutelaune_wetter_standorte
+  steps:
+  - intent: gute_laune
+  - action: utter_gutelaune
+  - intent: frage_standorte_hwr
+  - action: utter_standorte_hwr
+  - intent: frage_wetter
+  - action: utter_wetter
+  - intent: verabschieden
+  - action: utter_verabschieden
+
+- story: schlechtelaune_wetter_geschichte
+  steps:
+  - intent: schlechte_laune
+  - action: utter_aufmuntern
+  - intent: frage_wetter
+  - action: utter_wetter
+  - intent: frage_geschichte_hwr
+  - action: utter_geschichte_hwr
+  - intent: verabschieden
+  - action: utter_verabschieden
+
+- story: schlechtelaune_wetter_standorte
+  steps:
+  - intent: schlechte_laune
+  - action: utter_aufmuntern
+  - intent: frage_standorte_hwr
+  - action: utter_standorte_hwr
+  - intent: frage_wetter
+  - action: utter_wetter
+  - intent: verabschieden
+  - action: utter_verabschieden

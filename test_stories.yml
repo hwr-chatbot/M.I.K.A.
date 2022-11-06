@@ -1,0 +1,28 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: gutelaune_wetter_geschichte
+  steps:
+  - user: |
+      Hallo!
+    intent: greet
+  - action: utter_greet
+  - user: |
+      Ganz gut.
+    intent: gute_laune
+  - action: utter_gutelaune
+  - user: |
+      Wie wird das Wetter morgen?
+    intent: frage_wetter
+  - action: utter_wetter
+  - user: |
+      Wie lange gibt's die HWR schon?
+    intent: frage_geschichte_hwr
+  - action: utter_geschichte
+  - user: |
+      Danke, tschüss!
+    intent: verabschieden
+  - action: utter_verabschieden  
+     
+  

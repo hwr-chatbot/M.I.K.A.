@@ -1,50 +1,60 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
+  - begruessen
+  - verabschieden
+  - zustimmen
+  - verneinen
+  - gute_laune
+  - schlechte_laune
   - bot_challenge
-  - tell_name
+  - name_nennen
+  - frage_wetter
+  - frage_geschichte_hwr
+  - frage_standorte_hwr
+
 
 responses:
-  utter_greet:
-  - text: "Hey {name}! How are you?"
+  utter_begruessen:
+  - text: "Hallo {name}! Wie geht's dir?"
+  - text: "Hi {name}, schön, dass du hier bist! Wie geht's so?"
+  - text: "Moin {name}! Wie läuft's denn so bei dir?"
 
-  utter_cheer_up:
-  - text: "I'm a chatbot that cheers people up, {name}. Here is something to cheer you up:"
-    image: "https://i.123g.us/c/ejul_cheeruplonelyday/pc/313712_pc.jpg"   
-   #image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_aufmuntern:
+  - text: "Das tut mir leid, {name}. Ich hoffe, es geht dir bald besser! Was möchtest du über die HWR wissen?"
+  - text: "Das klingt nicht gut, {name}. Vielleicht kann ich dich ein bisschen aufmuntern. Was möchtest du über die HWR erfahren?"
 
-  utter_go_walk:
-  - text: "So, {name}, why don't you just go out for a walk?"
-  - text: "A little fresh air might do you some good, right? How about a walk, {name}?"
-  
-  utter_did_that_help:
-  - text: "Did that help you?"
-  - text: "Did this cheer you up, {name}?"
+  utter_gutelaune:
+  - text: "Super, {name}! Dann können wir ja motiviert loslegen! Was möchtest du über die HWR wissen?"
+  - text: "Das freut mich, {name}. Welche Fragen hast du denn zur HWR oder zum Studium?"
 
-  utter_happy:
-  - text: "Great {name}! Share your happiness with the world!"
-
-  utter_goodbye:
-  - text: "Goodbye {name}. I'm here for you! See you soon!"
-  - text: "Goodbye {name}. Come back whenever you need a chat. See you!"
+  utter_verabschieden:
+  - text: "Tschüss {name}. Ich bin gerne für dich da, bist zum nächsten Mal!"
+  - text: "Bis bald, {name}. Hab einen schönen Tag!"
+  - text: "Danke für deine Zeit, {name}. Tschüss!"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Mein Name ist Mika und ich bin ein Bot."
+  - text: "Ich bin Mika, ein Bot."
   
-  utter_ask_name:
-  - text: "Hi, what's your name?"
-
-  utter_ask_sports:
-  - text: "{name} do you like to do sports?"
+  utter_nameerfragen:
+  - text: "Hi, wie heisst du denn?"
+  - text: "Hallo, wie heisst du?"
+  - text: "Hey hi, wie ist dein Name?"
 
   utter_default:
-    - text: "Sorry, I didn't get that, can you rephrase?"
+    - text: "Sorry, das habe ich nicht verstanden, kannst du es nochmal anders formulieren?"
+    - text: "Tut mir leid, das habe ich nicht verstanden. Kannst du es umformulieren?"
+  
+  utter_wetter:
+    - text: "Das weiss ich leider nicht, ich sehe nur Nullen und Einsen?"
+    - text: "Ich habe leider keine Ahnung vom Wetter, ich sehe nur kosmischen Staub."
+    
+  utter_geschichte_hwr:
+    - text: "Die HWR wurde in den 1970er-Jahren gegründet, das Gebäude am Campus Schöneberg gibt es aber schon länger. Wenn du mehr erfahren möchtest, schau mal hier: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/."
+  
+  utter_standorte_hwr:
+    - text: "Es gibt einen Campus in Schöneberg und einen in Lichtenberg."
   
 entities:
   - name
@@ -52,7 +62,7 @@ entities:
 slots:
   name: #slot name and entity name are the same here, but could be different
     type: text
-    initial_value: "my friend"
+    initial_value: "du"
     influence_conversation: false
     mappings:
     - type: from_entity

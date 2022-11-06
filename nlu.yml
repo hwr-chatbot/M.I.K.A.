@@ -1,0 +1,140 @@
+version: "3.1"
+
+nlu:
+- intent: begruessen
+  examples: |
+    - hey
+    - hallo
+    - hi
+    - Guten Morgen
+    - Guten Tag
+    - Guten Abend
+    - moin
+    - hey du
+    - hallo Bot
+    - Morgen
+    - howdy
+    - hello
+    - los geht's
+
+- intent: verabschieden
+  examples: |
+    - tschüss
+    - ciao
+    - bis dann
+    - bis denne
+    - bye
+    - auf Wiedersehen
+    - einen schönen Tag noch
+    - wir sehen uns
+    - bye bye
+    - bis bald
+
+- intent: zustimmen
+  examples: |
+    - yes
+    - ja
+    - jap
+    - genau
+    - so ist es
+    - korrekt
+    - richtig
+    - klingt gut
+
+- intent: verneinen
+  examples: |
+    - nein
+    - nö
+    - niemals
+    - finde ich nicht
+    - überhaupt nicht
+    - gar nicht
+    - nicht wirklich
+    - auf keinen fall
+    - nope
+
+- intent: gute_laune
+  examples: |
+    - perfekt
+    - gut
+    - super
+    - voll gut drauf
+    - happy
+    - ich bin ganz zufrieden
+    - mit gehts gut
+    - mir gehts super
+    - hammer tag
+    - hervorragend
+    - in bester laune
+    - alles bestens
+    - alles in butter
+
+- intent: schlechte_laune
+  examples: |
+    - nicht so gut
+    - gar nicht gut
+    - ganz übel
+    - echt mies drauf
+    - traurig
+    - scheisse
+    - mein tag war scheisse
+    - heute ist ein scheisstag
+    - ziemlich schlecht
+    - ich bin down
+    - ich bin leider schlecht drauf
+    - am boden zerstört
+    - todunglücklich
+    - grauenhaft
+    - schrecklich
+    - ich fühle mich schrecklich
+
+- intent: bot_challenge
+  examples: |
+    - bist du ein bot?
+    - bist du ein chatbot?
+    - bist du ein mensch?
+    - bist du menschlich?
+    - spreche ich mit einem bot?
+    - spreche ich mit einem menschen?
+    
+- intent: name_nennen
+  examples: |
+    - Ich bin [Mika](name)
+    - Ich heisse [Foo](name)
+    - Mein Name ist [Ben](name)
+    - [John](name)
+    - Nenn mich [Hannah](name)
+    - Man nennt mich [Jupiter](name)
+
+- intent: frage_wetter
+  examples: |
+    - Wie ist das Wetter heute?
+    - Wie wird das Wetter?
+    - Regnet es heute?
+    - Scheint heute die Sonne?
+    - Wie warm wird es heute?
+    - Wie ist der Wetterbericht?
+    - Wird es heute kalt?
+    
+- intent: frage_geschichte_hwr
+  examples: |
+    - Wie lange gibts die HWR?
+    - Wie lange gibt es die HWR Berlin schon?
+    - Wie ist die Geschichte der HWR?
+    - Wann wurde die HWR Berlin gegründet?
+    - in welchem Jahr wurde die HWR gegründet?
+    
+- intent: frage_standorte_hwr
+  examples: |
+    - Wo genau ist der Campus der HWR?
+    - Welche Standorte hat die HWR Berlin?
+    - Welche Standorte gibt es?
+    - Wo befinden sich die Gebäude der HWR?
+    
+    
+    
+    
+    
+    
+    
+    
