@@ -8,7 +8,7 @@ stories:
   - action: utter_nameerfragen
   - intent: name_nennen
     entities:
-    - name: "Marco" #Can it be any random string here?
+    - name: Marco #Can it be any random string here?
   - action: utter_begruessen
   
 - story: gutelaune_wetter_geschichte
@@ -52,5 +52,57 @@ stories:
   - action: utter_standorte_hwr
   - intent: frage_wetter
   - action: utter_wetter
+  - intent: verabschieden
+  - action: utter_verabschieden
+
+- story: hochschule_vorab_besuchen
+  steps:
+  - intent: frage_hwr_kurse_vorab_besuchen
+  - action: utter_kurse_vorab_besuchen
+
+- story: hochschule_zu_hwr_wechseln
+  steps:
+  - intent: frage_hwr_hochschule_zu_hwr_wechseln
+  - action: utter_hochschule_zu_hwr_wechseln
+
+- story: studieren_ohne_abi
+  steps:
+  - intent: frage_hwr_studieren_ohne_abi
+  - action: utter_studieren_ohne_abi
+
+- story: eng_studiengänge
+  steps:
+  - intent: frage_hwr_eng_studiengänge
+  - action: utter_eng_studiengänge
+
+- story: anmelden_als_gasthörer
+  steps:
+  - intent: frage_hwr_anmelden_als_gasthörer
+  - action: utter_anmelden_als_gasthörer
+
+- story: interactive_story_1
+  steps:
+  - intent: begruessen
+  - action: utter_nameerfragen
+
+- story: interactive_story_2
+  steps:
+  - intent: begruessen
+  - action: utter_nameerfragen
+  - intent: name_nennen
+  - action: utter_begruessen
+
+- story: interactive_story_3
+  steps:
+  - intent: begruessen
+  - action: utter_nameerfragen
+  - intent: name_nennen
+    entities:
+    - name: Luca
+  - action: utter_begruessen
+  - intent: gute_laune
+  - action: utter_gutelaune
+  - intent: verneinen
+  - action: utter_beenden
   - intent: verabschieden
   - action: utter_verabschieden

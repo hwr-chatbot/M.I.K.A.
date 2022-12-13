@@ -1,73 +1,81 @@
-version: "3.1"
-
+version: '3.1'
 intents:
-  - begruessen
-  - verabschieden
-  - zustimmen
-  - verneinen
-  - gute_laune
-  - schlechte_laune
-  - bot_challenge
-  - name_nennen
-  - frage_wetter
-  - frage_geschichte_hwr
-  - frage_standorte_hwr
-
-
+- begruessen
+- bot_challenge
+- frage_geschichte_hwr
+- frage_hwr_anmelden_als_gasthörer
+- frage_hwr_eng_studiengänge
+- frage_hwr_hochschule_zu_hwr_wechseln
+- frage_hwr_kurse_vorab_besuchen
+- frage_hwr_studieren_ohne_abi
+- frage_standorte_hwr
+- frage_wetter
+- gute_laune
+- name_nennen
+- schlechte_laune
+- verabschieden
+- verneinen
+- zustimmen
 responses:
+  utter_beenden:
+  - text: Alles klar, sag bescheid wenn ich dir helfen kann.
   utter_begruessen:
-  - text: "Hallo {name}! Wie geht's dir?"
-  - text: "Hi {name}, schön, dass du hier bist! Wie geht's so?"
-  - text: "Moin {name}! Wie läuft's denn so bei dir?"
-
+  - text: Hallo {name}! Wie geht's dir?
+  - text: Hi {name}, schön, dass du hier bist! Wie geht's so?
+  - text: Moin {name}! Wie läuft's denn so bei dir?
   utter_aufmuntern:
-  - text: "Das tut mir leid, {name}. Ich hoffe, es geht dir bald besser! Was möchtest du über die HWR wissen?"
-  - text: "Das klingt nicht gut, {name}. Vielleicht kann ich dich ein bisschen aufmuntern. Was möchtest du über die HWR erfahren?"
-
+  - text: Das tut mir leid, {name}. Ich hoffe, es geht dir bald besser! Was möchtest du über die HWR wissen?
+  - text: Das klingt nicht gut, {name}. Vielleicht kann ich dich ein bisschen aufmuntern. Was möchtest du über die HWR erfahren?
   utter_gutelaune:
-  - text: "Super, {name}! Dann können wir ja motiviert loslegen! Was möchtest du über die HWR wissen?"
-  - text: "Das freut mich, {name}. Welche Fragen hast du denn zur HWR oder zum Studium?"
-
+  - text: Super, {name}! Dann können wir ja motiviert loslegen! Was möchtest du über die HWR wissen?
+  - text: Das freut mich, {name}. Welche Fragen hast du denn zur HWR oder zum Studium?
   utter_verabschieden:
-  - text: "Tschüss {name}. Ich bin gerne für dich da, bist zum nächsten Mal!"
-  - text: "Bis bald, {name}. Hab einen schönen Tag!"
-  - text: "Danke für deine Zeit, {name}. Tschüss!"
-
+  - text: Tschüss {name}. Ich bin gerne für dich da, bist zum nächsten Mal!
+  - text: Bis bald, {name}. Hab einen schönen Tag!
+  - text: Danke für deine Zeit, {name}. Tschüss!
   utter_iamabot:
-  - text: "Mein Name ist Mika und ich bin ein Bot."
-  - text: "Ich bin Mika, ein Bot."
-  
+  - text: Mein Name ist Mika und ich bin ein Bot.
+  - text: Ich bin Mika, ein Bot.
   utter_nameerfragen:
-  - text: "Hi, wie heisst du denn?"
-  - text: "Hallo, wie heisst du?"
-  - text: "Hey hi, wie ist dein Name?"
-
+  - text: Hi, wie heisst du denn?
+  - text: Hallo, wie heisst du?
+  - text: Hey hi, wie ist dein Name?
   utter_default:
-    - text: "Sorry, das habe ich nicht verstanden, kannst du es nochmal anders formulieren?"
-    - text: "Tut mir leid, das habe ich nicht verstanden. Kannst du es umformulieren?"
-  
+  - text: Sorry, das habe ich nicht verstanden, kannst du es nochmal anders formulieren?
+  - text: Tut mir leid, das habe ich nicht verstanden. Kannst du es umformulieren?
   utter_wetter:
-    - text: "Das weiss ich leider nicht, ich sehe nur Nullen und Einsen?"
-    - text: "Ich habe leider keine Ahnung vom Wetter, ich sehe nur kosmischen Staub."
-    
+  - text: Das weiss ich leider nicht, ich sehe nur Nullen und Einsen?
+  - text: Ich habe leider keine Ahnung vom Wetter, ich sehe nur kosmischen Staub.
   utter_geschichte_hwr:
-    - text: "Die HWR wurde in den 1970er-Jahren gegründet, das Gebäude am Campus Schöneberg gibt es aber schon länger. Wenn du mehr erfahren möchtest, schau mal hier: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/."
-  
+  - text: 'Die HWR wurde in den 1970er-Jahren gegründet, das Gebäude am Campus Schöneberg gibt es aber schon länger. Wenn du mehr erfahren möchtest, schau mal hier: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/.'
   utter_standorte_hwr:
-    - text: "Es gibt einen Campus in Schöneberg und einen in Lichtenberg."
-  
+  - text: Es gibt einen Campus in Schöneberg und einen in Lichtenberg.
+  utter_kurse_vorab_besuchen:
+  - text: 'Leider kannst du vor dem Beginn deines Studiums nicht in Vorlesungen und Lehrveranstaltungen der HWR Berlin reinschnuppern. Hier findest du alternativ alle Angebote der HWR Berlin für Schulen, Schülerinnen und Schüler: https://www.hwr-berlin.de/kooperationen/schulen/'
+  utter_hochschule_zu_hwr_wechseln:
+  - text: 'Theotetisch ist es möglich von einer anderen Hochschule an die HWR Berlin zu wechseln. Du kannst dir Module anrechnen lassen, wenn du bereits für einen ähnlichen Studiengang eingeschrieben warst. Falls du bereits mehr als 20 ECTS-Punkte erfolgreich absolviert hast, kannst du dich in der Regel auf ein höheres Fachsemester im Bachelor-Studiengang bewerben. Wenn du Fragen zum Thema Hochschulwechsel hast, kannst du dich an die Studienberatungen der jeweiligen Fachbereiche wenden: https://www.hwr-berlin.de/studium/beratung/studienberatung-der-fachbereiche/'
+  utter_studieren_ohne_abi:
+  - text: 'Ja, ein Studium an der HWR Berlin ist möglich, auch wenn du kein Abitur oder keine Fachhochschulreife hast. Hier kannst du nachlesen, welche Voraussetzungen du mitbringen solltest. Mehr dazu unter: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/'
+  utter_eng_studiengänge:
+  - text: 'Die HWR Berlin und die Berlin Professional School bieten knapp 20 Studiengänge an, die du ausschließlich auf Englisch studierst: https://www.hwr-berlin.de/studium/studiengaenge/?mksearch%5Bterm%5D=&mksearch%5Bfq%5D%5Blanguage%5D%5B%5D=2#searchresults'
+  utter_anmelden_als_gasthörer:
+  - text: 'Grundsätzlich gibt es an der HWR Berlin die Möglichkeit, als Gasthörerin oder Gasthörer, Nebenhörerin oder Nebenhörer an Lehrveranstaltungen teilzunehmen. Mehr Infos findest du hier: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
 entities:
-  - name
-  
+- name
 slots:
-  name: #slot name and entity name are the same here, but could be different
+  name:
     type: text
-    initial_value: "du"
+    initial_value: du
     influence_conversation: false
     mappings:
     - type: from_entity
       entity: name
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+actions:
+- utter_beenden
+- utter_begruessen
+- utter_gutelaune
+- utter_nameerfragen
+- utter_verabschieden
