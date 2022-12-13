@@ -1,5 +1,4 @@
 version: "3.1"
-
 nlu:
 - intent: begruessen
   examples: |
@@ -16,7 +15,7 @@ nlu:
     - howdy
     - hello
     - los geht's
-
+    - Hi
 - intent: verabschieden
   examples: |
     - tschüss
@@ -29,7 +28,7 @@ nlu:
     - wir sehen uns
     - bye bye
     - bis bald
-
+    - tschau
 - intent: zustimmen
   examples: |
     - yes
@@ -40,7 +39,6 @@ nlu:
     - korrekt
     - richtig
     - klingt gut
-
 - intent: verneinen
   examples: |
     - nein
@@ -52,7 +50,7 @@ nlu:
     - nicht wirklich
     - auf keinen fall
     - nope
-
+    - keine
 - intent: gute_laune
   examples: |
     - perfekt
@@ -68,7 +66,6 @@ nlu:
     - in bester laune
     - alles bestens
     - alles in butter
-
 - intent: schlechte_laune
   examples: |
     - nicht so gut
@@ -87,7 +84,6 @@ nlu:
     - grauenhaft
     - schrecklich
     - ich fühle mich schrecklich
-
 - intent: bot_challenge
   examples: |
     - bist du ein bot?
@@ -96,7 +92,6 @@ nlu:
     - bist du menschlich?
     - spreche ich mit einem bot?
     - spreche ich mit einem menschen?
-    
 - intent: name_nennen
   examples: |
     - Ich bin [Mika](name)
@@ -105,7 +100,8 @@ nlu:
     - [John](name)
     - Nenn mich [Hannah](name)
     - Man nennt mich [Jupiter](name)
-
+    - Luca
+    - [Luca](name)
 - intent: frage_wetter
   examples: |
     - Wie ist das Wetter heute?
@@ -115,7 +111,6 @@ nlu:
     - Wie warm wird es heute?
     - Wie ist der Wetterbericht?
     - Wird es heute kalt?
-    
 - intent: frage_geschichte_hwr
   examples: |
     - Wie lange gibts die HWR?
@@ -123,18 +118,47 @@ nlu:
     - Wie ist die Geschichte der HWR?
     - Wann wurde die HWR Berlin gegründet?
     - in welchem Jahr wurde die HWR gegründet?
-    
 - intent: frage_standorte_hwr
   examples: |
     - Wo genau ist der Campus der HWR?
     - Welche Standorte hat die HWR Berlin?
     - Welche Standorte gibt es?
     - Wo befinden sich die Gebäude der HWR?
-    
-    
-    
-    
-    
-    
-    
-    
+- intent: frage_hwr_kurse_vorab_besuchen
+  examples: |
+    - Kann ich vorab Kurse an der HWR Berlin besuchen?
+    - Kann ich die HWR schon vor dem Studium besuchen?
+    - Kann man schon vorher Kurse besuchen, ohne dass man dort studiert?
+    - Kann man an Kursen teilnehmen, ohne dass man studiert?
+    - Kann man schon vor seinem Studium an Kursen teilnehmen?
+- intent: frage_hwr_hochschule_zu_hwr_wechseln
+  examples: |
+    - Kann ich von einer anderen Hochschule an die HWR Berlin wechseln?
+    - Ich möchte zur Hwr wechseln, geht das?
+    - Kann ich zur HWR wechseln?
+    - Kann man zur hwr wechseln?
+    - Kann man von einer anderen Uni zur HWR wechseln?
+    - Besteht die Möglichkeit von einer anderen Hochschule zur HWR zu wechseln?
+- intent: frage_hwr_studieren_ohne_abi
+  examples: |
+    - Kann ich ohne Abitur studieren?
+    - Kann ich ohne allgemeine Hochschulreife am Studium teilnehmen?
+    - Kann man ohne Abi ein Studium machen?
+    - Kann man ohne Abi studieren?
+- intent: frage_hwr_eng_studiengänge
+  examples: |
+    - Welche englischen Studiengänge gibt es?
+    - gibt es englische Studiengänge?
+    - gibt es Studiengänge auf Englisch?
+    - Welche Studiengänge gibt es auf Englisch?
+    - Kann man an der HWR einen englischen Studiengang belegen?
+    - Bietet die HWR englische Studiengänge an?
+    - Macht die die HWR auch Studiengänge auf Englisch?
+- intent: frage_hwr_anmelden_als_gasthörer
+  examples: |
+    - Kann ich mich als Gasthörerin, Gasthörer, Nebenhörerin oder Nebenhörer anmelden?
+    - Kann man schon vorher als Gasthörer an Kursen Teilnehmen?
+    - Kann ich mich als Gasthörer anmelden?
+    - Kann ich mich als Nebenhörer anmelden?
+    - Kann man als Gast an Vorlesungen teilnehmen?
+    - Gibt es eine Möglichkeit als Gast bei Vorlesungen zuzuhören?
