@@ -1,63 +1,91 @@
-version: "3.1"
-
+version: '3.1'
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - tell_name
-
+- anschlussfrage_qualifikationen_deutsche_hs
+- anschlussfrage_voraussetzungen_dual
+- bedanken
+- begruessen
+- bot_challenge
+- frage_befinden
+- frage_geschichte_hwr
+- frage_standorte_hwr
+- frage_studiengaenge_informieren
+- frage_voraussetzungen_internationale_stud
+- frage_voraussetzungen_studiengaenge
+- frage_wetter
+- gute_laune
+- name_nennen
+- schlechte_laune
+- verabschieden
+- verneinen
+- zustimmen
 responses:
-  utter_greet:
-  - text: "Hey {name}! How are you?"
-
-  utter_cheer_up:
-  - text: "I'm a chatbot that cheers people up, {name}. Here is something to cheer you up:"
-    image: "https://i.123g.us/c/ejul_cheeruplonelyday/pc/313712_pc.jpg"   
-   #image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_go_walk:
-  - text: "So, {name}, why don't you just go out for a walk?"
-  - text: "A little fresh air might do you some good, right? How about a walk, {name}?"
-  
-  utter_did_that_help:
-  - text: "Did that help you?"
-  - text: "Did this cheer you up, {name}?"
-
-  utter_happy:
-  - text: "Great {name}! Share your happiness with the world!"
-
-  utter_goodbye:
-  - text: "Goodbye {name}. I'm here for you! See you soon!"
-  - text: "Goodbye {name}. Come back whenever you need a chat. See you!"
-
+  utter_begruessen:
+  - text: Hallo {name}! Wie geht's dir?
+  - text: Hi {name}, schön, dass du hier bist! Wie geht's so?
+  - text: Moin {name}! Wie läuft's denn so bei dir?
+  utter_aufmuntern:
+  - text: Das tut mir leid, {name}. Ich hoffe, es geht dir bald besser! Was möchtest du über die HWR wissen?
+  - text: Das klingt nicht gut, {name}. Vielleicht kann ich dich ein bisschen aufmuntern. Was möchtest du über die HWR erfahren?
+  utter_gutelaune:
+  - text: Super, {name}! Dann können wir ja motiviert loslegen! Was möchtest du über die HWR wissen?
+  - text: Das freut mich, {name}. Welche Fragen hast du denn zur HWR oder zum Studium?
+  utter_verabschieden:
+  - text: Tschüss {name}. Ich bin gerne für dich da, bist zum nächsten Mal!
+  - text: Bis bald, {name}. Hab einen schönen Tag!
+  - text: Danke für deine Zeit, {name}. Tschüss!
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-  
-  utter_ask_name:
-  - text: "Hi, what's your name?"
-
-  utter_ask_sports:
-  - text: "{name} do you like to do sports?"
-
+  - text: Mein Name ist Mika und ich bin ein Bot.
+  - text: Ich bin Mika, ein Bot.
+  utter_gerne:
+  - text: Gerne, kein Problem.
+  - text: Nicht dafür!
+  - text: Gerne, {name}, jederzeit wieder!
+  - text: Gern geschehen!
+  - text: Easy, kein Ding.
+  utter_nameerfragen:
+  - text: Hi, wie heisst du denn?
+  - text: Hallo, wie heisst du?
+  - text: Hey hi, wie ist dein Name?
+  utter_befinden:
+  - text: Alles schick bei mir, danke!
+  - text: Alles bestens, ich fühl mich bärenstark!
+  - text: Hier läuft alles rund, danke!
   utter_default:
-    - text: "Sorry, I didn't get that, can you rephrase?"
-  
+  - text: Sorry, das habe ich nicht verstanden, kannst du es nochmal anders formulieren?
+  - text: Tut mir leid, das habe ich nicht verstanden. Kannst du es umformulieren?
+  - text: Entschuldige, das war zu hoch für mich. Kannst du deine Frage nochmal anders stellen?
+  utter_wetter:
+  - text: Das weiss ich leider nicht, ich sehe nur Nullen und Einsen.
+  - text: Ich habe leider keine Ahnung vom Wetter, ich sehe nur kosmischen Staub.
+  utter_geschichte_hwr:
+  - text: 'Die HWR wurde in den 1970er-Jahren gegründet, das Gebäude am Campus Schöneberg gibt es aber schon länger. Wenn du mehr erfahren möchtest, schau mal hier: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/.'
+  utter_standorte_hwr:
+  - text: Es gibt einen Campus in Schöneberg und einen in Lichtenberg.
+  utter_antwort_studiengaenge_informieren:
+  - text: 'Es gibt eine Übersicht der Studiengänge auf der HWR-Website, schau mal hier: https://www.hwr-berlin.de/studium/studiengaenge/. oder du kannst dich bei der Studienberatung melden: https://www.hwr-berlin.de/studium/beratung/allgemeine-studienberatung/.'
+  - text: 'Du kannst dir auf der Website der HWR die Studiengänge von A bis Z anschauen, also hier: https://www.hwr-berlin.de/studium/studiengaenge/ oder du holst dir Infos bei der Studienberatung: https://www.hwr-berlin.de/studium/beratung/allgemeine-studienberatung/.'
+  utter_antwort_voraussetzungen_studiengaenge:
+  - text: "Die wichtigste Voraussetzung für dein Bachelorstudium an der HWR-Berlin ist eine anerkannte Hochschulzugangsberechtigung - also ein Abi oder eine Fachhochschulreife. Mehr Infos zu den allgemeinen Voraussetzungen findest du hier: https://www.hwr-berlin.de/studium/bewerbung/voraussetzungen-fuer-dein-studium/. Bei einigen Studiengängen gibt's zusätzliche Voraussetzungen, schau mal hier: https://www.hwr-berlin.de/studium/bewerbung/bewerbung-von-a-bis-z/."
+  utter_antwort_anschlussfrage_voraussetzungen_dual:
+  - text: 'Beim dualen Studium läuft es ein bisschen anders. Alle Informationen zur Bewerbung in diesem Fall findest du hier: https://www.hwr-berlin.de/studium/bewerbung/bewerbung-duales-studium/.'
+  utter_antwort_internationale_stud:
+  - text: 'Schön, dass du zu uns kommen möchtest, wir freuen uns auf dich! Alles, was du wissen musst zu den Themen Qualifikationen, Finanzierung, Visum etc. findest du unter: https://www.hwr-berlin.de/studium/international-studieren/international-students/.'
+  utter_antwort_ anschlussfrage_qualifikationen_deutsche_hs:
+  - text: 'Da gibts eine super Datenbank, wo du bei Abschlüssen aus allen Ländern nachschauen kannst, ob sie anerkannt sind: https://anabin.kmk.org/no_cache/filter/schulabschluesse-mit-hochschulzugang.html#land_gewaehlt. Wenn du deine Qualifikationen lieber in einer englischsprachigen Datenbank prüfen möchtest, dann bitte sehr: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
 entities:
-  - name
-  
+- name
 slots:
-  name: #slot name and entity name are the same here, but could be different
+  name:
     type: text
-    initial_value: "my friend"
+    initial_value: du
     influence_conversation: false
     mappings:
     - type: from_entity
       entity: name
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+actions:
+- utter_begruessen
+- utter_gutelaune
+- utter_nameerfragen

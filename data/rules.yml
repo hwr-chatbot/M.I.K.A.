@@ -4,8 +4,8 @@ rules:
 
 - rule: Say goodbye anytime the user says goodbye
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: verabschieden
+  - action: utter_verabschieden
 
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
@@ -17,3 +17,9 @@ rules:
   steps:
     - intent: nlu_fallback
     - action: utter_default
+    
+    
+#- rule: Say you're welcome anytime the user says thank you
+#  steps:
+#    - intent: bedanken
+#    - action: utter_gerne    

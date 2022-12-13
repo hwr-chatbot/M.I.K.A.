@@ -1,104 +1,192 @@
 version: "3.1"
-
 nlu:
-- intent: greet
+- intent: begruessen
   examples: |
     - hey
-    - hello
+    - hallo
     - hi
-    - hello there
-    - good morning
-    - good evening
+    - Guten Morgen
+    - Guten Tag
+    - Guten Abend
     - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
-
-- intent: goodbye
+    - hey du
+    - hallo Bot
+    - Morgen
+    - howdy
+    - hello
+    - los geht's
+    - Guten Tag!
+- intent: verabschieden
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
+    - tschüss
+    - ciao
+    - bis dann
+    - bis denne
     - bye
-    - goodbye
-    - have a nice day
-    - see you around
+    - auf Wiedersehen
+    - einen schönen Tag noch
+    - wir sehen uns
     - bye bye
-    - see you later
-
-- intent: affirm
+    - bis bald
+- intent: zustimmen
   examples: |
     - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-
-- intent: deny
+    - ja
+    - jap
+    - genau
+    - so ist es
+    - korrekt
+    - richtig
+    - klingt gut
+- intent: verneinen
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-    - not at all
-
-- intent: mood_great
+    - nein
+    - nö
+    - niemals
+    - finde ich nicht
+    - überhaupt nicht
+    - gar nicht
+    - nicht wirklich
+    - auf keinen fall
+    - nope
+- intent: bedanken
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
+    - Danke!
+    - thx
+    - Vielen Dank dir!
+    - danke dir
+    - super, danke.
+    - merci.
+    - dankeschön!
+    - dankeeeee
+- intent: gute_laune
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-    - terrible
-    - I feel terrible
-    - I'm down
-
+    - perfekt
+    - gut
+    - super
+    - voll gut drauf
+    - happy
+    - ich bin ganz zufrieden
+    - mit gehts gut
+    - mir gehts super
+    - hammer tag
+    - hervorragend
+    - in bester laune
+    - alles bestens
+    - alles in butter
+    - Alles super, danke.
+- intent: schlechte_laune
+  examples: |
+    - nicht so gut
+    - gar nicht gut
+    - ganz übel
+    - echt mies drauf
+    - traurig
+    - scheisse
+    - mein tag war scheisse
+    - heute ist ein scheisstag
+    - ziemlich schlecht
+    - ich bin down
+    - ich bin leider schlecht drauf
+    - am boden zerstört
+    - todunglücklich
+    - grauenhaft
+    - schrecklich
+    - ich fühle mich schrecklich
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
-    
-- intent: tell_name
+    - bist du ein bot?
+    - bist du ein chatbot?
+    - bist du ein mensch?
+    - bist du menschlich?
+    - spreche ich mit einem bot?
+    - spreche ich mit einem menschen?
+- intent: name_nennen
   examples: |
-    - I am [Corinne](name)
-    - Call me [Foo](name)
-    - It's [Ben](name)
+    - Ich bin [Lucas](name)
+    - Ich heisse [Foo](name)
+    - Ich heisse [Dagmar](name)
+    - Mein Name ist [Ben](name)
     - [John](name)
-    - My name is [Hannah](name)
-    - I'm called [Jupiter](name)
+    - Nenn mich [Hannah](name)
+    - Man nennt mich [Jupiter](name)
+    - [Squirrel] (name)
+    - [Whatever] (name)
+    - Ich heisse [Sarah] (name)
+    - Ich heisse [Luca] (name)
+    - Ich bin [Marc](name)
+    - [Corinne] (name)
+    - [Dagmar](name).
+- intent: frage_befinden
+  examples: |
+    - Wie geht's dir?
+    - Wie geht's?
+    - Geht es dir gut?
+    - Bist du fit?
+    - Wie läuft's bei dir?
+    - Allet jut?
+    - Wie bist du heute so drauf?
+    - Alles schick?
+    - Läuft's rund bei dir?
+- intent: frage_wetter
+  examples: |
+    - Wie ist das Wetter heute?
+    - Wie wird das Wetter?
+    - Regnet es heute?
+    - Scheint heute die Sonne?
+    - Wie warm wird es heute?
+    - Wie ist der Wetterbericht?
+    - Wird es heute kalt?
+- intent: frage_geschichte_hwr
+  examples: |
+    - Wie lange gibts die HWR?
+    - Wie lange gibt es die HWR Berlin schon?
+    - Wie ist die Geschichte der HWR?
+    - Wann wurde die HWR Berlin gegründet?
+    - in welchem Jahr wurde die HWR gegründet?
+- intent: frage_standorte_hwr
+  examples: |
+    - Wo genau ist der Campus der HWR?
+    - Welche Standorte hat die HWR Berlin?
+    - Welche Standorte gibt es?
+    - Wo befinden sich die Gebäude der HWR?
+- intent: frage_studiengaenge_informieren
+  examples: |
+    - Wie und wo kann ich mich über die Studiengänge der HWR Berlin informieren?
+    - Wo kann ich mich über die Studiengänge der HWR informieren?
+    - Welche Studiengänge gibt es an der HWR Berlin?
+    - Wo finde ich Informationen über die Studiengänge der HWR?
+- intent: frage_voraussetzungen_studiengaenge
+  examples: |
+    - Welche Voraussetzungen gelten für welche Studiengänge?
+    - Welche Abschlüsse muss ich für welche Studiengänge haben?
+    - Welche Qualifikationen brauche ich für welche Studiengänge?
+    - Reicht ein Abi für alle Studiengänge?
+    - Braucht man für alle Studiengänge ein Abi?
+    - Braucht man für alle Studiengänge ein Abitur?
+- intent: anschlussfrage_voraussetzungen_dual
+  examples: |
+    - Welche Voraussetzungen gelten für ein duales Studium?
+    - Welche Abschlüsse muss ich für ein duales Studium mitbringen?
+    - Welche Qualifikationen brauche ich für ein duales Studium?
+    - Und was ist, wenn ich ein duales Studium machen möchte?
+    - Was braucht man für ein duales Studium?
+- intent: frage_voraussetzungen_internationale_stud
+  examples: |
+    - Welche Voraussetzungen gelten für internationale Studierende?
+    - Ich möchte in Deutschland an der HWR Berlin studieren. Was muss ich tun?
+    - Ich möchte bei euch in Deutschland studieren. Was brauche ich da?
+    - Was muss ich mitbringen, wenn ich in Deutschland an der HWR studieren möchte?
+    - Worauf muss ich als internationale Studierende achten, wenn ich zu euch kommen möchte?
+    - Was müssen ausländische Studierende tun, um an der HWR Berlin studieren zu können?
+    - Welche Voraussetzungen gelten für Studierende aus dem Ausland?
+    - Wie müssen ausländische Studierende vorgehen, wenn sie an der HWR studieren möchten?
+- intent: anschlussfrage_qualifikationen_deutsche_hs
+  examples: |
+    - Aber mit welchem Abschluss kann ich in Deutschland studieren?
+    - Welche Qualifikationen braucht man, um in Deutschland zu studieren?
+    - Was muss ich nachweisen, um in Deutschland studieren zu dürfen?
+    - Welche Abschlüsse werden in Deutschland für ein Studium anerkannt?
+    - Woher weiss ich, welche Abschlüsse von deutschen Unis anerkannt werden?
+    - Wie kann ich wissen, ob mein Abschluss für ein Studium in Deutschland reicht?
+    - Reicht denn mein ausländischer Abschluss, um an der HWR studieren zu können?

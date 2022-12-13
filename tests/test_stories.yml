@@ -2,90 +2,27 @@
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
 
 stories:
-- story: happy path 1
+- story: gutelaune_wetter_geschichte
   steps:
   - user: |
-      hello there!
+      Hallo!
     intent: greet
   - action: utter_greet
   - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
-
-- story: happy path 2
-  steps:
+      Ganz gut.
+    intent: gute_laune
+  - action: utter_gutelaune
   - user: |
-      hello there!
-    intent: greet
-  - action: utter_greet
+      Wie wird das Wetter morgen?
+    intent: frage_wetter
+  - action: utter_wetter
   - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
+      Wie lange gibt's die HWR schon?
+    intent: frage_geschichte_hwr
+  - action: utter_geschichte
   - user: |
-      bye-bye!
-    intent: goodbye
-  - action: utter_goodbye
-
-- story: sad path 1
-  steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      yes
-    intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      not really
-    intent: deny
-  - action: utter_goodbye
-
-- story: sad path 3
-  steps:
-  - user: |
-      hi
-    intent: greet
-  - action: utter_greet
-  - user: |
-      very terrible
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      no
-    intent: deny
-  - action: utter_goodbye
-
-- story: say goodbye
-  steps:
-  - user: |
-      bye-bye!
-    intent: goodbye
-  - action: utter_goodbye
-
-- story: bot challenge
-  steps:
-  - user: |
-      are you a bot?
-    intent: bot_challenge
-  - action: utter_iamabot
+      Danke, tschüss!
+    intent: verabschieden
+  - action: utter_verabschieden  
+     
+  
