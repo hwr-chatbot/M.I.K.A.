@@ -16,6 +16,8 @@ nlu:
     - hello
     - los geht's
     - Guten Tag!
+    - Hi
+
 - intent: verabschieden
   examples: |
     - tschüss
@@ -28,6 +30,8 @@ nlu:
     - wir sehen uns
     - bye bye
     - bis bald
+    - tschau
+
 - intent: zustimmen
   examples: |
     - yes
@@ -49,6 +53,8 @@ nlu:
     - nicht wirklich
     - auf keinen fall
     - nope
+    - keine
+
 - intent: bedanken
   examples: |
     - Danke!
@@ -59,6 +65,7 @@ nlu:
     - merci.
     - dankeschön!
     - dankeeeee
+
 - intent: gute_laune
   examples: |
     - perfekt
@@ -75,6 +82,7 @@ nlu:
     - alles bestens
     - alles in butter
     - Alles super, danke.
+
 - intent: schlechte_laune
   examples: |
     - nicht so gut
@@ -103,9 +111,12 @@ nlu:
     - spreche ich mit einem menschen?
 - intent: name_nennen
   examples: |
+
     - Ich bin [Lucas](name)
     - Ich heisse [Foo](name)
     - Ich heisse [Dagmar](name)
+    - Ich bin [Mika](name)
+    - Ich heisse [Foo](name)
     - Mein Name ist [Ben](name)
     - [John](name)
     - Nenn mich [Hannah](name)
@@ -116,7 +127,9 @@ nlu:
     - Ich heisse [Luca] (name)
     - Ich bin [Marc](name)
     - [Corinne] (name)
-    - [Dagmar](name).
+    - [Dagmar](name)
+    - [Luca](name)
+    
 - intent: frage_befinden
   examples: |
     - Wie geht's dir?
@@ -128,6 +141,7 @@ nlu:
     - Wie bist du heute so drauf?
     - Alles schick?
     - Läuft's rund bei dir?
+    
 - intent: frage_wetter
   examples: |
     - Wie ist das Wetter heute?
@@ -137,6 +151,7 @@ nlu:
     - Wie warm wird es heute?
     - Wie ist der Wetterbericht?
     - Wird es heute kalt?
+    
 - intent: frage_geschichte_hwr
   examples: |
     - Wie lange gibts die HWR?
@@ -150,6 +165,7 @@ nlu:
     - Welche Standorte hat die HWR Berlin?
     - Welche Standorte gibt es?
     - Wo befinden sich die Gebäude der HWR?
+
 - intent: frage_studiengaenge_informieren
   examples: |
     - Wie und wo kann ich mich über die Studiengänge der HWR Berlin informieren?
@@ -190,3 +206,43 @@ nlu:
     - Woher weiss ich, welche Abschlüsse von deutschen Unis anerkannt werden?
     - Wie kann ich wissen, ob mein Abschluss für ein Studium in Deutschland reicht?
     - Reicht denn mein ausländischer Abschluss, um an der HWR studieren zu können?
+
+- intent: frage_hwr_kurse_vorab_besuchen
+  examples: |
+    - Kann ich vorab Kurse an der HWR Berlin besuchen?
+    - Kann ich die HWR schon vor dem Studium besuchen?
+    - Kann man schon vorher Kurse besuchen, ohne dass man dort studiert?
+    - Kann man an Kursen teilnehmen, ohne dass man studiert?
+    - Kann man schon vor seinem Studium an Kursen teilnehmen?
+- intent: frage_hwr_hochschule_zu_hwr_wechseln
+  examples: |
+    - Kann ich von einer anderen Hochschule an die HWR Berlin wechseln?
+    - Ich möchte zur Hwr wechseln, geht das?
+    - Kann ich zur HWR wechseln?
+    - Kann man zur hwr wechseln?
+    - Kann man von einer anderen Uni zur HWR wechseln?
+    - Besteht die Möglichkeit von einer anderen Hochschule zur HWR zu wechseln?
+- intent: frage_hwr_studieren_ohne_abi
+  examples: |
+    - Kann ich ohne Abitur studieren?
+    - Kann ich ohne allgemeine Hochschulreife am Studium teilnehmen?
+    - Kann man ohne Abi ein Studium machen?
+    - Kann man ohne Abi studieren?
+- intent: frage_hwr_eng_studiengänge
+  examples: |
+    - Welche englischen Studiengänge gibt es?
+    - gibt es englische Studiengänge?
+    - gibt es Studiengänge auf Englisch?
+    - Welche Studiengänge gibt es auf Englisch?
+    - Kann man an der HWR einen englischen Studiengang belegen?
+    - Bietet die HWR englische Studiengänge an?
+    - Macht die die HWR auch Studiengänge auf Englisch?
+- intent: frage_hwr_anmelden_als_gasthörer
+  examples: |
+    - Kann ich mich als Gasthörerin, Gasthörer, Nebenhörerin oder Nebenhörer anmelden?
+    - Kann man schon vorher als Gasthörer an Kursen Teilnehmen?
+    - Kann ich mich als Gasthörer anmelden?
+    - Kann ich mich als Nebenhörer anmelden?
+    - Kann man als Gast an Vorlesungen teilnehmen?
+    - Gibt es eine Möglichkeit als Gast bei Vorlesungen zuzuhören?
+

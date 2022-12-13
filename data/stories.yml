@@ -82,6 +82,36 @@ stories:
   - action: utter_antwort_ anschlussfrage_qualifikationen_deutsche_hs
   
   
+
+
+
+
+- story: hochschule_vorab_besuchen
+  steps:
+  - intent: frage_hwr_kurse_vorab_besuchen
+  - action: utter_kurse_vorab_besuchen
+
+- story: hochschule_zu_hwr_wechseln
+  steps:
+  - intent: frage_hwr_hochschule_zu_hwr_wechseln
+  - action: utter_hochschule_zu_hwr_wechseln
+
+- story: studieren_ohne_abi
+  steps:
+  - intent: frage_hwr_studieren_ohne_abi
+  - action: utter_studieren_ohne_abi
+
+- story: eng_studiengänge
+  steps:
+  - intent: frage_hwr_eng_studiengänge
+  - action: utter_eng_studiengänge
+
+- story: anmelden_als_gasthörer
+  steps:
+  - intent: frage_hwr_anmelden_als_gasthörer
+  - action: utter_anmelden_als_gasthörer
+
+
 - story: demo_temp
   steps:
   - intent: begruessen
@@ -104,4 +134,19 @@ stories:
   - action: utter_gerne
   - intent: verabschieden
   - action: utter_verabschieden  
+
+- story: interactive_story_3
+  steps:
+  - intent: begruessen
+  - action: utter_nameerfragen
+  - intent: name_nennen
+    entities:
+    - name: Luca
+  - action: utter_begruessen
+  - intent: gute_laune
+  - action: utter_gutelaune
+  - intent: verneinen
+  - action: utter_beenden
+  - intent: verabschieden
+  - action: utter_verabschieden
 
