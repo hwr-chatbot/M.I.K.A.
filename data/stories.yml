@@ -8,8 +8,13 @@ stories:
   - action: utter_nameerfragen
   - intent: name_nennen
     entities:
-    - name: Marco #Can it be any random string here?
-  - action: utter_begruessen
+    - name: "Marco" 
+  - action: utter_begruessen # Begrüssen enthält eine Frage nach dem Befinden
+  
+- story: intro2
+  steps:
+  - intent: frage_befinden
+  - action: utter_befinden
   
 - story: gutelaune_wetter_geschichte
   steps:
@@ -54,6 +59,32 @@ stories:
   - action: utter_wetter
   - intent: verabschieden
   - action: utter_verabschieden
+  
+  
+- story: studiengaenge_informieren
+  steps:
+  - intent: frage_studiengaenge_informieren
+  - action: utter_antwort_studiengaenge_informieren
+  
+  
+- story: voraussetzungen_studiengaenge
+  steps:
+  - intent: frage_voraussetzungen_studiengaenge
+  - action: utter_antwort_voraussetzungen_studiengaenge
+  - intent: anschlussfrage_voraussetzungen_dual
+  - action: utter_antwort_anschlussfrage_voraussetzungen_dual
+  
+- story: voraussetzungen_international
+  steps:
+  - intent: frage_voraussetzungen_internationale_stud
+  - action: utter_antwort_internationale_stud
+  - intent: anschlussfrage_qualifikationen_deutsche_hs
+  - action: utter_antwort_ anschlussfrage_qualifikationen_deutsche_hs
+  
+  
+
+
+
 
 - story: hochschule_vorab_besuchen
   steps:
@@ -80,17 +111,29 @@ stories:
   - intent: frage_hwr_anmelden_als_gasthörer
   - action: utter_anmelden_als_gasthörer
 
-- story: interactive_story_1
-  steps:
-  - intent: begruessen
-  - action: utter_nameerfragen
 
-- story: interactive_story_2
+- story: demo_temp
   steps:
   - intent: begruessen
   - action: utter_nameerfragen
   - intent: name_nennen
-  - action: utter_begruessen
+    entities:
+    - name: "Marco" 
+  - action: utter_begruessen # Begrüssen enthält eine Frage nach dem Befinden
+  - intent: gute_laune
+  - action: utter_gutelaune # Enthält aktuell die Anschlussfrage, was man über die HWR wissen will
+  - intent: frage_wetter
+  - action: utter_wetter
+  - intent: frage_standorte_hwr
+  - action: utter_standorte_hwr
+  - intent: frage_voraussetzungen_studiengaenge
+  - action: utter_antwort_voraussetzungen_studiengaenge
+  - intent: anschlussfrage_voraussetzungen_dual
+  - action: utter_antwort_anschlussfrage_voraussetzungen_dual
+  - intent: bedanken
+  - action: utter_gerne
+  - intent: verabschieden
+  - action: utter_verabschieden  
 
 - story: interactive_story_3
   steps:
@@ -106,3 +149,4 @@ stories:
   - action: utter_beenden
   - intent: verabschieden
   - action: utter_verabschieden
+

@@ -15,7 +15,9 @@ nlu:
     - howdy
     - hello
     - los geht's
+    - Guten Tag!
     - Hi
+
 - intent: verabschieden
   examples: |
     - tschüss
@@ -29,6 +31,7 @@ nlu:
     - bye bye
     - bis bald
     - tschau
+
 - intent: zustimmen
   examples: |
     - yes
@@ -51,6 +54,18 @@ nlu:
     - auf keinen fall
     - nope
     - keine
+
+- intent: bedanken
+  examples: |
+    - Danke!
+    - thx
+    - Vielen Dank dir!
+    - danke dir
+    - super, danke.
+    - merci.
+    - dankeschön!
+    - dankeeeee
+
 - intent: gute_laune
   examples: |
     - perfekt
@@ -66,6 +81,8 @@ nlu:
     - in bester laune
     - alles bestens
     - alles in butter
+    - Alles super, danke.
+
 - intent: schlechte_laune
   examples: |
     - nicht so gut
@@ -94,14 +111,37 @@ nlu:
     - spreche ich mit einem menschen?
 - intent: name_nennen
   examples: |
+
+    - Ich bin [Lucas](name)
+    - Ich heisse [Foo](name)
+    - Ich heisse [Dagmar](name)
     - Ich bin [Mika](name)
     - Ich heisse [Foo](name)
     - Mein Name ist [Ben](name)
     - [John](name)
     - Nenn mich [Hannah](name)
     - Man nennt mich [Jupiter](name)
-    - Luca
+    - [Squirrel] (name)
+    - [Whatever] (name)
+    - Ich heisse [Sarah] (name)
+    - Ich heisse [Luca] (name)
+    - Ich bin [Marc](name)
+    - [Corinne] (name)
+    - [Dagmar](name)
     - [Luca](name)
+    
+- intent: frage_befinden
+  examples: |
+    - Wie geht's dir?
+    - Wie geht's?
+    - Geht es dir gut?
+    - Bist du fit?
+    - Wie läuft's bei dir?
+    - Allet jut?
+    - Wie bist du heute so drauf?
+    - Alles schick?
+    - Läuft's rund bei dir?
+    
 - intent: frage_wetter
   examples: |
     - Wie ist das Wetter heute?
@@ -111,6 +151,7 @@ nlu:
     - Wie warm wird es heute?
     - Wie ist der Wetterbericht?
     - Wird es heute kalt?
+    
 - intent: frage_geschichte_hwr
   examples: |
     - Wie lange gibts die HWR?
@@ -124,6 +165,48 @@ nlu:
     - Welche Standorte hat die HWR Berlin?
     - Welche Standorte gibt es?
     - Wo befinden sich die Gebäude der HWR?
+
+- intent: frage_studiengaenge_informieren
+  examples: |
+    - Wie und wo kann ich mich über die Studiengänge der HWR Berlin informieren?
+    - Wo kann ich mich über die Studiengänge der HWR informieren?
+    - Welche Studiengänge gibt es an der HWR Berlin?
+    - Wo finde ich Informationen über die Studiengänge der HWR?
+- intent: frage_voraussetzungen_studiengaenge
+  examples: |
+    - Welche Voraussetzungen gelten für welche Studiengänge?
+    - Welche Abschlüsse muss ich für welche Studiengänge haben?
+    - Welche Qualifikationen brauche ich für welche Studiengänge?
+    - Reicht ein Abi für alle Studiengänge?
+    - Braucht man für alle Studiengänge ein Abi?
+    - Braucht man für alle Studiengänge ein Abitur?
+- intent: anschlussfrage_voraussetzungen_dual
+  examples: |
+    - Welche Voraussetzungen gelten für ein duales Studium?
+    - Welche Abschlüsse muss ich für ein duales Studium mitbringen?
+    - Welche Qualifikationen brauche ich für ein duales Studium?
+    - Und was ist, wenn ich ein duales Studium machen möchte?
+    - Was braucht man für ein duales Studium?
+- intent: frage_voraussetzungen_internationale_stud
+  examples: |
+    - Welche Voraussetzungen gelten für internationale Studierende?
+    - Ich möchte in Deutschland an der HWR Berlin studieren. Was muss ich tun?
+    - Ich möchte bei euch in Deutschland studieren. Was brauche ich da?
+    - Was muss ich mitbringen, wenn ich in Deutschland an der HWR studieren möchte?
+    - Worauf muss ich als internationale Studierende achten, wenn ich zu euch kommen möchte?
+    - Was müssen ausländische Studierende tun, um an der HWR Berlin studieren zu können?
+    - Welche Voraussetzungen gelten für Studierende aus dem Ausland?
+    - Wie müssen ausländische Studierende vorgehen, wenn sie an der HWR studieren möchten?
+- intent: anschlussfrage_qualifikationen_deutsche_hs
+  examples: |
+    - Aber mit welchem Abschluss kann ich in Deutschland studieren?
+    - Welche Qualifikationen braucht man, um in Deutschland zu studieren?
+    - Was muss ich nachweisen, um in Deutschland studieren zu dürfen?
+    - Welche Abschlüsse werden in Deutschland für ein Studium anerkannt?
+    - Woher weiss ich, welche Abschlüsse von deutschen Unis anerkannt werden?
+    - Wie kann ich wissen, ob mein Abschluss für ein Studium in Deutschland reicht?
+    - Reicht denn mein ausländischer Abschluss, um an der HWR studieren zu können?
+
 - intent: frage_hwr_kurse_vorab_besuchen
   examples: |
     - Kann ich vorab Kurse an der HWR Berlin besuchen?
@@ -162,3 +245,4 @@ nlu:
     - Kann ich mich als Nebenhörer anmelden?
     - Kann man als Gast an Vorlesungen teilnehmen?
     - Gibt es eine Möglichkeit als Gast bei Vorlesungen zuzuhören?
+
