@@ -9,6 +9,7 @@ readme = "README.md"
 python = "3.9.*"
 rasa = {extras = ["spacy"], version = "^3.4.0"}
 spacy = "3.4.1"
+sqlalchemy = "<2.0"
 
 
 [build-system]
