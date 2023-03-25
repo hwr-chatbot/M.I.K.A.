@@ -4,7 +4,7 @@ RUN apt update && apt upgrade -y
 RUN apt install curl vim nano git -y
 RUN mkdir mika
 WORKDIR /mika
-RUN git clone https://github.com/Handschrift/M.I.K.A..git .
+RUN git clone https://github.com/hwr-chatbot/M.I.K.A..git .
 RUN curl -sSL https://install.python-poetry.org | python3 -
 RUN poetry env use system
 RUN poetry config virtualenvs.create false --local
