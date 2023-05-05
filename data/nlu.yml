@@ -129,6 +129,12 @@ nlu:
     - [Corinne] (name)
     - [Dagmar](name)
     - [Luca](name)
+    - Ich bin [Meyer](name)
+    - Ich bin [Susanne](name)
+    - Ich bin [Silke](name)
+    - Ich bin [Bustamante](name)
+    - Ich bin [Andreas](name)
+    - Ich bin [Zaby](name)
     
 - intent: frage_befinden
   examples: |
@@ -245,4 +251,5 @@ nlu:
     - Kann ich mich als Nebenhörer anmelden?
     - Kann man als Gast an Vorlesungen teilnehmen?
     - Gibt es eine Möglichkeit als Gast bei Vorlesungen zuzuhören?
+
 
