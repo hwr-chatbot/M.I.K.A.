@@ -1,4 +1,5 @@
 version: "3.1"
+#Beispieldaten zum Verstehen von Mika
 nlu:
 - intent: begruessen
   examples: |
@@ -32,27 +33,31 @@ nlu:
     - bis bald
     - tschau
 
-- intent: zustimmen
-  examples: |
-    - yes
-    - ja
-    - jap
-    - genau
-    - so ist es
-    - korrekt
-    - richtig
-    - klingt gut
+#- intent: zustimmen
+#  examples: |
+#    - yes
+#    - ja
+#    - jap
+#    - genau
+#    - so ist es
+#    - korrekt
+#    - richtig
+#    - klingt gut
+
 - intent: verneinen
   examples: |
     - nein
     - nö
     - niemals
+    - gar nichts
+    - nichts
     - finde ich nicht
     - überhaupt nicht
     - gar nicht
     - nicht wirklich
     - auf keinen fall
     - nope
+    - ne
     - keine
 
 - intent: bedanken
@@ -64,43 +69,8 @@ nlu:
     - super, danke.
     - merci.
     - dankeschön!
-    - dankeeeee
+    - danke
 
-- intent: gute_laune
-  examples: |
-    - perfekt
-    - gut
-    - super
-    - voll gut drauf
-    - happy
-    - ich bin ganz zufrieden
-    - mit gehts gut
-    - mir gehts super
-    - hammer tag
-    - hervorragend
-    - in bester laune
-    - alles bestens
-    - alles in butter
-    - Alles super, danke.
-
-- intent: schlechte_laune
-  examples: |
-    - nicht so gut
-    - gar nicht gut
-    - ganz übel
-    - echt mies drauf
-    - traurig
-    - scheisse
-    - mein tag war scheisse
-    - heute ist ein scheisstag
-    - ziemlich schlecht
-    - ich bin down
-    - ich bin leider schlecht drauf
-    - am boden zerstört
-    - todunglücklich
-    - grauenhaft
-    - schrecklich
-    - ich fühle mich schrecklich
 - intent: bot_challenge
   examples: |
     - bist du ein bot?
@@ -109,54 +79,6 @@ nlu:
     - bist du menschlich?
     - spreche ich mit einem bot?
     - spreche ich mit einem menschen?
-- intent: name_nennen
-  examples: |
-
-    - Ich bin [Lucas](name)
-    - Ich heisse [Foo](name)
-    - Ich heisse [Dagmar](name)
-    - Ich bin [Mika](name)
-    - Ich heisse [Foo](name)
-    - Mein Name ist [Ben](name)
-    - [John](name)
-    - Nenn mich [Hannah](name)
-    - Man nennt mich [Jupiter](name)
-    - [Squirrel] (name)
-    - [Whatever] (name)
-    - Ich heisse [Sarah] (name)
-    - Ich heisse [Luca] (name)
-    - Ich bin [Marc](name)
-    - [Corinne] (name)
-    - [Dagmar](name)
-    - [Luca](name)
-    - Ich bin [Meyer](name)
-    - Ich bin [Susanne](name)
-    - Ich bin [Silke](name)
-    - Ich bin [Bustamante](name)
-    - Ich bin [Andreas](name)
-    - Ich bin [Zaby](name)
-    
-- intent: frage_befinden
-  examples: |
-    - Wie geht's dir?
-    - Wie geht's?
-    - Geht es dir gut?
-    - Bist du fit?
-    - Wie läuft's bei dir?
-    - Allet jut?
-    - Wie bist du heute so drauf?
-    - Alles schick?
-    - Läuft's rund bei dir?
-    
-- intent: frage_wetter
-  examples: |
-    - Wie ist das Wetter heute?
-    - Wie wird das Wetter?
-    - Regnet es heute?
-    - Scheint heute die Sonne?
-    - Wie warm wird es heute?
-    - Wie ist der Wetterbericht?
-    - Wird es heute kalt?
     
 - intent: frage_geschichte_hwr
   examples: |
@@ -165,6 +87,7 @@ nlu:
     - Wie ist die Geschichte der HWR?
     - Wann wurde die HWR Berlin gegründet?
     - in welchem Jahr wurde die HWR gegründet?
+
 - intent: frage_standorte_hwr
   examples: |
     - Wo genau ist der Campus der HWR?
@@ -178,6 +101,7 @@ nlu:
     - Wo kann ich mich über die Studiengänge der HWR informieren?
     - Welche Studiengänge gibt es an der HWR Berlin?
     - Wo finde ich Informationen über die Studiengänge der HWR?
+
 - intent: frage_voraussetzungen_studiengaenge
   examples: |
     - Welche Voraussetzungen gelten für welche Studiengänge?
@@ -186,13 +110,15 @@ nlu:
     - Reicht ein Abi für alle Studiengänge?
     - Braucht man für alle Studiengänge ein Abi?
     - Braucht man für alle Studiengänge ein Abitur?
-- intent: anschlussfrage_voraussetzungen_dual
+
+- intent: frage_voraussetzungen_dual
   examples: |
     - Welche Voraussetzungen gelten für ein duales Studium?
     - Welche Abschlüsse muss ich für ein duales Studium mitbringen?
     - Welche Qualifikationen brauche ich für ein duales Studium?
     - Und was ist, wenn ich ein duales Studium machen möchte?
     - Was braucht man für ein duales Studium?
+
 - intent: frage_voraussetzungen_internationale_stud
   examples: |
     - Welche Voraussetzungen gelten für internationale Studierende?
@@ -203,7 +129,8 @@ nlu:
     - Was müssen ausländische Studierende tun, um an der HWR Berlin studieren zu können?
     - Welche Voraussetzungen gelten für Studierende aus dem Ausland?
     - Wie müssen ausländische Studierende vorgehen, wenn sie an der HWR studieren möchten?
-- intent: anschlussfrage_qualifikationen_deutsche_hs
+
+- intent: frage_qualifikationen_deutsche_hs
   examples: |
     - Aber mit welchem Abschluss kann ich in Deutschland studieren?
     - Welche Qualifikationen braucht man, um in Deutschland zu studieren?
@@ -220,6 +147,7 @@ nlu:
     - Kann man schon vorher Kurse besuchen, ohne dass man dort studiert?
     - Kann man an Kursen teilnehmen, ohne dass man studiert?
     - Kann man schon vor seinem Studium an Kursen teilnehmen?
+
 - intent: frage_hwr_hochschule_zu_hwr_wechseln
   examples: |
     - Kann ich von einer anderen Hochschule an die HWR Berlin wechseln?
@@ -228,12 +156,14 @@ nlu:
     - Kann man zur hwr wechseln?
     - Kann man von einer anderen Uni zur HWR wechseln?
     - Besteht die Möglichkeit von einer anderen Hochschule zur HWR zu wechseln?
+
 - intent: frage_hwr_studieren_ohne_abi
   examples: |
     - Kann ich ohne Abitur studieren?
     - Kann ich ohne allgemeine Hochschulreife am Studium teilnehmen?
     - Kann man ohne Abi ein Studium machen?
     - Kann man ohne Abi studieren?
+
 - intent: frage_hwr_eng_studiengänge
   examples: |
     - Welche englischen Studiengänge gibt es?
@@ -243,6 +173,7 @@ nlu:
     - Kann man an der HWR einen englischen Studiengang belegen?
     - Bietet die HWR englische Studiengänge an?
     - Macht die die HWR auch Studiengänge auf Englisch?
+
 - intent: frage_hwr_anmelden_als_gasthörer
   examples: |
     - Kann ich mich als Gasthörerin, Gasthörer, Nebenhörerin oder Nebenhörer anmelden?
