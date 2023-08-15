@@ -64,7 +64,7 @@ nlu:
   examples: |
     - Danke!
     - thx
-    - Vielen Dank dir!
+    - Vielen Dank!
     - danke dir
     - super, danke.
     - merci.
@@ -79,6 +79,7 @@ nlu:
     - bist du menschlich?
     - spreche ich mit einem bot?
     - spreche ich mit einem menschen?
+    - bist du echt?
     
 - intent: frage_geschichte_hwr
   examples: |
@@ -87,13 +88,22 @@ nlu:
     - Wie ist die Geschichte der HWR?
     - Wann wurde die HWR Berlin gegründet?
     - in welchem Jahr wurde die HWR gegründet?
+    - Seit wann gibt es die Hochschule schon?
 
 - intent: frage_standorte_hwr
   examples: |
     - Wo genau ist der Campus der HWR?
     - Welche Standorte hat die HWR Berlin?
     - Welche Standorte gibt es?
-    - Wo befinden sich die Gebäude der HWR?
+    - Wo befindet sich die HWR?
+    - Wo ist die HWR?
+
+- intent: frage_bedeutung_hwr
+  examples: |
+    - Wofür steht HWR?
+    - Was bedeutet HWR?
+    - Was bedeutet die Abkürzung "HWR"?
+    - Was ist HWR Berlin?
 
 - intent: frage_studiengaenge_informieren
   examples: |
