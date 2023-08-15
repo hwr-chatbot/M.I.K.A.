@@ -27,10 +27,10 @@ responses:
   - text: Alles klar, sag bescheid wenn ich dir helfen kann.
 
   utter_begruessen:
-  - text: "Hallo! Was möchtest du über die HWR wissen? {testent}"
-  - text: "Hi, schön, dass du hier bist! Was möchtest du über die HWR erfahren? {testent}"
-  - text: "Moin! Welche Fragen hast du denn zur HWR oder zum Studium? {testent}"
-  - text: "Hey! Wie kann ich dir weiterhelfen?  {testent}"
+  - text: "Hallo! Was möchtest du über die HWR wissen?"
+  - text: "Hi, schön, dass du hier bist! Was möchtest du über die HWR erfahren?"
+  - text: "Moin! Welche Fragen hast du denn zur HWR oder zum Studium?"
+  - text: "Hey! Wie kann ich dir weiterhelfen?"
   # Hi, einige Fragen die du stellen könntest wären zum Beispiel: "", "" oder ""
 
   utter_verabschieden:

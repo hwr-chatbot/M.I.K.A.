@@ -35,3 +35,4 @@ policies: null
 #     max_history: 5
 #     epochs: 100
 #     constrain_similarities: true
+assistant_id: 20230815-171941-extended-tunnel
