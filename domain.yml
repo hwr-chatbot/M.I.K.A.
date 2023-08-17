@@ -24,26 +24,20 @@ intents:
 
 responses:
   utter_beenden:
-  - text: Alles klar, sag bescheid wenn ich dir helfen kann.
+  - text: Alles klar, sag bescheid, wenn du weitere Hilfe brauchst.
 
   utter_begruessen:
-  - text: "Hallo! Was möchtest du über die HWR wissen?"
-  - text: "Hi, schön, dass du hier bist! Was möchtest du über die HWR erfahren?"
-  - text: "Moin! Welche Fragen hast du denn zur HWR oder zum Studium?"
-  - text: "Hey! Wie kann ich dir weiterhelfen?"
-  # Hi, einige Fragen die du stellen könntest wären zum Beispiel: "", "" oder ""
+  - text: 'Hi, einige Fragen die du stellen könntest wären zum Beispiel: "Was bedeutet die Abkürzung "HWR"?", "Wo ist die HWR?" oder "Welche Studiengänge gibt es?"'
 
   utter_verabschieden:
-  - text: Bis zum nächsten Mal!
-  - text: Bis bald. Hab einen schönen Tag!
-  - text: Danke für deine Zeit. Tschüss!
+  - text: Danke für deine Zeit. Komm gerne wieder, wenn du weitere Fragen hast.
 
   utter_iamabot:
   - text: Mein Name ist Mika und ich bin ein Chatbot, der speziell darauf trainiert wurde, fragen über die HWR zu beantworten.
   - text: Ich bin Mika, ein Chatbot, der speziell darauf trainiert wurde, fragen über die HWR zu beantworten.
 
   utter_gerne:
-  - text: Gerne, kein Problem.
+  - text: Gerne.
   - text: Kein Problem!
   - text: Gern geschehen!
 

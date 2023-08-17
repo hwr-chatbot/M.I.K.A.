@@ -111,6 +111,7 @@ nlu:
     - Wo kann ich mich über die Studiengänge der HWR informieren?
     - Welche Studiengänge gibt es an der HWR Berlin?
     - Wo finde ich Informationen über die Studiengänge der HWR?
+    - Welche Studiengänge gibt es?
 
 - intent: frage_voraussetzungen_studiengaenge
   examples: |
