@@ -62,7 +62,7 @@ responses:
   - text: "Die wichtigste Voraussetzung für dein Bachelorstudium an der HWR-Berlin ist eine anerkannte Hochschulzugangsberechtigung - also ein Abi oder eine Fachhochschulreife. Mehr Infos zu den allgemeinen Voraussetzungen findest du hier: https://www.hwr-berlin.de/studium/bewerbung/voraussetzungen-fuer-dein-studium/. Bei einigen Studiengängen gibt's zusätzliche Voraussetzungen, schau mal hier: https://www.hwr-berlin.de/studium/bewerbung/bewerbung-von-a-bis-z/."
 
   utter_antwort_frage_voraussetzungen_dual:
-  - text: 'Beim dualen Studium läuft es ein bisschen anders. Alle Informationen zur Bewerbung in diesem Fall findest du hier: https://www.hwr-berlin.de/studium/bewerbung/bewerbung-duales-studium/.'
+  - text: 'Alle Informationen zur Bewerbung und zu den Vorraussetzungen für ein duales Studium findest du hier: https://www.hwr-berlin.de/studium/bewerbung/bewerbung-duales-studium/.'
 
   utter_antwort_internationale_stud:
   - text: 'Schön, dass du zu uns kommen möchtest, wir freuen uns auf dich! Alles, was du wissen musst zu den Themen Qualifikationen, Finanzierung, Visum etc. findest du unter: https://www.hwr-berlin.de/studium/international-studieren/international-students/.'
