@@ -44,6 +44,11 @@ stories:
   - intent: frage_hwr_kurse_vorab_besuchen
   - action: utter_kurse_vorab_besuchen
 
+- story: bedeutung_hwr
+  steps:
+  - intent: frage_bedeutung_hwr
+  - action: utter_bedeutung_hwr
+
 - story: hochschule_zu_hwr_wechseln
   steps:
   - intent: frage_hwr_hochschule_zu_hwr_wechseln

@@ -9,6 +9,7 @@ intents:
 - bot_challenge
 - frage_geschichte_hwr
 - frage_standorte_hwr
+- frage_bedeutung_hwr
 - frage_studiengaenge_informieren
 - frage_voraussetzungen_internationale_stud
 - frage_voraussetzungen_studiengaenge
@@ -22,41 +23,36 @@ intents:
 #- zustimmen
 
 responses:
-
   utter_beenden:
-  - text: Alles klar, sag bescheid wenn ich dir helfen kann.
+  - text: Alles klar, sag bescheid, wenn du weitere Hilfe brauchst.
 
   utter_begruessen:
-  - text: Hallo! Was möchtest du über die HWR wissen?
-  - text: Hi, schön, dass du hier bist! Was möchtest du über die HWR erfahren?
-  - text: Moin! Welche Fragen hast du denn zur HWR oder zum Studium?
-  - text: Hey! Wie kann ich dir weiterhelfen?
+  - text: 'Hi, einige Fragen die du stellen könntest wären zum Beispiel: "Was bedeutet die Abkürzung "HWR"?", "Wo ist die HWR?" oder "Welche Studiengänge gibt es?"'
 
   utter_verabschieden:
-  - text: Tschüss. Ich bin gerne für dich da, bist zum nächsten Mal!
-  - text: Bis bald. Hab einen schönen Tag!
-  - text: Danke für deine Zeit. Tschüss!
+  - text: Danke für deine Zeit. Komm gerne wieder, wenn du weitere Fragen hast.
 
   utter_iamabot:
-  - text: Mein Name ist Mika und ich bin ein Bot.
-  - text: Ich bin Mika, ein Bot.
+  - text: Mein Name ist Mika und ich bin ein Chatbot, der speziell darauf trainiert wurde, fragen über die HWR zu beantworten.
+  - text: Ich bin Mika, ein Chatbot, der speziell darauf trainiert wurde, fragen über die HWR zu beantworten.
 
   utter_gerne:
-  - text: Gerne, kein Problem.
-  - text: Nicht dafür!
-  - text: Gerne, jederzeit wieder!
+  - text: Gerne.
+  - text: Kein Problem!
   - text: Gern geschehen!
 
   utter_default:
-  - text: Sorry, das habe ich nicht verstanden, kannst du es nochmal anders formulieren?
-  - text: Tut mir leid, das habe ich nicht verstanden. Kannst du es umformulieren?
-  - text: Entschuldige, das war zu hoch für mich. Kannst du deine Frage nochmal anders stellen?
+  - text: Tut mir leid, das habe ich nicht verstanden. Könntest du es nochmal anders formulieren?
+  - text: Entschuldige, das war zu kompliziert für mich. Kannst du deine Frage nochmal anders stellen?
   
   utter_geschichte_hwr:
   - text: 'Die HWR wurde in den 1970er-Jahren gegründet, das Gebäude am Campus Schöneberg gibt es aber schon länger. Wenn du mehr erfahren möchtest, schau mal hier: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/.'
 
   utter_standorte_hwr:
-  - text: Es gibt einen Campus in Schöneberg und einen in Lichtenberg.
+  - text: Die HWR hat zwei Standorte in Berlin. Einen in Schöneberg und einen in Lichtenberg.
+
+  utter_bedeutung_hwr:
+  - text: '"HWR Berlin" ist die Abkürzung von "Hochschule für Wirtschaft und Recht Berlin". Auf English heißt die Hochschule "Berlin School of Economics and Law".'
 
   utter_antwort_studiengaenge_informieren:
   - text: 'Es gibt eine Übersicht der Studiengänge auf der HWR-Website, schau mal hier: https://www.hwr-berlin.de/studium/studiengaenge/. oder du kannst dich bei der Studienberatung melden: https://www.hwr-berlin.de/studium/beratung/allgemeine-studienberatung/.'
@@ -78,7 +74,7 @@ responses:
   - text: 'Leider kannst du vor dem Beginn deines Studiums nicht in Vorlesungen und Lehrveranstaltungen der HWR Berlin reinschnuppern. Hier findest du alternativ alle Angebote der HWR Berlin für Schulen, Schülerinnen und Schüler: https://www.hwr-berlin.de/kooperationen/schulen/'
 
   utter_hochschule_zu_hwr_wechseln:
-  - text: 'Theotetisch ist es möglich von einer anderen Hochschule an die HWR Berlin zu wechseln. Du kannst dir Module anrechnen lassen, wenn du bereits für einen ähnlichen Studiengang eingeschrieben warst. Falls du bereits mehr als 20 ECTS-Punkte erfolgreich absolviert hast, kannst du dich in der Regel auf ein höheres Fachsemester im Bachelor-Studiengang bewerben. Wenn du Fragen zum Thema Hochschulwechsel hast, kannst du dich an die Studienberatungen der jeweiligen Fachbereiche wenden: https://www.hwr-berlin.de/studium/beratung/studienberatung-der-fachbereiche/'
+  - text: 'Gerne kannst du von einer anderen Hochschule zur HWR Berlin wechseln. Du kannst dir Module anrechnen lassen, wenn du bereits für einen ähnlichen Studiengang eingeschrieben warst. Falls du bereits mehr als 20 ECTS-Punkte erfolgreich absolviert hast, kannst du dich in der Regel auf ein höheres Fachsemester im Bachelor-Studiengang bewerben. Wenn du Fragen zum Thema Hochschulwechsel hast, kannst du dich an die Studienberatungen der jeweiligen Fachbereiche wenden: https://www.hwr-berlin.de/studium/beratung/studienberatung-der-fachbereiche/'
 
   utter_studieren_ohne_abi:
   - text: 'Ja, ein Studium an der HWR Berlin ist möglich, auch wenn du kein Abitur oder keine Fachhochschulreife hast. Hier kannst du nachlesen, welche Voraussetzungen du mitbringen solltest. Mehr dazu unter: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/'
