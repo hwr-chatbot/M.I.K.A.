@@ -4,8 +4,8 @@ rules:
 
 - rule: Say goodbye anytime the user says goodbye
   steps:
-  - intent: verabschieden
-  - action: utter_verabschieden
+  - intent: say_goodbye
+  - action: utter_say_goodbye
 
 - rule: Say 'I am a bot' anytime the user challenges
   steps:

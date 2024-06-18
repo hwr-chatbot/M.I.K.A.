@@ -2,94 +2,94 @@ version: "3.1"
 #Trainingsdaten für Beispielchatverläufe
 stories:
 
-- story: begruessen_geschichte
+- story: welcome_history
   steps:
-  - intent: begruessen
-  - action: utter_begruessen
-  - intent: frage_geschichte_hwr
-  - action: utter_geschichte_hwr
-  - intent: verabschieden
-  - action: utter_verabschieden
+  - intent: welcome
+  - action: utter_welcome
+  - intent: q_history_hwr
+  - action: utter_history_hwr
+  - intent: say_goodbye
+  - action: utter_say_goodbye
     
-- story: begruessen_standorte
+- story: welcome_locations
   steps:
-  - intent: begruessen
-  - action: utter_begruessen
-  - intent: frage_standorte_hwr
-  - action: utter_standorte_hwr
-  - intent: verabschieden
-  - action: utter_verabschieden
+  - intent: welcome
+  - action: utter_welcome
+  - intent: q_locations_hwr
+  - action: utter_locations_hwr
+  - intent: say_goodbye
+  - action: utter_say_goodbye
   
-- story: studiengaenge_informieren
+- story: information_courses
   steps:
-  - intent: frage_studiengaenge_informieren
-  - action: utter_antwort_studiengaenge_informieren
+  - intent: q_information_courses
+  - action: utter_r_information_courses
 
-- story: voraussetzungen_studiengaenge
+- story: prerequisite_for_courses
   steps:
-  - intent: frage_voraussetzungen_studiengaenge
-  - action: utter_antwort_voraussetzungen_studiengaenge
-  - intent: frage_voraussetzungen_dual
-  - action: utter_antwort_frage_voraussetzungen_dual
+  - intent: q_prerequisite_for_courses
+  - action: utter_r_prerequisite_for_courses
+  - intent: q_prerequisite_dual
+  - action: utter_r_prerequisite_dual
   
-- story: voraussetzungen_international
+- story: international_students
   steps:
-  - intent: frage_voraussetzungen_internationale_stud
-  - action: utter_antwort_internationale_stud
-  - intent: frage_qualifikationen_deutsche_hs
-  - action: utter_antwort_frage_qualifikationen_deutsche_hs
+  - intent: q_international_students
+  - action: utter_r_international_students
+  - intent: q_qualification_german_hs
+  - action: utter_r_qualification_german_hs
 
-- story: hochschule_vorab_besuchen
+- story: attend_courses_in_advance
   steps:
-  - intent: frage_hwr_kurse_vorab_besuchen
-  - action: utter_kurse_vorab_besuchen
+  - intent: q_attend_courses_in_advance
+  - action: utter_r_attend_courses_in_advance
 
-- story: bedeutung_hwr
+- story: meaning_hwr
   steps:
-  - intent: frage_bedeutung_hwr
-  - action: utter_bedeutung_hwr
+  - intent: q_meaning_hwr
+  - action: utter_meaning_hwr
 
-- story: hochschule_zu_hwr_wechseln
+- story: transfer_to_hwr
   steps:
-  - intent: frage_hwr_hochschule_zu_hwr_wechseln
-  - action: utter_hochschule_zu_hwr_wechseln
+  - intent: q_transfer_to_hwr
+  - action: utter_r_transfer_to_hwr
 
-- story: studieren_ohne_abi
+- story: study_without_a-level
   steps:
-  - intent: frage_hwr_studieren_ohne_abi
-  - action: utter_studieren_ohne_abi
+  - intent: q_study_without_a-level
+  - action: utter_r_study_without_a-level
 
-- story: eng_studiengänge
+- story: english_courses
   steps:
-  - intent: frage_hwr_eng_studiengänge
-  - action: utter_eng_studiengänge
+  - intent: q_english_courses
+  - action: utter_r_english_courses
 
-- story: anmelden_als_gasthörer
+- story: guest_auditor
   steps:
-  - intent: frage_hwr_anmelden_als_gasthörer
-  - action: utter_anmelden_als_gasthörer
+  - intent: q_guest_auditor
+  - action: utter_r_guest_auditor
 
 - story: demo_temp
   steps:
-  - intent: begruessen
-  - action: utter_begruessen # Enthält aktuell die Anschlussfrage, was man über die HWR wissen will
-  - intent: frage_standorte_hwr
-  - action: utter_standorte_hwr
-  - intent: frage_voraussetzungen_studiengaenge
-  - action: utter_antwort_voraussetzungen_studiengaenge
-  - intent: frage_voraussetzungen_dual
-  - action: utter_antwort_frage_voraussetzungen_dual
-  - intent: bedanken
-  - action: utter_gerne
-  - intent: verabschieden
-  - action: utter_verabschieden  
+  - intent: welcome
+  - action: utter_welcome # Enthält aktuell die Anschlussfrage, was man über die HWR wissen will
+  - intent: q_locations_hwr
+  - action: utter_locations_hwr
+  - intent: q_information_courses
+  - action: utter_r_information_courses
+  - intent: q_prerequisite_dual
+  - action: utter_r_prerequisite_dual
+  - intent: thank
+  - action: utter_with_pleasure
+  - intent: say_goodbye
+  - action: utter_say_goodbye  
 
 - story: interactive_story_3
   steps:
-  - intent: begruessen
-  - action: utter_begruessen
-  - intent: verneinen
-  - action: utter_beenden
-  - intent: verabschieden
-  - action: utter_verabschieden
+  - intent: welcome
+  - action: utter_welcome
+  - intent: negate
+  - action: utter_end
+  - intent: say_goodbye
+  - action: utter_say_goodbye
 
