@@ -1,37 +1,31 @@
 version: "3.1"
 #Beispieldaten zum Verstehen von Mika
 nlu:
-- intent: begruessen
+- intent: welcome
   examples: |
     - hey
-    - hallo
+    - hello
     - hi
-    - Guten Morgen
-    - Guten Tag
-    - Guten Abend
-    - moin
-    - hey du
-    - hallo Bot
+    - Good morning
+    - Good day
+    - Good evening
+    - hey you
+    - hello Bot
     - Morgen
     - howdy
-    - hello
-    - los geht's
-    - Guten Tag!
+    - here we go
+    - Good day!
     - Hi
 
-- intent: verabschieden
+- intent: say_goodbye
   examples: |
-    - tschüss
+    - goodbye
     - ciao
-    - bis dann
-    - bis denne
+    - see you then
+    - see you soon
     - bye
-    - auf Wiedersehen
-    - einen schönen Tag noch
-    - wir sehen uns
+    - have a nice day
     - bye bye
-    - bis bald
-    - tschau
 
 #- intent: zustimmen
 #  examples: |
@@ -44,154 +38,147 @@ nlu:
 #    - richtig
 #    - klingt gut
 
-- intent: verneinen
+- intent: negate
   examples: |
-    - nein
-    - nö
-    - niemals
-    - gar nichts
-    - nichts
-    - finde ich nicht
-    - überhaupt nicht
-    - gar nicht
-    - nicht wirklich
-    - auf keinen fall
+    - no
+    - never
+    - nothing at all
+    - nothing
+    - I do not find
+    - not at all
+    - not really
+    - no way
     - nope
-    - ne
-    - keine
+    - none
 
-- intent: bedanken
+- intent: thank
   examples: |
-    - Danke!
+    - Thank you!
     - thx
-    - Vielen Dank!
-    - danke dir
-    - super, danke.
+    - Thank you very much!
+    - thank you
+    - great, thank you.
     - merci.
-    - dankeschön!
-    - danke
+    - thank you!
+    - thank you so much
 
 - intent: bot_challenge
   examples: |
-    - bist du ein bot?
-    - bist du ein chatbot?
-    - bist du ein mensch?
-    - bist du menschlich?
-    - spreche ich mit einem bot?
-    - spreche ich mit einem menschen?
-    - bist du echt?
+    - are you a bot?
+    - are you a chatbot?
+    - are you a human?
+    - are you human?
+    - am i talking to a bot?
+    - am i talking to a human?
+    - are you real?
     
-- intent: frage_geschichte_hwr
+- intent: q_history_hwr
   examples: |
-    - Wie lange gibts die HWR?
-    - Wie lange gibt es die HWR Berlin schon?
-    - Wie ist die Geschichte der HWR?
-    - Wann wurde die HWR Berlin gegründet?
-    - in welchem Jahr wurde die HWR gegründet?
-    - Seit wann gibt es die Hochschule schon?
+    - How long has the HWR been around?
+    - How long has the HWR Berlin been in existence?
+    - What is the history of the HWR?
+    - When was the HWR Berlin founded?
+    - In which year was the HWR founded?
+    - How long has the university been in existence?
 
-- intent: frage_standorte_hwr
+- intent: q_locations_hwr
   examples: |
-    - Wo genau ist der Campus der HWR?
-    - Welche Standorte hat die HWR Berlin?
-    - Welche Standorte gibt es?
-    - Wo befindet sich die HWR?
-    - Wo ist die HWR?
+    - Where exactly is the HWR campus?
+    - Which locations does the HWR Berlin have?
+    - Which locations are there?
+    - Where is the HWR located?
+    - Where is the HWR?
 
-- intent: frage_bedeutung_hwr
+- intent: q_meaning_hwr
   examples: |
-    - Wofür steht HWR?
-    - Was bedeutet HWR?
-    - Was bedeutet die Abkürzung "HWR"?
-    - Was ist HWR Berlin?
+    - What does HWR stand for?
+    - What does HWR mean?
+    - What does the abbreviation "HWR" mean?
+    - What is HWR Berlin?
 
-- intent: frage_studiengaenge_informieren
+- intent: q_information_courses
   examples: |
-    - Wie und wo kann ich mich über die Studiengänge der HWR Berlin informieren?
-    - Wo kann ich mich über die Studiengänge der HWR informieren?
-    - Welche Studiengänge gibt es an der HWR Berlin?
-    - Wo finde ich Informationen über die Studiengänge der HWR?
-    - Welche Studiengänge gibt es?
+    - How and where can I find out more about the degree programs at HWR Berlin?
+    - Where can I find out more about the degree programs at the HWR?
+    - What degree programs are available at the HWR Berlin?
+    - Where can I find information about the degree programs at the HWR?
+    - Which degree programs are available?
 
-- intent: frage_voraussetzungen_studiengaenge
+- intent: q_prerequisite_for_courses
   examples: |
-    - Welche Voraussetzungen gelten für welche Studiengänge?
-    - Welche Abschlüsse muss ich für welche Studiengänge haben?
-    - Welche Qualifikationen brauche ich für welche Studiengänge?
-    - Reicht ein Abi für alle Studiengänge?
-    - Braucht man für alle Studiengänge ein Abi?
-    - Braucht man für alle Studiengänge ein Abitur?
+    - What are the requirements for which degree programs?
+    - Which degrees do I need for which degree programs?
+    - Which qualifications do I need for which degree programs?
+    - Is a high school diploma enough for all degree programs?
+    - Do I need a high school diploma for all degree programs?
+    - Do I need an Abitur for all degree programs?
 
-- intent: frage_voraussetzungen_dual
+- intent: q_prerequisite_dual
   examples: |
-    - Welche Voraussetzungen gelten für ein duales Studium?
-    - Welche Abschlüsse muss ich für ein duales Studium mitbringen?
-    - Welche Qualifikationen brauche ich für ein duales Studium?
-    - Und was ist, wenn ich ein duales Studium machen möchte?
-    - Was braucht man für ein duales Studium?
+    - What are the requirements for a dual study program?
+    - What qualifications do I need for a dual study program?
+    - And what if I want to do a dual study program?
+    - What do I need for a dual study program?
 
-- intent: frage_voraussetzungen_internationale_stud
+- intent: q_international_students
   examples: |
-    - Welche Voraussetzungen gelten für internationale Studierende?
-    - Ich möchte in Deutschland an der HWR Berlin studieren. Was muss ich tun?
-    - Ich möchte bei euch in Deutschland studieren. Was brauche ich da?
-    - Was muss ich mitbringen, wenn ich in Deutschland an der HWR studieren möchte?
-    - Worauf muss ich als internationale Studierende achten, wenn ich zu euch kommen möchte?
-    - Was müssen ausländische Studierende tun, um an der HWR Berlin studieren zu können?
-    - Welche Voraussetzungen gelten für Studierende aus dem Ausland?
-    - Wie müssen ausländische Studierende vorgehen, wenn sie an der HWR studieren möchten?
+    - What are the requirements for international students?
+    - I would like to study in Germany at the HWR Berlin. What do I have to do?
+    - I would like to study with you in Germany. What do I need?
+    - What do I need to bring with me if I want to study at the HWR in Germany?
+    - What do I have to consider as an international student if I want to come to you?
+    - What do international students have to do to be able to study at the HWR Berlin?
+    - What are the requirements for international students?
+    - What do international students have to do if they want to study at the HWR?
 
-- intent: frage_qualifikationen_deutsche_hs
+- intent: q_qualification_german_hs
   examples: |
-    - Aber mit welchem Abschluss kann ich in Deutschland studieren?
-    - Welche Qualifikationen braucht man, um in Deutschland zu studieren?
-    - Was muss ich nachweisen, um in Deutschland studieren zu dürfen?
-    - Welche Abschlüsse werden in Deutschland für ein Studium anerkannt?
-    - Woher weiss ich, welche Abschlüsse von deutschen Unis anerkannt werden?
-    - Wie kann ich wissen, ob mein Abschluss für ein Studium in Deutschland reicht?
-    - Reicht denn mein ausländischer Abschluss, um an der HWR studieren zu können?
+    - But what qualifications do I need to study in Germany?
+    - What qualifications do I need to study in Germany?
+    - What do I have to prove in order to be allowed to study in Germany?
+    - Which degrees are recognized for studying in Germany?
+    - How do I know which degrees are recognized by German universities?
+    - How do I know if my degree is sufficient for studying in Germany?
+    - Is my foreign degree sufficient to be able to study at the HWR?
 
-- intent: frage_hwr_kurse_vorab_besuchen
+- intent: q_attend_courses_in_advance
   examples: |
-    - Kann ich vorab Kurse an der HWR Berlin besuchen?
-    - Kann ich die HWR schon vor dem Studium besuchen?
-    - Kann man schon vorher Kurse besuchen, ohne dass man dort studiert?
-    - Kann man an Kursen teilnehmen, ohne dass man studiert?
-    - Kann man schon vor seinem Studium an Kursen teilnehmen?
+    - Can I attend courses at the HWR Berlin in advance?
+    - Can I visit the HWR before I start my studies?
+    - Can I attend courses in advance without studying there?
+    - Can I attend courses without being a student?
+    - Can I attend courses before I start studying?
 
-- intent: frage_hwr_hochschule_zu_hwr_wechseln
+- intent: q_transfer_to_hwr
   examples: |
-    - Kann ich von einer anderen Hochschule an die HWR Berlin wechseln?
-    - Ich möchte zur Hwr wechseln, geht das?
-    - Kann ich zur HWR wechseln?
-    - Kann man zur hwr wechseln?
-    - Kann man von einer anderen Uni zur HWR wechseln?
-    - Besteht die Möglichkeit von einer anderen Hochschule zur HWR zu wechseln?
+    - Can I transfer from another university to the HWR Berlin?
+    - I would like to transfer to the Hwr, is that possible?
+    - Can I transfer to the HWR?
+    - Can I transfer to the HWR from another university?
+    - Is it possible to transfer to the HWR from another university?
 
-- intent: frage_hwr_studieren_ohne_abi
+- intent: q_study_without_a-level
   examples: |
-    - Kann ich ohne Abitur studieren?
-    - Kann ich ohne allgemeine Hochschulreife am Studium teilnehmen?
-    - Kann man ohne Abi ein Studium machen?
-    - Kann man ohne Abi studieren?
+    - Can I study without a high school diploma?
+    - Can I study without a general higher education entrance qualification?
 
-- intent: frage_hwr_eng_studiengänge
+- intent: q_english_courses
   examples: |
-    - Welche englischen Studiengänge gibt es?
-    - gibt es englische Studiengänge?
-    - gibt es Studiengänge auf Englisch?
-    - Welche Studiengänge gibt es auf Englisch?
-    - Kann man an der HWR einen englischen Studiengang belegen?
-    - Bietet die HWR englische Studiengänge an?
-    - Macht die die HWR auch Studiengänge auf Englisch?
+    - What English degree programs are there?
+    - Are there any degree programs in English?
+    - Are there study programs in English?
+    - Which degree programs are available in English?
+    - Is it possible to study an English course at the HWR?
+    - Does the HWR offer degree programs in English?
+    - Does the HWR also offer degree programs in English?
 
-- intent: frage_hwr_anmelden_als_gasthörer
+- intent: q_guest_auditor
   examples: |
-    - Kann ich mich als Gasthörerin, Gasthörer, Nebenhörerin oder Nebenhörer anmelden?
-    - Kann man schon vorher als Gasthörer an Kursen Teilnehmen?
-    - Kann ich mich als Gasthörer anmelden?
-    - Kann ich mich als Nebenhörer anmelden?
-    - Kann man als Gast an Vorlesungen teilnehmen?
-    - Gibt es eine Möglichkeit als Gast bei Vorlesungen zuzuhören?
+    - Can I register as a guest student?
+    - Can I take part in courses as a guest student?
+    - Can I register as a guest student?
+    - Can I register as a secondary listener?
+    - Can I attend lectures as a guest?
+    - Is it possible to attend lectures as a guest?
 
 

@@ -2,94 +2,93 @@ version: '3.1'
 #Hardcodierte Antworten von MIKA auf die Intents (=Utter) von nlu.yml
 intents:
 
-- frage_qualifikationen_deutsche_hs
-- frage_voraussetzungen_dual
-- bedanken
-- begruessen
+- q_qualification_german_hs
+- q_prerequisite_dual
+- thank
+- welcome
 - bot_challenge
-- frage_geschichte_hwr
-- frage_standorte_hwr
-- frage_bedeutung_hwr
-- frage_studiengaenge_informieren
-- frage_voraussetzungen_internationale_stud
-- frage_voraussetzungen_studiengaenge
-- frage_hwr_anmelden_als_gasthörer
-- frage_hwr_eng_studiengänge
-- frage_hwr_hochschule_zu_hwr_wechseln
-- frage_hwr_kurse_vorab_besuchen
-- frage_hwr_studieren_ohne_abi
-- verabschieden
-- verneinen
+- q_history_hwr
+- q_locations_hwr
+- q_meaning_hwr
+- q_information_courses
+- q_international_students
+- q_prerequisite_for_courses
+- q_guest_auditor
+- q_english_courses
+- q_transfer_to_hwr
+- q_attend_courses_in_advance
+- q_study_without_a-level
+- say_goodbye
+- negate
 #- zustimmen
 
 responses:
-  utter_beenden:
-  - text: Alles klar, sag bescheid, wenn du weitere Hilfe brauchst.
+  utter_end:
+  - text: All right, let me know if you need any further help.
 
-  utter_begruessen:
-  - text: 'Hi, einige Fragen die du stellen könntest wären zum Beispiel: "Was bedeutet die Abkürzung "HWR"?", "Wo ist die HWR?" oder "Welche Studiengänge gibt es?"'
+  utter_welcome:
+  - text: 'Hi, some questions you could ask would be for example: "What does the abbreviation "HWR" mean?", "Where is the HWR?" or "What degree programs are there?"'
 
-  utter_verabschieden:
-  - text: Danke für deine Zeit. Komm gerne wieder, wenn du weitere Fragen hast.
+  utter_say_goodbye:
+  - text: Thank you for your time. Please come back if you have any further questions.
 
   utter_iamabot:
-  - text: Mein Name ist Mika und ich bin ein Chatbot, der speziell darauf trainiert wurde, fragen über die HWR zu beantworten.
-  - text: Ich bin Mika, ein Chatbot, der speziell darauf trainiert wurde, fragen über die HWR zu beantworten.
+  - text: My name is Mika and I am a chatbot that has been specially trained to answer questions about the HWR.
+  - text: I am Mika, a chatbot that has been specially trained to answer questions about the HWR.
 
-  utter_gerne:
-  - text: Gerne.
-  - text: Kein Problem!
-  - text: Gern geschehen!
+  utter_with_pleasure:
+  - text: With pleasure.
+  - text: You're welcome!
 
   utter_default:
-  - text: Tut mir leid, das habe ich nicht verstanden. Könntest du es nochmal anders formulieren?
-  - text: Entschuldige, das war zu kompliziert für mich. Kannst du deine Frage nochmal anders stellen?
+  - text: I'm sorry, I didn't understand that. Could you rephrase it?
+  - text: Sorry, that was too complicated for me. Can you rephrase your question?
   
-  utter_geschichte_hwr:
-  - text: 'Die HWR wurde in den 1970er-Jahren gegründet, das Gebäude am Campus Schöneberg gibt es aber schon länger. Wenn du mehr erfahren möchtest, schau mal hier: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/.'
+  utter_history_hwr:
+  - text: 'The HWR was founded in the 1970s, but the building on the Schöneberg campus has been around for longer. If you would like to find out more, take a look here: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/.'
 
-  utter_standorte_hwr:
-  - text: Die HWR hat zwei Standorte in Berlin. Einen in Schöneberg und einen in Lichtenberg.
+  utter_locations_hwr:
+  - text: The HWR has two locations in Berlin. One in Schöneberg and one in Lichtenberg.
 
-  utter_bedeutung_hwr:
-  - text: '"HWR Berlin" ist die Abkürzung von "Hochschule für Wirtschaft und Recht Berlin". Auf English heißt die Hochschule "Berlin School of Economics and Law".'
+  utter_meaning_hwr:
+  - text: '"HWR Berlin" is the abbreviation for "Berlin School of Economics and Law". In german, the university is called "Hochschule für Wirtschaft und Recht Berlin"'
 
-  utter_antwort_studiengaenge_informieren:
-  - text: 'Es gibt eine Übersicht der Studiengänge auf der HWR-Website, schau mal hier: https://www.hwr-berlin.de/studium/studiengaenge/. oder du kannst dich bei der Studienberatung melden: https://www.hwr-berlin.de/studium/beratung/allgemeine-studienberatung/.'
-  - text: 'Du kannst dir auf der Website der HWR die Studiengänge von A bis Z anschauen, also hier: https://www.hwr-berlin.de/studium/studiengaenge/ oder du holst dir Infos bei der Studienberatung: https://www.hwr-berlin.de/studium/beratung/allgemeine-studienberatung/.'
+  utter_r_information_courses:
+  - text: 'There is an overview of the degree programs on the HWR website, take a look here: https://www.hwr-berlin.de/studium/studiengaenge/. Or you can contact the student advisory service: https://www.hwr-berlin.de/studium/beratung/allgemeine-studienberatung/.'
+  - text: 'You can take a look at the degree programs from A to Z on the HWR website, i.e. here: https://www.hwr-berlin.de/studium/studiengaenge/ or you can get information from the student advisory service: https://www.hwr-berlin.de/studium/beratung/allgemeine-studienberatung/.'
 
-  utter_antwort_voraussetzungen_studiengaenge:
-  - text: "Die wichtigste Voraussetzung für dein Bachelorstudium an der HWR-Berlin ist eine anerkannte Hochschulzugangsberechtigung - also ein Abi oder eine Fachhochschulreife. Mehr Infos zu den allgemeinen Voraussetzungen findest du hier: https://www.hwr-berlin.de/studium/bewerbung/voraussetzungen-fuer-dein-studium/. Bei einigen Studiengängen gibt's zusätzliche Voraussetzungen, schau mal hier: https://www.hwr-berlin.de/studium/bewerbung/bewerbung-von-a-bis-z/."
+  utter_r_prerequisite_for_courses:
+  - text: "The most important requirement for your Bachelor's degree at the HWR-Berlin is a recognized university entrance qualification - i.e. a high school diploma or an entrance qualification for universities of applied sciences. You can find more information about the general requirements here: https://www.hwr-berlin.de/studium/bewerbung/voraussetzungen-fuer-dein-studium/. There are additional requirements for some degree programs, take a look here: https://www.hwr-berlin.de/studium/bewerbung/bewerbung-von-a-bis-z/."
 
-  utter_antwort_frage_voraussetzungen_dual:
-  - text: 'Alle Informationen zur Bewerbung und zu den Vorraussetzungen für ein duales Studium findest du hier: https://www.hwr-berlin.de/studium/bewerbung/bewerbung-duales-studium/.'
+  utter_r_prerequisite_dual:
+  - text: 'You can find all the information about applying and the requirements for a dual study program here: https://www.hwr-berlin.de/studium/bewerbung/bewerbung-duales-studium/.'
 
-  utter_antwort_internationale_stud:
-  - text: 'Schön, dass du zu uns kommen möchtest, wir freuen uns auf dich! Alles, was du wissen musst zu den Themen Qualifikationen, Finanzierung, Visum etc. findest du unter: https://www.hwr-berlin.de/studium/international-studieren/international-students/.'
+  utter_r_international_students:
+  - text: 'Great that you would like to join us, we look forward to seeing you! You can find everything you need to know about qualifications, funding, visas etc. at: https://www.hwr-berlin.de/studium/international-studieren/international-students/.'
 
-  utter_antwort_frage_qualifikationen_deutsche_hs:
-  - text: 'Da gibts eine super Datenbank, wo du bei Abschlüssen aus allen Ländern nachschauen kannst, ob sie anerkannt sind: https://anabin.kmk.org/no_cache/filter/schulabschluesse-mit-hochschulzugang.html#land_gewaehlt. Wenn du deine Qualifikationen lieber in einer englischsprachigen Datenbank prüfen möchtest, dann bitte sehr: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
+  utter_r_qualification_german_hs:
+  - text: 'There is a great database where you can check whether qualifications from all countries are recognized: https://anabin.kmk.org/no_cache/filter/schulabschluesse-mit-hochschulzugang.html#land_gewaehlt. If you prefer to check your qualifications in an English-language database, please go to: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
 
-  utter_kurse_vorab_besuchen:
-  - text: 'Leider kannst du vor dem Beginn deines Studiums nicht in Vorlesungen und Lehrveranstaltungen der HWR Berlin reinschnuppern. Hier findest du alternativ alle Angebote der HWR Berlin für Schulen, Schülerinnen und Schüler: https://www.hwr-berlin.de/kooperationen/schulen/'
+  utter_r_attend_courses_in_advance:
+  - text: 'Unfortunately, you cannot get a taste of lectures and courses at HWR Berlin before you start your studies. Alternatively, you can find all of HWR Berlins offers for schools and pupils here: https://www.hwr-berlin.de/kooperationen/schulen/'
 
-  utter_hochschule_zu_hwr_wechseln:
-  - text: 'Gerne kannst du von einer anderen Hochschule zur HWR Berlin wechseln. Du kannst dir Module anrechnen lassen, wenn du bereits für einen ähnlichen Studiengang eingeschrieben warst. Falls du bereits mehr als 20 ECTS-Punkte erfolgreich absolviert hast, kannst du dich in der Regel auf ein höheres Fachsemester im Bachelor-Studiengang bewerben. Wenn du Fragen zum Thema Hochschulwechsel hast, kannst du dich an die Studienberatungen der jeweiligen Fachbereiche wenden: https://www.hwr-berlin.de/studium/beratung/studienberatung-der-fachbereiche/'
+  utter_r_transfer_to_hwr:
+  - text: 'You are welcome to transfer to HWR Berlin from another university. You can have modules credited if you were already enrolled on a similar degree program. If you have already successfully completed more than 20 ECTS credits, you can usually apply for a higher semester in the Bachelors degree program. If you have any questions about changing universities, you can contact the student advisory services of the respective departments: https://www.hwr-berlin.de/studium/beratung/studienberatung-der-fachbereiche/'
 
-  utter_studieren_ohne_abi:
-  - text: 'Ja, ein Studium an der HWR Berlin ist möglich, auch wenn du kein Abitur oder keine Fachhochschulreife hast. Hier kannst du nachlesen, welche Voraussetzungen du mitbringen solltest. Mehr dazu unter: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/'
+  utter_r_study_without_a-level:
+  - text: 'Yes, it is possible to study at the HWR Berlin even if you do not have an Abitur or a Fachhochschulreife. Here you can read about the requirements you need to meet. Find out more at: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/'
 
-  utter_eng_studiengänge:
-  - text: 'Die HWR Berlin und die Berlin Professional School bieten knapp 20 Studiengänge an, die du ausschließlich auf Englisch studierst: https://www.hwr-berlin.de/studium/studiengaenge/?mksearch%5Bterm%5D=&mksearch%5Bfq%5D%5Blanguage%5D%5B%5D=2#searchresults'
+  utter_r_english_courses:
+  - text: 'The HWR Berlin and the Berlin Professional School offer almost 20 degree programs that you study exclusively in English: https://www.hwr-berlin.de/studium/studiengaenge/?mksearch%5Bterm%5D=&mksearch%5Bfq%5D%5Blanguage%5D%5B%5D=2#searchresults'
 
-  utter_anmelden_als_gasthörer:
-  - text: 'Grundsätzlich gibt es an der HWR Berlin die Möglichkeit, als Gasthörerin oder Gasthörer, Nebenhörerin oder Nebenhörer an Lehrveranstaltungen teilzunehmen. Mehr Infos findest du hier: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
+  utter_r_guest_auditor:
+  - text: 'In principle, HWR Berlin offers the opportunity to take part in courses as a guest student. You can find more information here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 
 actions:
-- utter_beenden
-- utter_begruessen
-- utter_verabschieden
+- utter_end
+- utter_welcome
+- utter_say_goodbye
