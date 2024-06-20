@@ -181,4 +181,313 @@ nlu:
     - Can I attend lectures as a guest?
     - Is it possible to attend lectures as a guest?
 
+- intent: q_admission_requirement
+  examples: |
+    - What are the admission requirements?
+    - What are the entry requirements?
+    - What criteria are needed for admission?
+    - What qualifications are necessary for admission?
+    - What do I need to be admitted?
+    - What are the prerequisites for admission?
+    - What are the conditions for admissions?
+    - What are the eligibility requirements for admission?
 
+- intent: q_english_certificate
+  examples: |
+    - Which English certificate is necessary?
+    - What English certification is needed?
+    - What English credential do I need?
+    - Which English proficiency certificate is required?
+    - What level of English certificate is mandatory?
+    - What English language qualification is required?
+    - What kind of English certificate is required?
+
+- intent: q_motivational_letter
+  examples: |
+    - Are there formal requirements for the motivational letter?
+    - What are the formal requirements for the motivational letter?
+    - Are there specific guidelines for the motivational letter?
+    - Are there any formal criteria for the motivational letter?
+    - What formatting rules apply to the motivational letter?
+    - Are there formal expectations for the motivational letter?
+    - Are there particular guidelines for writing the motivational letter?
+    - What are the structural requirements fpr the motivational letter?
+    - Are there any prescribed formats for the motivation letter?
+
+- intent: q_cv
+  examples: |
+    - What should my CV look like?
+    - How should my CV be formatted?
+    - What format should I use for my CV?
+    - How should I structure my CV?
+    - What is the preferred layout for a CV?
+
+- intent: q_prerequisite_admission
+  examples: |
+    - Are there any prerequiste courses required for admission to this program? 
+    - Are there specific courses I need to take before applying to this program?
+    - Are there prerequisite classes necessary for admission to this program?
+    - Are there required courses I need to have completed for entry into this program?
+    - Are there specific academic prerequisites for admission to this program?
+    - Are there courses I must have taken beforehand to be eligible for this program?
+    - Are there particular classes I need to have finished before applying to this program?
+
+- intent: q_masters_program
+  examples: |
+    - Can I apply for a master's program if I am currently finishing my undergraduate degree?
+    - Can I apply for a masters program while still completing my undergraduate degree?
+    - Is it possible to apply or a masters program if I havent completed my undergraduate degree?
+    - Can I begin the application process for a masters program before finishing my undergraduate studies?
+    - Can I pursue a masters degree while I am still in the final stages of my undergraduate program?
+    - Is it permissible to apply for a masters degree if I am nearing the completion of my bachelors degree?
+    - Am I allowed to seek admission to a masters program before offically completing my bachelors degree?
+
+- intent: q_admission_documents
+  examples: |
+    - What documents do I have to hand in?
+    - Which documents do I need to submit?
+    - What paperwork do I need to provide?
+    - What documents are required for submission?
+    - Which materials must I submit?
+    - Which documents are necessary for submission?
+    - What documentation is needed?
+
+- intent: q_master_or_bachelor
+  examples: |
+    - If I have already completed a masters degree, do I apply with my bachelor or masters degree?
+    - Should I submit my Bachelors or masters degree if I have already completed a masters program?
+    - Which degree should I use for my application if I hold a bachelor and a masters degree?
+    - Should I provide my bachelors or masters degree for application?
+    - Do I need to submit my bachelors degree if I have already obtained a masters degree?
+
+- intent: q_application_from_international_university
+  examples: |
+    - If I completed my Bachelor's degree at an international university in Germany, how do I apply?
+    - How should I apply if I completed my Bachelor's degree at an international university in Germany?
+    - What is the application process for graduates of international universities in Germany?
+    - What are the steps to apply if I earned my Bachelor's degree from an international university in Germany?
+    - How should I proceed with my application if I graduated from a university in Germany with an international background?
+    - What is the application process like for someone who completed their Bachelor's degree at an international university in Germany?
+
+- intent: q_missed_deadline
+  examples: |
+    - I missed the uni-assist application deadline, can I still apply? 
+    - Is it possible to apply after missing the uni-assist application deadline?
+    - Can I still submit my application even though I missed the uni-assist deadline?
+    - Is there a chance to apply late for uni-assist after missing the deadline?
+    - What are my options if I missed the uni-assist application deadline?
+    - Am I able to apply late to uni-assist despite missing the application deadline?
+    - Is there a way to apply to uni-assist after the deadline has passed?
+    - What steps can I take if I missed the uni-assist application deadline?
+    - Can I apply to uni-assist even if I missed the initial application deadline?
+
+- intent: q_application_deadline
+  examples: |
+    - Which application deadline is applicable to me?
+    - What is the relevant application deadline for me?
+    - Which application deadline should I follow?
+    - Which deadline applies to my application?
+    - What is the appropriate deadline for my application?
+    - Which application deadline is relevant to my situation?
+    - Which deadline should I adhere to for my application?
+    - What is the applicable deadline for my application?
+    - Which deadline is appropriate for me to apply?
+
+- intent: q_where_to_apply
+  examples: |
+    - Do I apply via uni-assist or directly to HWR Berlin?
+    - Should I apply through uni-assist or directly to HWR Berlin?
+    - Do I submit my application through uni-assist or directly to HWR Berlin?
+    - Which route should I take for my application: uni-assist or direct to HWR Berlin?
+    - Am I supposed to apply via uni-assist or directly to HWR Berlin?
+    - Should I use uni-assist or apply directly to HWR Berlin for my application?
+    - Do I need to go through uni-assist or apply directly to HWR Berlin?
+    - Should I apply through uni-assist or should I apply directly to HWR Berlin?
+    - Which method of application is required: uni-assist or direct to HWR Berlin?
+
+- intent: q_application_many_programs_possible
+  examples: |
+    - Can I apply for more than one program?
+    - Is it possible to apply for multiple programs?
+    - Can I submit applications for more than one program?
+    - Am I allowed to apply to more than one program?
+    - Is it permissible to apply for multiple programs simultaneously?
+    - Can I apply for more than one program at the same time?
+    - Are applicants permitted to submit applications for multiple programs?
+    - Is there a limit on the number of programs I can apply to?
+    - Can I apply for several programs?
+
+- intent: q_application_many_programs_needed
+  examples: |
+    - Do I have to apply for more than one programme?
+    - Is it necessary to apply for more than one program?
+    - Do I need to submit applications for multiple programs?
+    - Must I apply to more than one program?
+    - Is it required to apply for multiple programs?
+    - Do I have to apply for several programs?
+    - Is applying for more than one program mandatory?
+    - Am I expected to apply to multiple programs?
+    - Is it compulsory to apply for more than one program?
+
+- intent: q_application_many_programs_chance_increase
+  examples: |
+    - Will it increase my chances of admission if I apply for more than one programme?
+    - Does applying for multiple programmes improve my chances of admission?
+    - Will my chances of admission be higher if I apply for more than one programme?
+    - Does applying to multiple programmes enhance my chances of being accepted?
+    - Is there a greater likelihood of admission if I apply to multiple programmes?
+    - Will applying for several programmes increase my chances of being admitted?
+    - Do I have a better chance of admission if I apply to more than one programme?
+    - Will applying for multiple programmes improve my admission prospects?
+    - Is it advantageous to apply for more than one programme to increase my chances of admission?
+
+- intent: q_how_many_courses
+  examples: |
+    - How many courses can I apply for? 
+    - What is the maximum number of courses I can apply for?
+    - Is there a limit to how many courses I can apply for?
+    - How many programs can I apply to?
+    - What is the allowed number of applications I can submit?
+    - Is there a restriction on the number of courses I can apply for?
+    - Am I limited in the number of courses I can apply to?
+    - How many applications can I send in?
+
+- intent: q_application_status
+  examples: |
+    - What is my application status?
+    - Could you please update me on the status of my application?
+    - What is the current status of my application?
+    - Can you tell me where my application stands?
+    - May I inquire about the status of my application?
+    - Could you provide an update on my application status?
+    - Do you have any information regarding my application status?
+    - Is there any news on the status of my application?
+    - Can you let me know if there is any update on my application?
+
+- intent: q_application_status_uni_assist
+  examples: |
+    - I have submitted the application through uni-assist. When can I expect to hear back from the university?
+    - How long does it typically take to receive a response after submitting my application through uni-assist?
+    - When can I anticipate hearing back from the university after submitting my application through uni-assist?
+    - What is the usual timeframe for receiving a response from the university after applying through uni-assist?
+    - When should I expect to receive a reply from the university following my application submission via uni-assist?
+    - How soon will I hear from the university after sending my application through uni-assist?
+    - What is the average waiting period for a response from the university after submitting an application through uni-assist?
+    - Could you provide an estimate of when I might receive a response from the university after using uni-assist to submit my application?
+    - When can I expect notification from the university after submitting my application through uni-assist?
+
+- intent: q_aps_hand_in_late
+  examples: |
+    - APS takes very long. Can I hand it in late?
+    - Can I submit my APS certificate after the deadline?
+    - Is it possible to turn in my APS certificate after the due date?
+    - Am I allowed to submit my APS assessment late?
+    - Can I provide my APS documentation past the specified deadline?
+    - Is there flexibility in the submission deadline for the APS certificate?
+    - Is it acceptable to hand in my APS results after the deadline?
+    - Can I deliver my APS evaluation at a later time?
+    - Is there a grace period for submitting my APS certificate?
+
+- intent: q_aps_needed
+  examples: |
+    - Do I need an APS certificate?
+    - Is an APS certificate required for my application?
+    - Do I need to provide an APS certificate?
+    - Am I required to have an APS certificate?
+    - Is it necessary to obtain an APS certificate?
+    - Must I submit an APS certificate?
+    - Is an APS certificate mandatory for admission?
+    - Do I need to include an APS certificate in my application?
+    - Is an APS certificate needed for my application process?
+
+- intent: q_whats_aps
+  examples: |
+    - What is the APS certificate?
+    - Can you explain what the APS certificate is?
+    - What does the APS certificate entail?
+    - What is the purpose of the APS certificate?
+    - Could you provide details about the APS certificate?
+    - What information does the APS certificate include?
+    - What exactly is an APS certificate?
+    - What is the role of the APS certificate in the application process?
+    - What does an APS certificate signify?
+
+- intent: q_consecutive_master
+  examples: |
+    - What is a consecutive master?
+    - Can you explain what a consecutive master’s program is?
+    - What does a consecutive master’s degree entail?
+    - What is meant by a consecutive master’s degree?
+    - Could you define a consecutive master’s program?
+    - What distinguishes a consecutive master’s degree?
+    - What is a consecutive master’s program?
+    - What are the characteristics of a consecutive master’s degree?
+    - What does it mean to enroll in a consecutive master’s program?
+
+- intent: q_duolingo_accepted
+  examples: |
+    - Do you accept Duolingo certificates?
+    - Do you recognize Duolingo English Test certificates?
+    - Are Duolingo certificates accepted for admission?
+    - Is the Duolingo English Test valid for your application process?
+    - Can I submit a Duolingo certificate as proof of English proficiency?
+    - Do you accept the Duolingo English Test for language requirements?
+    - Is a Duolingo certificate acceptable for your language proficiency criteria?
+    - Will you accept Duolingo English Test results for admission?
+    - Are Duolingo English Test certificates recognized by your institution?
+
+ - intent: q_eligibility
+  examples: |
+    - Am I eligible to apply?  
+    - Do I meet the eligibility criteria to apply?
+    - Am I eligible to submit an application?
+    - Am I eligible to apply with my current qualifications?
+
+- intent: q_eligibility_check
+  examples: |
+    - Can you check my eligibility?
+    - Where can I check my eligibility?
+    - Would I be eligible to apply?
+    - Could you verify my eligibility to apply?
+    - Can you assess if I am eligible to apply?
+    - Could you confirm whether I meet the eligibility criteria?
+    - Can you determine if I am eligible to submit an application?
+    - Could you review my qualifications to see if I am eligible?
+    - Can you evaluate my eligibility for application?
+    - Could you check if I meet the requirements to apply?
+    - Can you verify my qualifications for eligibility?
+
+- intend: q_eligibility_master
+  examples: |
+    - Am I eligible for a master's program?
+    - What are the basic eligibility requirements for your master's programs?
+    - What are the standard eligibility conditions for your master's programs?
+    - What are the main requirements to be eligible for your master's programs?
+    - What GPA is required to be eligible for the master's program?
+
+- intend: q_eligibility_check_who
+  examples: |
+    - Who can check my eligibility? 
+    - Can I send the certificate to someone who can say if it is valid?
+    - Can you check my documents and let me know if I am eligible?
+    - Who is responsible for verifying my eligibility?
+    - Who can assess my eligibility for the program?
+    - Who can determine if I meet the eligibility criteria?
+    - Who should I contact to check my eligibility?
+    - Who can confirm whether I am eligible to apply?
+    - Who can review my qualifications for eligibility?
+    - Who can evaluate my eligibility for the application process?
+    - Who is the right person to verify my eligibility?
+
+- intend: q_no_relevant_studies
+  examples: |
+    - Can I study if I have not completed the relevant courses?
+    - I have work expierience but studied in a different field. Can I apply?
+    - I only have a business related master can I still apply?
+    - I work in marketing can I apply for International Marketing Management?
+    - Is it possible to apply holding a non-business Bachelor degree?
+    - Can I apply for a master's degree if my undergraduate degree is not in business?
+    - Can someone with a non-business undergraduate degree qualify for one of your master degree's?
+    - Will my non business undergraduate degree affect my eligiblity for you master's programs?
+    - What are options for students with non-business backgrounds who want to pursue a business master's?
+    - Do I need a business related bachelor's to pursure a master's in business? 

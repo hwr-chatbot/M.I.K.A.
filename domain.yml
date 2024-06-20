@@ -18,6 +18,34 @@ intents:
 - q_transfer_to_hwr
 - q_attend_courses_in_advance
 - q_study_without_a-level
+- q_admission_requirement
+- q_english_certificate
+- q_motivational_letter
+- q_cv
+- q_prerequisite_admission
+- q_masters_program
+- q_admission_documents
+- q_master_or_bachelor
+- q_application_from_international_university
+- q_missed_deadline
+- q_application_deadline
+- q_where_to_apply
+- q_applications_many_programs_possible
+- q_applications_many_programs_needed
+- q_applications_many_programs_chance_increase
+- q_how_many_courses
+- q_application_status
+- q_application_status_uni_assist
+- q_aps_hand_in_late
+- q_aps_needed
+- q_whats_aps
+- q_consecutive_master
+- q_duolingo_accepted
+- q_eligibility
+- q_eligibility_check
+- q_eligibility_check_who
+- q_eligibility_master
+- q_no_relevant_studies
 - say_goodbye
 - negate
 #- zustimmen
@@ -83,6 +111,114 @@ responses:
 
   utter_r_guest_auditor:
   - text: 'In principle, HWR Berlin offers the opportunity to take part in courses as a guest student. You can find more information here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
+
+  utter_r_admission_requirement:
+  - text: 'You can find the admission requirements for each study program listed online: https://www.hwr-berlin.de/en/study/degree-programmes/'
+  - text: 'As each study programmes can vary, it´s best to check the website: https://www.hwr-berlin.de/en/study/degree-programmes/'
+  - text: 'The admission requirements for each study program are listed online. Check our website here for the latest information: https://www.hwr-berlin.de/en/study/degree-programmes/'
+
+  utter_r_english_certificate:
+  - text: 'You need to present a standardized test to prove that your English level is a high B2 CEFR or above. We accept certificates of up to five years old. Exceptions apply, please check our website.'
+  - text: 'Please check each study programme´s webpage for a list of the accepted standardised certificates. Some exceptions may apply'
+
+  utter_r_motivational_letter:
+  - text: 'Please keep your motivation letter to one A4 page, written in English, unless stated otherwise.'
+  - text: 'Write about your motivations for applying to the degree. Please write no more than one page in English.'
+
+  utter_r_cv:
+  - text: 'Please keep your CV relevant and tailor it to HWR and the programme you are applying to. It´s a good idea to keep it to a maximum of two pages.'
+  - text: 'Keep your CV formal, and to a maximum of two pages. Tailor your CV to HWR Berlin and the study programme you are applying to.'
+
+  utter_r_prerequisite_admission:
+  - text: 'Yes, each study programme will list the courses on their webpages that must have been completed prior to applying. While names can vary from institution to instituion, the basic content must remain relevant.'
+
+  utter_r_masters_program:
+  - text: 'Yes, you can apply to a master´s programme at HWR Berlin even if you are completing the final stages of your undergraduate degree. Please provide a prelimary transcript of record and a letter from your tertiary education institution stating your expected completion date.'
+  - text : 'Yes, you will need to provide proof of your expected completion date and a preliminary transcript of records in your application.'
+
+  utter_r_admission_documents:
+  - text: 'Please check the webpage for a list of the documents you must hand in. Generally speaking Transcript of records, University graduation certificates, proof of language proficiency, CV and motivational letter. All documents must be certified and translated into English or German and submitted online along with the originals.'
+  - text: 'Check the webpage of each study programme to be sure which documents must be handed in. Typical documents are transcript of records, CV, motivational letter, language proficiency proof(s), university graduation certificates.'
+
+  utter_r_master_or_bachelor:
+  - text: 'At HWR Berlin, our degrees are consecutive degrees, meaning we mainly focus on your Bachelor's degree. You will apply with both your Bachelor's and Master's degrees, but the admission board will mainly focus on the Bachelor.'
+  - text: 'You need to apply with your bachelor´s degree if you are applying to a master´s programme at HWR Berlin.'
+
+  utter_r_application_from_international_university:
+  - text: 'If the university is not considered a German University, then you will have to apply in the same way as the international students do - via Uniassist.'
+  - text: 'If you hold a bachelor´s degree issued by a German university then you can apply via SAM at HWR Berlin. If you do not then please apply via uni-assist.'
+  - text: 'Please apply via uni-assist if you hold an international bachelor´s degree.'
+
+  utter_r_missed_deadline:
+  - text: 'Unfortunately the uni-assist deadline is the same as our deadline at the HWR Berlin. You have to apply during the next application period.'
+  - text: 'Unfortunately the deadline is the deadline. Please apply during the next application period.' 
+
+  utter_r_application_deadline:
+  - text: 'Applicants with a bachelor´s degree from a German university: 15 April – 15 June (application directly at HWR Berlin); Applicants with a bachelor´s degree from a university abroad: 15 March -15 May (application via uni-assist);'
+  - text: 'It depends on where you completed your bachelor degree. At a German university: 15. June. At a non-German university: 15. May.'
+
+  utter_r_where_to_apply:
+  - text: 'If you completed your Bachelor's degree at a German University, then you will apply via S.A.M (directly to HWR Berlin). However, if you have completed your Bachelor's degree in another country, you will have to apply via Uni-assist.'
+
+  utter_r_application_many_programs_possible:
+  - text: 'Yes, you can apply for up to three programmes. Please rank your first choice first.'
+  - text: 'Yes, our programmes are highly competitive, therefore you are likely to only be considered for one programme.'
+
+  utter_r_application_many_programs_needed:
+  - text: 'It is not necessary to apply for more then one program.'
+  - text: 'You dont have to apply for more than one program.'
+
+  utter_r_application_many_programs_chance_increase:
+  - text: 'It will not increase your chance of admission. Your second or third choice will only be considered if not enough people applied for the programme. This is very unlikely. '
+  - text: 'It will not increase your chances of admission if you apply for more than one programme.'
+
+  utter_r_how_many_courses:
+  - text: 'You can apply for up to three programmes, but it is not recommended to apply for three.'
+  - text: 'We recommend applying for your favoured programme at your first ranked choice. You can apply for up to three courses if you choose to.'
+
+  utter_r_application_status:
+  - text: 'Unfortunately I cant give you an update on your application status. HWR Berlin will email you between Mid-July and the end of September once an outcome has been reached on your application. The large majority of admission letters are sent in mid to late July. Only applicants via SAM can check their status by logging into SAM. Thank you for your patience.'
+
+  utter_r_application_status_uni_assist:
+  - text: 'Mid-July at the earliest. Most letters of offer are sent out in mid to late July.'
+
+  utter_r_aps_hand_in_late:
+  - text: 'The APS certificate must be handed in on time.'
+  - text: 'Unfortunately extenstions for the APS certificate can not be granted.'
+  - text: 'Unfortunately it is not possible to submit an APS certificate late.'
+
+  utter_r_aps_needed:
+  - text: 'If you studied your undergraduate studies in India, Vietnam, China and you would like to apply to HWR Berlin then you must submit an APS certificate.'
+  - text: 'For documents issued in the countries China, Vietnam and India, the APS certificate is an absolute requirement to apply to HWR Berlin and must be submitted before the application deadline has passed.'
+  - text: 'You can find out if you need an APS by carefully reading this page: https://www.uni-assist.de/en/tools/glossary-of-terms/description/term/akademische-pruefstelle-aps/'
+
+  utter_r_whats_aps:
+  - text: 'The APS is a joint institution of the German Embassy and the German Academic Exchange Service (DAAD). It exists in China, Vietnam and India. The APS checks the authenticity of educational biographies and the corresponding educational certificates, and issues certificates if the result is positive. For these countries, the APS certificate is a requirement for applying to a German university'
+
+  utter_r_consecutive_master:
+  - text: 'The master programs at HWR Berlin are so-called consecutive programs. They require applicants to have advanced academic knowledge of business-related subjects. This knowledge needs to stem from previous study programs. It cannot be replaced by work experience.'
+  - text: 'Our master programmes are consecutive, you must have completed a relevant bachelor or equivalent.'
+  - text: 'A consecutive master (postgraduate) is a programme that follows the relevant study from a bachelor´s programme (undergraduate)'
+
+  utter_r_duolingo_accepted:
+  - text: 'Duolingo language certificates are not accepted by HWR Berlin as proof of language proficiency.'
+  - text: 'We do not accept Duolingo certificates as proof of language proficiency.'
+
+  utter_r_eligibility:
+  - text: 'You are more than welcome to apply, if you feel you meet the requirements. We cannot offer a pre-check of any of your documents. The final decision, whether your academic background is considered sufficient will be made by the admission board after the application period closes.'
+  - text: 'Maybe you are, but we can´t tell you for sure! Please check the admission requirements on the webpage for each study programme.'
+
+  utter_r_eligibility_check:
+  - text: 'We do not provide pre-application eligibility checks. Please critically check your documents against the elgibility criteria listed on our webpages.'
+
+  utter_r_eligibility_master: 
+  - text: 'You can find the admission requirements for each study programme listed online: https://www.hwr-berlin.de/en/study/degree-programmes/'
+
+  utter_r_eligibility_check_who:
+  - text: 'We do not provide pre-application eligibility checks. Please critically check your documents against the elgibility criteria listed on our webpages.'
+
+  utter_r_no_relevant_studies:
+  - text: 'You can apply if you have successfully completed the relevant prerequisite courses prior to applying for a master at HWR Berlin. You can also apply with work experience or degrees in other fields, but you must be able to fulfill the academic requirements.'
 
 session_config:
   session_expiration_time: 60
