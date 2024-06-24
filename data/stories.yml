@@ -248,10 +248,10 @@ stories:
   - intent: q_english_proficiency_proof_studied
   - action: utter_r_english_proficiency_proof_studied
 
-- story: semester_arrive_later
+- story: semester_arrive_late
   steps:
-  - intent: q_semester_arrive_later
-  - action: utter_r_semester_arrive_later
+  - intent: q_semester_arrive_late
+  - action: utter_r_semester_arrive_late
 
 - story: defer_study_start
   steps:
