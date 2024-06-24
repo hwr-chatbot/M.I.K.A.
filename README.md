@@ -7,7 +7,7 @@
     ```
     If its not installed you can download it on the [Docker](https://docs.docker.com/engine/install/) website.
 
-- Make sure NodeJs is installed. Chet it with:
+- Make sure NodeJs is installed. Check it with:
     ```bash
     node --version
     ```
