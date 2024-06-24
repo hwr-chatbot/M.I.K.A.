@@ -456,7 +456,7 @@ nlu:
     - Could you check if I meet the requirements to apply?
     - Can you verify my qualifications for eligibility?
 
-- intend: q_eligibility_master
+- intent: q_eligibility_master
   examples: |
     - Am I eligible for a master's program?
     - What are the basic eligibility requirements for your master's programs?
@@ -464,7 +464,7 @@ nlu:
     - What are the main requirements to be eligible for your master's programs?
     - What GPA is required to be eligible for the master's program?
 
-- intend: q_eligibility_check_who
+- intent: q_eligibility_check_who
   examples: |
     - Who can check my eligibility? 
     - Can I send the certificate to someone who can say if it is valid?
@@ -478,7 +478,7 @@ nlu:
     - Who can evaluate my eligibility for the application process?
     - Who is the right person to verify my eligibility?
 
-- intend: q_no_relevant_studies
+- intent: q_no_relevant_studies
   examples: |
     - Can I study if I have not completed the relevant courses?
     - I have work expierience but studied in a different field. Can I apply?
