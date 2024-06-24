@@ -1,3 +1,4 @@
+version: '3.1'
 #Beispieldaten zum Verstehen von Mika
 nlu:
 - intent: welcome
