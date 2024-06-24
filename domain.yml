@@ -58,6 +58,7 @@ intents:
 - q_time_span_semester
 - q_work_experience_accepted
 - q_swap_work_experience
+- nlu_fallback
 - say_goodbye
 - negate
 #- zustimmen
@@ -282,3 +283,4 @@ actions:
 - utter_end
 - utter_welcome
 - utter_say_goodbye
+- action_default_fallback
