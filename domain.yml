@@ -170,7 +170,7 @@ responses:
   - text: 'It depends on where you completed your bachelor degree. At a German university: 15. June. At a non-German university: 15. May.'
 
   utter_r_where_to_apply:
-  - text: 'If you completed your Bachelor's degree at a German University, then you will apply via S.A.M (directly to HWR Berlin). However, if you have completed your Bachelor's degree in another country, you will have to apply via Uni-assist.'
+  - text: 'If you completed your Bachelors degree at a German University, then you will apply via S.A.M (directly to HWR Berlin). However, if you have completed your Bachelors degree in another country, you will have to apply via Uni-assist.'
 
   utter_r_application_many_programs_possible:
   - text: 'Yes, you can apply for up to three programmes. Please rank your first choice first.'
