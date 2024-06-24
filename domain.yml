@@ -283,4 +283,3 @@ actions:
 - utter_end
 - utter_welcome
 - utter_say_goodbye
-- action_default_fallback
