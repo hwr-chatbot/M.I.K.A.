@@ -18,4 +18,4 @@ policies:
     epochs: 100
   # - name: UnexpecTEDIntentPolicy
   #   epochs: 50
-  - name: RulePolicy
+  # - name: RulePolicy
