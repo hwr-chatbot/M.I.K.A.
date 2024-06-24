@@ -71,7 +71,7 @@ nlu:
     - am i talking to a human?
     - are you real?
     
-- intent: q_history_hwr
+- intent: history_hwr
   examples: |
     - How long has the HWR been around?
     - How long has the HWR Berlin been in existence?
@@ -80,7 +80,7 @@ nlu:
     - In which year was the HWR founded?
     - How long has the university been in existence?
 
-- intent: q_locations_hwr
+- intent: locations_hwr
   examples: |
     - Where exactly is the HWR campus?
     - Which locations does the HWR Berlin have?
@@ -88,14 +88,14 @@ nlu:
     - Where is the HWR located?
     - Where is the HWR?
 
-- intent: q_meaning_hwr
+- intent: meaning_hwr
   examples: |
     - What does HWR stand for?
     - What does HWR mean?
     - What does the abbreviation "HWR" mean?
     - What is HWR Berlin?
 
-- intent: q_information_courses
+- intent: information_courses
   examples: |
     - How and where can I find out more about the degree programs at HWR Berlin?
     - Where can I find out more about the degree programs at the HWR?
@@ -103,7 +103,7 @@ nlu:
     - Where can I find information about the degree programs at the HWR?
     - Which degree programs are available?
 
-- intent: q_prerequisite_for_courses
+- intent: prerequisite_for_courses
   examples: |
     - What are the requirements for which degree programs?
     - Which degrees do I need for which degree programs?
@@ -112,14 +112,14 @@ nlu:
     - Do I need a high school diploma for all degree programs?
     - Do I need an Abitur for all degree programs?
 
-- intent: q_prerequisite_dual
+- intent: prerequisite_dual
   examples: |
     - What are the requirements for a dual study program?
     - What qualifications do I need for a dual study program?
     - And what if I want to do a dual study program?
     - What do I need for a dual study program?
 
-- intent: q_international_students
+- intent: international_students
   examples: |
     - What are the requirements for international students?
     - I would like to study in Germany at the HWR Berlin. What do I have to do?
@@ -130,7 +130,7 @@ nlu:
     - What are the requirements for international students?
     - What do international students have to do if they want to study at the HWR?
 
-- intent: q_qualification_german_hs
+- intent: qualification_german_hs
   examples: |
     - But what qualifications do I need to study in Germany?
     - What qualifications do I need to study in Germany?
@@ -140,7 +140,7 @@ nlu:
     - How do I know if my degree is sufficient for studying in Germany?
     - Is my foreign degree sufficient to be able to study at the HWR?
 
-- intent: q_attend_courses_in_advance
+- intent: attend_courses_in_advance
   examples: |
     - Can I attend courses at the HWR Berlin in advance?
     - Can I visit the HWR before I start my studies?
@@ -148,7 +148,7 @@ nlu:
     - Can I attend courses without being a student?
     - Can I attend courses before I start studying?
 
-- intent: q_transfer_to_hwr
+- intent: transfer_to_hwr
   examples: |
     - Can I transfer from another university to the HWR Berlin?
     - I would like to transfer to the Hwr, is that possible?
@@ -156,12 +156,12 @@ nlu:
     - Can I transfer to the HWR from another university?
     - Is it possible to transfer to the HWR from another university?
 
-- intent: q_study_without_a-level
+- intent: study_without_a-level
   examples: |
     - Can I study without a high school diploma?
     - Can I study without a general higher education entrance qualification?
 
-- intent: q_english_courses
+- intent: english_courses
   examples: |
     - What English degree programs are there?
     - Are there any degree programs in English?
@@ -171,7 +171,7 @@ nlu:
     - Does the HWR offer degree programs in English?
     - Does the HWR also offer degree programs in English?
 
-- intent: q_guest_auditor
+- intent: guest_auditor
   examples: |
     - Can I register as a guest student?
     - Can I take part in courses as a guest student?
@@ -180,7 +180,7 @@ nlu:
     - Can I attend lectures as a guest?
     - Is it possible to attend lectures as a guest?
 
-- intent: q_admission_requirement
+- intent: admission_requirement
   examples: |
     - What are the admission requirements?
     - What are the entry requirements?
@@ -191,7 +191,7 @@ nlu:
     - What are the conditions for admissions?
     - What are the eligibility requirements for admission?
 
-- intent: q_english_certificate
+- intent: english_certificate
   examples: |
     - Which English certificate is necessary?
     - What English certification is needed?
@@ -201,7 +201,7 @@ nlu:
     - What English language qualification is required?
     - What kind of English certificate is required?
 
-- intent: q_motivational_letter
+- intent: motivational_letter
   examples: |
     - Are there formal requirements for the motivational letter?
     - What are the formal requirements for the motivational letter?
@@ -213,7 +213,7 @@ nlu:
     - What are the structural requirements fpr the motivational letter?
     - Are there any prescribed formats for the motivation letter?
 
-- intent: q_cv
+- intent: cv
   examples: |
     - What should my CV look like?
     - How should my CV be formatted?
@@ -221,7 +221,7 @@ nlu:
     - How should I structure my CV?
     - What is the preferred layout for a CV?
 
-- intent: q_prerequisite_admission
+- intent: prerequisite_admission
   examples: |
     - Are there any prerequiste courses required for admission to this program? 
     - Are there specific courses I need to take before applying to this program?
@@ -231,7 +231,7 @@ nlu:
     - Are there courses I must have taken beforehand to be eligible for this program?
     - Are there particular classes I need to have finished before applying to this program?
 
-- intent: q_masters_program
+- intent: masters_program
   examples: |
     - Can I apply for a master's program if I am currently finishing my undergraduate degree?
     - Can I apply for a masters program while still completing my undergraduate degree?
@@ -241,7 +241,7 @@ nlu:
     - Is it permissible to apply for a masters degree if I am nearing the completion of my bachelors degree?
     - Am I allowed to seek admission to a masters program before offically completing my bachelors degree?
 
-- intent: q_admission_documents
+- intent: admission_documents
   examples: |
     - What documents do I have to hand in?
     - Which documents do I need to submit?
@@ -251,7 +251,7 @@ nlu:
     - Which documents are necessary for submission?
     - What documentation is needed?
 
-- intent: q_master_or_bachelor
+- intent: master_or_bachelor
   examples: |
     - If I have already completed a masters degree, do I apply with my bachelor or masters degree?
     - Should I submit my Bachelors or masters degree if I have already completed a masters program?
@@ -259,7 +259,7 @@ nlu:
     - Should I provide my bachelors or masters degree for application?
     - Do I need to submit my bachelors degree if I have already obtained a masters degree?
 
-- intent: q_application_from_international_university
+- intent: application_from_international_university
   examples: |
     - If I completed my Bachelor's degree at an international university in Germany, how do I apply?
     - How should I apply if I completed my Bachelor's degree at an international university in Germany?
@@ -268,7 +268,7 @@ nlu:
     - How should I proceed with my application if I graduated from a university in Germany with an international background?
     - What is the application process like for someone who completed their Bachelor's degree at an international university in Germany?
 
-- intent: q_missed_deadline
+- intent: missed_deadline
   examples: |
     - I missed the uni-assist application deadline, can I still apply? 
     - Is it possible to apply after missing the uni-assist application deadline?
@@ -280,7 +280,7 @@ nlu:
     - What steps can I take if I missed the uni-assist application deadline?
     - Can I apply to uni-assist even if I missed the initial application deadline?
 
-- intent: q_application_deadline
+- intent: application_deadline
   examples: |
     - Which application deadline is applicable to me?
     - What is the relevant application deadline for me?
@@ -292,7 +292,7 @@ nlu:
     - What is the applicable deadline for my application?
     - Which deadline is appropriate for me to apply?
 
-- intent: q_where_to_apply
+- intent: where_to_apply
   examples: |
     - Do I apply via uni-assist or directly to HWR Berlin?
     - Should I apply through uni-assist or directly to HWR Berlin?
@@ -304,7 +304,7 @@ nlu:
     - Should I apply through uni-assist or should I apply directly to HWR Berlin?
     - Which method of application is required: uni-assist or direct to HWR Berlin?
 
-- intent: q_application_many_programs_possible
+- intent: application_many_programs_possible
   examples: |
     - Can I apply for more than one program?
     - Is it possible to apply for multiple programs?
@@ -316,7 +316,7 @@ nlu:
     - Is there a limit on the number of programs I can apply to?
     - Can I apply for several programs?
 
-- intent: q_application_many_programs_needed
+- intent: application_many_programs_needed
   examples: |
     - Do I have to apply for more than one programme?
     - Is it necessary to apply for more than one program?
@@ -328,7 +328,7 @@ nlu:
     - Am I expected to apply to multiple programs?
     - Is it compulsory to apply for more than one program?
 
-- intent: q_application_many_programs_chance_increase
+- intent: application_many_programs_chance_increase
   examples: |
     - Will it increase my chances of admission if I apply for more than one programme?
     - Does applying for multiple programmes improve my chances of admission?
@@ -340,7 +340,7 @@ nlu:
     - Will applying for multiple programmes improve my admission prospects?
     - Is it advantageous to apply for more than one programme to increase my chances of admission?
 
-- intent: q_how_many_courses
+- intent: how_many_courses
   examples: |
     - How many courses can I apply for? 
     - What is the maximum number of courses I can apply for?
@@ -351,7 +351,7 @@ nlu:
     - Am I limited in the number of courses I can apply to?
     - How many applications can I send in?
 
-- intent: q_application_status
+- intent: application_status
   examples: |
     - What is my application status?
     - Could you please update me on the status of my application?
@@ -363,7 +363,7 @@ nlu:
     - Is there any news on the status of my application?
     - Can you let me know if there is any update on my application?
 
-- intent: q_application_status_uni_assist
+- intent: application_status_uni_assist
   examples: |
     - I have submitted the application through uni-assist. When can I expect to hear back from the university?
     - How long does it typically take to receive a response after submitting my application through uni-assist?
@@ -375,7 +375,7 @@ nlu:
     - Could you provide an estimate of when I might receive a response from the university after using uni-assist to submit my application?
     - When can I expect notification from the university after submitting my application through uni-assist?
 
-- intent: q_aps_hand_in_late
+- intent: aps_hand_in_late
   examples: |
     - APS takes very long. Can I hand it in late?
     - Can I submit my APS certificate after the deadline?
@@ -387,7 +387,7 @@ nlu:
     - Can I deliver my APS evaluation at a later time?
     - Is there a grace period for submitting my APS certificate?
 
-- intent: q_aps_needed
+- intent: aps_needed
   examples: |
     - Do I need an APS certificate?
     - Is an APS certificate required for my application?
@@ -399,7 +399,7 @@ nlu:
     - Do I need to include an APS certificate in my application?
     - Is an APS certificate needed for my application process?
 
-- intent: q_whats_aps
+- intent: whats_aps
   examples: |
     - What is the APS certificate?
     - Can you explain what the APS certificate is?
@@ -411,7 +411,7 @@ nlu:
     - What is the role of the APS certificate in the application process?
     - What does an APS certificate signify?
 
-- intent: q_consecutive_master
+- intent: consecutive_master
   examples: |
     - What is a consecutive master?
     - Can you explain what a consecutive master’s program is?
@@ -423,7 +423,7 @@ nlu:
     - What are the characteristics of a consecutive master’s degree?
     - What does it mean to enroll in a consecutive master’s program?
 
-- intent: q_duolingo_accepted
+- intent: duolingo_accepted
   examples: |
     - Do you accept Duolingo certificates?
     - Do you recognize Duolingo English Test certificates?
@@ -435,14 +435,14 @@ nlu:
     - Will you accept Duolingo English Test results for admission?
     - Are Duolingo English Test certificates recognized by your institution?
 
-- intent: q_eligibility
+- intent: eligibility
   examples: |
     - Am I eligible to apply?  
     - Do I meet the eligibility criteria to apply?
     - Am I eligible to submit an application?
     - Am I eligible to apply with my current qualifications?
 
-- intent: q_eligibility_check
+- intent: eligibility_check
   examples: |
     - Can you check my eligibility?
     - Where can I check my eligibility?
@@ -456,7 +456,7 @@ nlu:
     - Could you check if I meet the requirements to apply?
     - Can you verify my qualifications for eligibility?
 
-- intent: q_eligibility_master
+- intent: eligibility_master
   examples: |
     - Am I eligible for a master's program?
     - What are the basic eligibility requirements for your master's programs?
@@ -464,7 +464,7 @@ nlu:
     - What are the main requirements to be eligible for your master's programs?
     - What GPA is required to be eligible for the master's program?
 
-- intent: q_eligibility_check_who
+- intent: eligibility_check_who
   examples: |
     - Who can check my eligibility? 
     - Can I send the certificate to someone who can say if it is valid?
@@ -478,7 +478,7 @@ nlu:
     - Who can evaluate my eligibility for the application process?
     - Who is the right person to verify my eligibility?
 
-- intent: q_no_relevant_studies
+- intent: no_relevant_studies
   examples: |
     - Can I study if I have not completed the relevant courses?
     - I have work expierience but studied in a different field. Can I apply?
@@ -491,7 +491,7 @@ nlu:
     - What are options for students with non-business backgrounds who want to pursue a business master's?
     - Do I need a business related bachelor's to pursure a master's in business? 
 
-- intent: q_whats_gmat
+- intent: whats_gmat
   examples: |
     - What is GMAT?
     - What is GMAT Testscore?
@@ -502,7 +502,7 @@ nlu:
     - What kind of exam is the GMAT?
     - What does the GMAT measure?
 
-- intent: q_gmat_needed
+- intent: gmat_needed
   examples: |
     - Do I need GMAT to apply?
     - What GMAT score is required to apply?
@@ -511,7 +511,7 @@ nlu:
     - Is GMAT required to apply?
     - Can I apply without GMAT?
 
-- intent: q_hwr_gmat_test
+- intent: hwr_gmat_test
   examples: |
     - Does HWR give out GMAT tests?
     - Does HWR administer GMAT tests?
@@ -522,7 +522,7 @@ nlu:
     - Can I schedule a GMAT test at HWR?
     - Is it possible to take the GMAT at HWR
 
-- intent: q_gre_instead_gmat
+- intent: gre_instead_gmat
   examples: |
     - Can I submit GRE scores instead of GMAT?
     - Do you accept GRE instead of GMAT?
@@ -534,7 +534,7 @@ nlu:
     - Is it possible to apply with GRE scores instead of GMAT?
     - Are GRE scores valid for applications in place of GMAT scores?
 
-- intent: q_english_proficiency_proof
+- intent: english_proficiency_proof
   examples: |
     - Which English language proof must I provide?
     - Which tests are accepted to prove my English language level?
@@ -545,7 +545,7 @@ nlu:
     - Which English language certificates are valid for application?
     - What English language proof is mandatory for my application?
 
-- intent: q_english_proficiency_proof_studied
+- intent: english_proficiency_proof_studied
   examples: |
     - I studied in English, do I have to take a test?
     - Do I need to take an English proficiency test if I studied in English?
@@ -557,7 +557,7 @@ nlu:
     - Is it necessary to take an English proficiency exam if I studied in an English-speaking environment?
     - Will I need to take an English test if my degree was taught in English?
 
-- intent: q_semester_arrive_later
+- intent: semester_arrive_later
   examples: | 
     - Is it possible to arrive later in the semester?
     - Can I start the semester late?
@@ -569,7 +569,7 @@ nlu:
     - Can I commence my studies later in the semester?
     - Is it acceptable to arrive partway through the semester?
 
-- intent: q_defer_study_start
+- intent: defer_study_start
   examples: |
     - Can I defer my study start date?
     - Can I defer my study place at HWR Berlin?
@@ -580,7 +580,7 @@ nlu:
     - Am I allowed to defer my start date for studying?
     - Is deferring my study start date an option?
   
-- intent: q_semester_start
+- intent: semester_start
   examples: |
     - When does the semester start?
     - When does the winter semester begin?
@@ -591,7 +591,7 @@ nlu:
     - What is the beginning date for the semester?
     - When is the first day of the semester?
 
-- intent: q_time_span_semester
+- intent: time_span_semester
   examples: |
     - How long is a typical semester?
     - What is the duration of a typical semester?
@@ -601,7 +601,7 @@ nlu:
     - How long does a usual semester run?
     - How long does a semester typically last?
 
-- intent: q_work_experience_accepted
+- intent: work_experience_accepted
   examples: |
     - Is work experience accepted which I gained while studying?
     - Do you consider work experience gained during my studies?
@@ -614,7 +614,7 @@ nlu:
     - Will my work experience during my academic studies be considered?
     - Is work experience an asset?
 
-- intent: q_swap_work_experience
+- intent: swap_work_experience
   examples: |
     - Can I swap work experience for academic study requirements?
     - Is it possible to substitute work experience for academic study requirements?

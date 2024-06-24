@@ -6,7 +6,7 @@ stories:
   steps:
   - intent: welcome
   - action: utter_welcome
-  - intent: q_history_hwr
+  - intent: history_hwr
   - action: utter_history_hwr
   - intent: say_goodbye
   - action: utter_say_goodbye
@@ -15,70 +15,70 @@ stories:
   steps:
   - intent: welcome
   - action: utter_welcome
-  - intent: q_locations_hwr
+  - intent: locations_hwr
   - action: utter_locations_hwr
   - intent: say_goodbye
   - action: utter_say_goodbye
   
 - story: information_courses
   steps:
-  - intent: q_information_courses
-  - action: utter_r_information_courses
+  - intent: information_courses
+  - action: utter_information_courses
 
 - story: prerequisite_for_courses
   steps:
-  - intent: q_prerequisite_for_courses
-  - action: utter_r_prerequisite_for_courses
-  - intent: q_prerequisite_dual
-  - action: utter_r_prerequisite_dual
+  - intent: prerequisite_for_courses
+  - action: utter_prerequisite_for_courses
+  - intent: prerequisite_dual
+  - action: utter_prerequisite_dual
   
 - story: international_students
   steps:
-  - intent: q_international_students
-  - action: utter_r_international_students
-  - intent: q_qualification_german_hs
-  - action: utter_r_qualification_german_hs
+  - intent: international_students
+  - action: utter_international_students
+  - intent: qualification_german_hs
+  - action: utter_qualification_german_hs
 
 - story: attend_courses_in_advance
   steps:
-  - intent: q_attend_courses_in_advance
-  - action: utter_r_attend_courses_in_advance
+  - intent: attend_courses_in_advance
+  - action: utter_attend_courses_in_advance
 
 - story: meaning_hwr
   steps:
-  - intent: q_meaning_hwr
+  - intent: meaning_hwr
   - action: utter_meaning_hwr
 
 - story: transfer_to_hwr
   steps:
-  - intent: q_transfer_to_hwr
-  - action: utter_r_transfer_to_hwr
+  - intent: transfer_to_hwr
+  - action: utter_transfer_to_hwr
 
 - story: study_without_a-level
   steps:
-  - intent: q_study_without_a-level
-  - action: utter_r_study_without_a-level
+  - intent: study_without_a-level
+  - action: utter_study_without_a-level
 
 - story: english_courses
   steps:
-  - intent: q_english_courses
-  - action: utter_r_english_courses
+  - intent: english_courses
+  - action: utter_english_courses
 
 - story: guest_auditor
   steps:
-  - intent: q_guest_auditor
-  - action: utter_r_guest_auditor
+  - intent: guest_auditor
+  - action: utter_guest_auditor
 
 - story: demo_temp
   steps:
   - intent: welcome
   - action: utter_welcome # Enthält aktuell die Anschlussfrage, was man über die HWR wissen will
-  - intent: q_locations_hwr
+  - intent: locations_hwr
   - action: utter_locations_hwr
-  - intent: q_information_courses
-  - action: utter_r_information_courses
-  - intent: q_prerequisite_dual
-  - action: utter_r_prerequisite_dual
+  - intent: information_courses
+  - action: utter_information_courses
+  - intent: prerequisite_dual
+  - action: utter_prerequisite_dual
   - intent: thank
   - action: utter_with_pleasure
   - intent: say_goodbye
@@ -95,185 +95,185 @@ stories:
 
 - story: admission_requirement
   steps:
-  - intent: q_admission_requirement
-  - action: utter_r_admission_requirement
+  - intent: admission_requirement
+  - action: utter_admission_requirement
 
 - story: english_certificate
   steps:
-  - intent: q_english_certificate
-  - action: utter_r_english_certificate
+  - intent: english_certificate
+  - action: utter_english_certificate
 
 - story: motivational_letter
   steps:
-  - intent: q_motivational_letter
-  - action: utter_r_motivational_letter
+  - intent: motivational_letter
+  - action: utter_motivational_letter
 
 - story: cv
   steps:
-  - intent: q_cv
-  - action: utter_r_cv
+  - intent: cv
+  - action: utter_cv
 
 - story: prerequisite_admission
   steps:
-  - intent: q_prerequisite_admission
-  - action: utter_r_prerequisite_admission
+  - intent: prerequisite_admission
+  - action: utter_prerequisite_admission
 
 - story: masters_program
   steps:
-  - intent: q_masters_program
-  - action: utter_r_masters_program
+  - intent: masters_program
+  - action: utter_masters_program
 
 - story: admission_documents
   steps:
-  - intent: q_admission_documents
-  - action: utter_r_admission_documents
+  - intent: admission_documents
+  - action: utter_admission_documents
 
 - story: master_or_bachelor
   steps:
-  - intent: q_master_or_bachelor
-  - action: utter_r_master_or_bachelor
+  - intent: master_or_bachelor
+  - action: utter_master_or_bachelor
 
 - story: application_from_international_university
   steps:
-  - intent: q_application_from_international_university
-  - action: utter_r_application_from_international_university
+  - intent: application_from_international_university
+  - action: utter_application_from_international_university
 
 - story: missed_deadline
   steps:
-  - intent: q_missed_deadline
-  - action: utter_r_missed_deadline
+  - intent: missed_deadline
+  - action: utter_missed_deadline
 
 - story: application_deadline
   steps:
-  - intent: q_application_deadline
-  - action: utter_r_application_deadline
+  - intent: application_deadline
+  - action: utter_application_deadline
 
 - story: where_to_apply
   steps:
-  - intent: q_where_to_apply
-  - action: utter_r_where_to_apply
+  - intent: where_to_apply
+  - action: utter_where_to_apply
 
 - story: application_many_programs_possible
   steps:
-  - intent: q_application_many_programs_possible
-  - action: utter_r_application_many_programs_possible
+  - intent: application_many_programs_possible
+  - action: utter_application_many_programs_possible
 
 - story: application_many_programs_chance_increase
   steps:
-  - intent: q_application_many_programs_chance_increase
-  - action: utter_r_application_many_programs_chance_increase
+  - intent: application_many_programs_chance_increase
+  - action: utter_application_many_programs_chance_increase
 
 - story: how_many_courses
   steps:
-  - intent: q_how_many_courses
-  - action: utter_r_how_many_courses
+  - intent: how_many_courses
+  - action: utter_how_many_courses
 
 - story: application_status
   steps:
-  - intent: q_application_status
-  - action: utter_r_application_status
+  - intent: application_status
+  - action: utter_application_status
 
 - story: application_status_uni_assist
   steps:
-  - intent: q_application_status_uni_assist
-  - action: utter_r_application_status_uni_assist
+  - intent: application_status_uni_assist
+  - action: utter_application_status_uni_assist
 
 - story: aps_hand_in_late
   steps:
-  - intent: q_aps_hand_in_late
-  - action: utter_r_aps_hand_in_late
+  - intent: aps_hand_in_late
+  - action: utter_aps_hand_in_late
 
 - story: aps_needed
   steps:
-  - intent: q_aps_needed
-  - action: utter_r_aps_needed
+  - intent: aps_needed
+  - action: utter_aps_needed
 
 - story: whats_aps
   steps:
-  - intent: q_whats_aps
-  - action: utter_r_whats_aps
+  - intent: whats_aps
+  - action: utter_whats_aps
 
 - story: consecutive_master
   steps:
-  - intent: q_consecutive_master
-  - action: utter_r_consecutive_master
+  - intent: consecutive_master
+  - action: utter_consecutive_master
 
 - story: eligibility
   steps:
-  - intent: q_eligibility
-  - action: utter_r_eligibility
+  - intent: eligibility
+  - action: utter_eligibility
 
 - story: eligibility_check
   steps:
-  - intent: q_eligibility_check
-  - action: utter_r_eligibility_check
+  - intent: eligibility_check
+  - action: utter_eligibility_check
 
 - story: eligibility_check_who
   steps:
-  - intent: q_eligibility_check_who
-  - action: utter_r_eligibility_check_who
+  - intent: eligibility_check_who
+  - action: utter_eligibility_check_who
 
-- story: no_relevant_studies
+- story: noelevant_studies
   steps:
-  - intent: q_no_relevant_studies
-  - action: utter_r_no_relevant_studies
+  - intent: noelevant_studies
+  - action: utter_no_relevant_studies
 
 - story: whats_gmat
   steps:
-  - intent: q_whats_gmat
-  - action: utter_r_whats_gmat
+  - intent: whats_gmat
+  - action: utter_whats_gmat
 
 - story: gmat_needed
   steps:
-  - intent: q_gmat_needed
-  - action: utter_r_gmat_needed
+  - intent: gmat_needed
+  - action: utter_gmat_needed
 
 - story: hwr_gmat_test
   steps:
-  - intent: q_hwr_gmat_test
-  - action: utter_r_hwr_gmat_test
+  - intent: hwr_gmat_test
+  - action: utter_hwr_gmat_test
 
 - story: gre_instead_gmat
   steps:
-  - intent: q_gre_instead_gmat
-  - action: utter_r_gre_instead_gmat
+  - intent: gre_instead_gmat
+  - action: utter_gre_instead_gmat
 
 - story: english_proficiency_proof
   steps:
-  - intent: q_english_proficiency_proof
-  - action: utter_r_english_proficiency_proof
+  - intent: english_proficiency_proof
+  - action: utter_english_proficiency_proof
 
 - story: english_proficiency_proof_studied
   steps:
-  - intent: q_english_proficiency_proof_studied
-  - action: utter_r_english_proficiency_proof_studied
+  - intent: english_proficiency_proof_studied
+  - action: utter_english_proficiency_proof_studied
 
 - story: semester_arrive_late
   steps:
-  - intent: q_semester_arrive_late
-  - action: utter_r_semester_arrive_late
+  - intent: semester_arrive_late
+  - action: utter_semester_arrive_late
 
 - story: defer_study_start
   steps:
-  - intent: q_defer_study_start
-  - action: utter_r_defer_study_start
+  - intent: defer_study_start
+  - action: utter_defer_study_start
 
 - story: semester_start
   steps:
-  - intent: q_semester_start
-  - action: utter_r_semester_start
+  - intent: semester_start
+  - action: utter_semester_start
 
 - story: time_span_semester
   steps:
-  - intent: q_time_span_semester
-  - action: utter_r_time_span_semester
+  - intent: time_span_semester
+  - action: utter_time_span_semester
 
 - story: work_experience_accepted
   steps:
-  - intent: q_work_experience_accepted
-  - action: utter_r_work_experience_accepted
+  - intent: work_experience_accepted
+  - action: utter_work_experience_accepted
 
 - story: swap_work_experience
   steps:
-  - intent: q_swap_work_experience
-  - action: utter_r_swap_work_experience
+  - intent: swap_work_experience
+  - action: utter_swap_work_experience
