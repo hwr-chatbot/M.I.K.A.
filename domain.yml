@@ -153,7 +153,7 @@ responses:
   - text: 'Check the webpage of each study programme to be sure which documents must be handed in. Typical documents are transcript of records, CV, motivational letter, language proficiency proof(s), university graduation certificates.'
 
   utter_r_master_or_bachelor:
-  - text: 'At HWR Berlin, our degrees are consecutive degrees, meaning we mainly focus on your Bachelors degree. You will apply with both your Bachelor's and Master's degrees, but the admission board will mainly focus on the Bachelor.'
+  - text: 'At HWR Berlin, our degrees are consecutive degrees, meaning we mainly focus on your Bachelors degree. You will apply with both your Bachelors and Masters degrees, but the admission board will mainly focus on the Bachelor.'
   - text: 'You need to apply with your bachelor´s degree if you are applying to a master´s programme at HWR Berlin.'
 
   utter_r_application_from_international_university:
