@@ -46,6 +46,18 @@ intents:
 - q_eligibility_check_who
 - q_eligibility_master
 - q_no_relevant_studies
+- q_whats_gmat
+- q_gmat_needed
+- q_hwr_gmat_test
+- q_gre_instead_gmat
+- q_english_proficiency_proof
+- q_english_proficiency_proof_studied
+- q_semester_arrive_later
+- q_defer_study_start
+- q_semester_start
+- q_time_span_semester
+- q_work_experience_accepted
+- q_swap_work_experience
 - say_goodbye
 - negate
 #- zustimmen
@@ -219,6 +231,48 @@ responses:
 
   utter_r_no_relevant_studies:
   - text: 'You can apply if you have successfully completed the relevant prerequisite courses prior to applying for a master at HWR Berlin. You can also apply with work experience or degrees in other fields, but you must be able to fulfill the academic requirements.'
+
+  utter_r_whats_gmat:
+  - text: 'The Graduate Management Admission Test (GMAT) is a graduate admissions entrance exam designed specifically for students who want to go to graduate school for business. A GMAT score is often required when submitting a graduate program application for an MBA, Master of Accountancy, or Master of Finance.'
+
+  utter_r_gmat_needed:
+  - text: 'A GMAT test score is not a mandatory application requirement. You can submit an application to HWR Berlin with or without a GMAT. Please always check the latest requirements listed on our study programmes´ webpages.'
+  - text: 'An application can be considered valid even without a GMAT test score. You can submit an application to HWR Berlin with or without a GMAT. Please always check the latest requirements listed on our study programmes´ webpages.'
+
+  utter_r_hwr_gmat_test:
+  - text: 'HWR Berlin does not administer GMAT tests.'
+  - text: 'HWR Berlin does not conduct GMAT tests.'
+
+  utter_r_gre_instead_gmat:
+  - text: 'A GRE can be accepted instead of a GMAT especially in the cases of Iranian bachelor holding applicants.'
+  - text: 'Applicants especially from Iran can alternatively submit a GRE instead of a GMAT test score.'
+
+  utter_r_english_proficiency_proof:
+  - text: 'You need to present a standardized test to prove that your English level is a high B2 CEFR or above. We accept certificates of up to five years old. Please see the study programme webpage of your choice for the most up to date requirements.'
+  - text: 'You need to present a standardized test to prove that your English level is a high B2 CEFR or above. We accept certificates of up to five years old. The required minimum score of the accepted English certificates are listed on each study programme´s webpage.'
+
+  utter_r_english_proficiency_proof_studied:
+  - text: 'A standardized test is not necessary, if you have studied in the higher education system for a minimum of two semesters entirely in English. This can be accepted as equivalent. Please provide proof e.g. a statement by your university about the language of instruction. A transcript in English is not sufficient. Further you do not need to provide English certificates if you hold a GMAT.'
+  - text: 'If you have studied in the higher education system for a minimum of two semesters entirely in English, then a standardised test may not be neccersary. This can be accepted as equivalent.'
+
+  utter_r_semester_arrive_late:
+  - text: 'It is not recommended.  We have an attendance requirement, meaning you can miss between 2 - 3 times in a semester. You need to be in Berlin by the beginning of October.'
+  - text: 'Classes will be taught on campus at the university in Berlin. It is mandatory to be in Berlin by October, otherwise it will not be possible to take part in the classes. All courses have a mandatory class attendance of 80%.'
+
+  utter_r_defer_study_start:
+  - text: 'Deferral is not offered as part of an admissions offer. Any offer letter for study at HWR Berlin will outline how to accept or reject the offer. In case you cannot get a visa on time we recommend that you apply again next year.'
+
+  utter_r_semester_start:
+  - text: 'The winter semester starts on October 1st. The summer semester begins on the 1st of April.'
+
+  utter_r_time_span_semester:
+  - text: 'The academic year is split into the summer semester and winter semester. Each summer semester lasts from April 1st through to September 30th. Each winter semester lasts from October 1st through to March 31st.'
+
+  utter_r_work_experience_accepted:
+  - text: 'Work experience is an asset and can have a positive impact on your application. It is voluntary to hand in proof of work experience. The amount to which it affects your application is dependent on the course you are interested in, as well as whether you have one or two (or more) years of full-time work experience. You can list part-time, casual, or internship work experience gained while enrolled as a student, however please list it on your CV.'  
+
+  utter_r_swap_work_experience:
+  - text: 'It is not possible to take work experience into account for the required courses. The required course must be university courses from an accredited university.'
 
 session_config:
   session_expiration_time: 60

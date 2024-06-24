@@ -491,3 +491,138 @@ nlu:
     - Will my non business undergraduate degree affect my eligiblity for you master's programs?
     - What are options for students with non-business backgrounds who want to pursue a business master's?
     - Do I need a business related bachelor's to pursure a master's in business? 
+
+- intent: q_whats_gmat
+  examples: |
+    - What is GMAT?
+    - What is GMAT Testscore?
+    - What is a GMAT test?
+    - What exactly is GMAT?
+    - Can you explain what the GMAT is?
+    - What is the purpose of the GMAT?
+    - What kind of exam is the GMAT?
+    - What does the GMAT measure?
+
+- intent: q_gmat_needed
+  examples: |
+    - Do I need GMAT to apply?
+    - What GMAT score is required to apply?
+    - Is GMAT mandatory?
+    - Do I have to submit a GMAT test score?
+    - Is GMAT required to apply?
+    - Can I apply without GMAT?
+
+- intent: q_hwr_gmat_test
+  examples: |
+    - Does HWR give out GMAT tests?
+    - Does HWR administer GMAT tests?
+    - Can I take the GMAT test at HWR?
+    - Is HWR a testing center for the GMAT?
+    - Does HWR offer GMAT testing services?
+    - Are GMAT exams conducted at HWR?
+    - Can I schedule a GMAT test at HWR?
+    - Is it possible to take the GMAT at HWR
+
+- intent: q_gre_instead_gmat
+  examples: |
+    - Can I submit GRE scores instead of GMAT?
+    - Do you accept GRE instead of GMAT?
+    - Is the GRE accepted in place of the GMAT?
+    - Will you consider GRE scores instead of GMAT scores?
+    - Do you accept the GRE as an alternative to the GMAT?
+    - Can I use my GRE results instead of GMAT for your program?
+    - Does your institution accept GRE in lieu of GMAT?
+    - Is it possible to apply with GRE scores instead of GMAT?
+    - Are GRE scores valid for applications in place of GMAT scores?
+
+- intent: q_english_proficiency_proof
+  examples: |
+    - Which English language proof must I provide?
+    - Which tests are accepted to prove my English language level?
+    - What English language certification is required?
+    - What kind of English language proficiency proof is necessary?
+    - Which English language qualifications are accepted?
+    - What type of English proficiency documentation do I need to provide?
+    - Which English language certificates are valid for application?
+    - What English language proof is mandatory for my application?
+
+- intent: q_english_proficiency_proof_studied
+  examples: |
+    - I studied in English, do I have to take a test?
+    - Do I need to take an English proficiency test if I studied in English?
+    - Is an English test required if my studies were conducted in English?
+    - Must I take an English language test despite having studied in English?
+    - Am I exempt from taking an English test if my education was in English?
+    - If I completed my studies in English, do I still need to provide test scores?
+    - Do I have to provide an English test score if my previous education was in English?
+    - Is it necessary to take an English proficiency exam if I studied in an English-speaking environment?
+    - Will I need to take an English test if my degree was taught in English?
+
+- intent: q_semester_arrive_later
+  examples: | 
+    - Is it possible to arrive later in the semester?
+    - Can I start the semester late?
+    - Is late arrival in the semester allowed?
+    - May I join the semester after it has started?
+    - Is it possible to begin the semester at a later date?
+    - Can I arrive after the semester has begun?
+    - Is late entry into the semester permitted?
+    - Can I commence my studies later in the semester?
+    - Is it acceptable to arrive partway through the semester?
+
+- intent: q_defer_study_start
+  examples: |
+    - Can I defer my study start date?
+    - Can I defer my study place at HWR Berlin?
+    - I do not have a visa yet, can I defer my study place?
+    - Is deferral an option at HWR Berlin?
+    - Is it possible to defer my study start date?
+    - Can I postpone the start date of my studies?
+    - Am I allowed to defer my start date for studying?
+    - Is deferring my study start date an option?
+  
+- intent: q_semester_start
+  examples: |
+    - When does the semester start?
+    - When does the winter semester begin?
+    - When does summer semester begin?
+    - When does the semester begin?
+    - What is the start date of the semester?
+    - Can you tell me the semester start date?
+    - What is the beginning date for the semester?
+    - When is the first day of the semester?
+
+- intent: q_time_span_semester
+  examples: |
+    - How long is a typical semester?
+    - What is the duration of a typical semester?
+    - How many months does a typical semester last?
+    - What is the length of a standard semester?
+    - What is the typical length of a semester?
+    - How long does a usual semester run?
+    - How long does a semester typically last?
+
+- intent: q_work_experience_accepted
+  examples: |
+    - Is work experience accepted which I gained while studying?
+    - Do you consider work experience gained during my studies?
+    - Is work experience acquired while studying taken into account?
+    - Will you accept work experience obtained while I was a student?
+    - Is work experience during my studies recognized in the application process?
+    - Do you value work experience gained concurrently with my studies?
+    - Is work experience obtained while studying considered valid?
+    - Does work experience accumulated during my studies count towards eligibility?
+    - Will my work experience during my academic studies be considered?
+    - Is work experience an asset?
+
+- intent: q_swap_work_experience
+  examples: |
+    - Can I swap work experience for academic study requirements?
+    - Is it possible to substitute work experience for academic study requirements?
+    - Can work experience be used in place of academic study requirements?
+    - Are academic study requirements interchangeable with relevant work experience?
+    - Can I fulfill academic study requirements with equivalent work experience?
+    - Is there an option to substitute academic study requirements with relevant work experience?
+    - Can work experience satisfy the academic study prerequisites?
+    - Is work experience considered an alternative to meeting academic study requirements?
+    - Am I allowed to use work experience to fulfill academic study criteria?
