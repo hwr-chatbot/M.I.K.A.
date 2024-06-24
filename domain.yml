@@ -146,14 +146,14 @@ responses:
 
   utter_r_masters_program:
   - text: 'Yes, you can apply to a master´s programme at HWR Berlin even if you are completing the final stages of your undergraduate degree. Please provide a prelimary transcript of record and a letter from your tertiary education institution stating your expected completion date.'
-  - text : 'Yes, you will need to provide proof of your expected completion date and a preliminary transcript of records in your application.'
+  - text: 'Yes, you will need to provide proof of your expected completion date and a preliminary transcript of records in your application.'
 
   utter_r_admission_documents:
   - text: 'Please check the webpage for a list of the documents you must hand in. Generally speaking Transcript of records, University graduation certificates, proof of language proficiency, CV and motivational letter. All documents must be certified and translated into English or German and submitted online along with the originals.'
   - text: 'Check the webpage of each study programme to be sure which documents must be handed in. Typical documents are transcript of records, CV, motivational letter, language proficiency proof(s), university graduation certificates.'
 
   utter_r_master_or_bachelor:
-  - text: 'At HWR Berlin, our degrees are consecutive degrees, meaning we mainly focus on your Bachelor's degree. You will apply with both your Bachelor's and Master's degrees, but the admission board will mainly focus on the Bachelor.'
+  - text: 'At HWR Berlin, our degrees are consecutive degrees, meaning we mainly focus on your Bachelors degree. You will apply with both your Bachelor's and Master's degrees, but the admission board will mainly focus on the Bachelor.'
   - text: 'You need to apply with your bachelor´s degree if you are applying to a master´s programme at HWR Berlin.'
 
   utter_r_application_from_international_university:
