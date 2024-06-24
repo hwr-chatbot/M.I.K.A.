@@ -1,4 +1,3 @@
-version: "3.1"
 #Beispieldaten zum Verstehen von Mika
 nlu:
 - intent: welcome
@@ -436,7 +435,7 @@ nlu:
     - Will you accept Duolingo English Test results for admission?
     - Are Duolingo English Test certificates recognized by your institution?
 
- - intent: q_eligibility
+- intent: q_eligibility
   examples: |
     - Am I eligible to apply?  
     - Do I meet the eligibility criteria to apply?
