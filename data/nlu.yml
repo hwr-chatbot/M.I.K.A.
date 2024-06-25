@@ -558,7 +558,7 @@ nlu:
     - Is it necessary to take an English proficiency exam if I studied in an English-speaking environment?
     - Will I need to take an English test if my degree was taught in English?
 
-- intent: semester_arrive_later
+- intent: semester_arrive_late
   examples: | 
     - Is it possible to arrive later in the semester?
     - Can I start the semester late?

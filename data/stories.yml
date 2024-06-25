@@ -153,6 +153,11 @@ stories:
   - intent: where_to_apply
   - action: utter_where_to_apply
 
+- story: application_many_programs_needed
+  steps:
+  - intent: application_many_programs_needed
+  - action: utter_application_many_programs_needed
+
 - story: application_many_programs_possible
   steps:
   - intent: application_many_programs_possible
@@ -213,9 +218,9 @@ stories:
   - intent: eligibility_check_who
   - action: utter_eligibility_check_who
 
-- story: noelevant_studies
+- story: no_relevant_studies
   steps:
-  - intent: noelevant_studies
+  - intent: no_relevant_studies
   - action: utter_no_relevant_studies
 
 - story: whats_gmat
@@ -227,6 +232,11 @@ stories:
   steps:
   - intent: gmat_needed
   - action: utter_gmat_needed
+
+- story: duolingo_accepted
+  steps:
+  - intent: duolingo_accepted
+  - action: utter_duolingo_accepted
 
 - story: hwr_gmat_test
   steps:
