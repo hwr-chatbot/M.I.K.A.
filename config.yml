@@ -20,6 +20,8 @@ pipeline:
 
 policies:
   - name: UnexpecTEDIntentPolicy
-    epochs: 500
+    epochs: 200
+  - name: TEDPolicy
+    epochs: 200
   - name: MemoizationPolicy
   - name: RulePolicy

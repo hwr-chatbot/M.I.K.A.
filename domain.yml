@@ -63,15 +63,15 @@ intents:
 #- zustimmen
 
 responses:
-  utter_ask_rephrase:
+  utter_please_rephrase:
   - text: I'm sorry, I didn't understand that. Could you rephrase it?
   - text: Sorry, that was too complicated for me. Can you rephrase your question?
+ 
+  utter_default:
+  - text: Sorry, I cant help you with your request. Please contact the Study Administration Service for further help.
 
   utter_end:
   - text: All right, let me know if you need any further help.
-
-  utter_default:
-  - text: Sorry, I cant help you with your request. Please contact the Study Administration Service for further help.
 
   utter_welcome:
   - text: 'Hi, some questions you could ask would be for example: "What does the abbreviation "HWR" mean?", "Where is the HWR?" or "What degree programs are there?"'
