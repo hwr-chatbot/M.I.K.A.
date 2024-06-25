@@ -80,7 +80,7 @@ stories:
   - intent: prerequisite_dual
   - action: utter_prerequisite_dual
   - intent: thank
-  - action: utter_with_pleasure
+  - action: utter_thank
   - intent: say_goodbye
   - action: utter_say_goodbye  
 
