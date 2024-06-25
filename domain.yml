@@ -77,7 +77,7 @@ responses:
   - text: My name is Mika and I am a chatbot that has been specially trained to answer questions about the HWR.
   - text: I am Mika, a chatbot that has been specially trained to answer questions about the HWR.
 
-  utter_with_pleasure:
+  utter_thank:
   - text: With pleasure.
   - text: You're welcome!
 
@@ -127,35 +127,35 @@ responses:
 
   utter_admission_requirement:
   - text: 'You can find the admission requirements for each study program listed online: https://www.hwr-berlin.de/en/study/degree-programmes/'
-  - text: 'As each study programmes can vary, it´s best to check the website: https://www.hwr-berlin.de/en/study/degree-programmes/'
+  - text: 'As each study programs can vary, it´s best to check the website: https://www.hwr-berlin.de/en/study/degree-programmes/'
   - text: 'The admission requirements for each study program are listed online. Check our website here for the latest information: https://www.hwr-berlin.de/en/study/degree-programmes/'
 
   utter_english_certificate:
   - text: 'You need to present a standardized test to prove that your English level is a high B2 CEFR or above. We accept certificates of up to five years old. Exceptions apply, please check our website.'
-  - text: 'Please check each study programme´s webpage for a list of the accepted standardised certificates. Some exceptions may apply'
+  - text: 'Please check each study programs webpage for a list of the accepted standardised certificates. Some exceptions may apply'
 
   utter_motivational_letter:
   - text: 'Please keep your motivation letter to one A4 page, written in English, unless stated otherwise.'
   - text: 'Write about your motivations for applying to the degree. Please write no more than one page in English.'
 
   utter_cv:
-  - text: 'Please keep your CV relevant and tailor it to HWR and the programme you are applying to. It´s a good idea to keep it to a maximum of two pages.'
-  - text: 'Keep your CV formal, and to a maximum of two pages. Tailor your CV to HWR Berlin and the study programme you are applying to.'
+  - text: 'Please keep your CV relevant and tailor it to HWR and the program you are applying to. It´s a good idea to keep it to a maximum of two pages.'
+  - text: 'Keep your CV formal, and to a maximum of two pages. Tailor your CV to HWR Berlin and the study program you are applying to.'
 
   utter_prerequisite_admission:
-  - text: 'Yes, each study programme will list the courses on their webpages that must have been completed prior to applying. While names can vary from institution to instituion, the basic content must remain relevant.'
+  - text: 'Yes, each study program will list the courses on their webpages that must have been completed prior to applying. While names can vary from institution to instituion, the basic content must remain relevant.'
 
   utter_masters_program:
-  - text: 'Yes, you can apply to a master´s programme at HWR Berlin even if you are completing the final stages of your undergraduate degree. Please provide a prelimary transcript of record and a letter from your tertiary education institution stating your expected completion date.'
+  - text: 'Yes, you can apply to a master´s program at HWR Berlin even if you are completing the final stages of your undergraduate degree. Please provide a prelimary transcript of record and a letter from your tertiary education institution stating your expected completion date.'
   - text: 'Yes, you will need to provide proof of your expected completion date and a preliminary transcript of records in your application.'
 
   utter_admission_documents:
   - text: 'Please check the webpage for a list of the documents you must hand in. Generally speaking Transcript of records, University graduation certificates, proof of language proficiency, CV and motivational letter. All documents must be certified and translated into English or German and submitted online along with the originals.'
-  - text: 'Check the webpage of each study programme to be sure which documents must be handed in. Typical documents are transcript of records, CV, motivational letter, language proficiency proof(s), university graduation certificates.'
+  - text: 'Check the webpage of each study program to be sure which documents must be handed in. Typical documents are transcript of records, CV, motivational letter, language proficiency proof(s), university graduation certificates.'
   
   utter_master_or_bachelor:
   - text: 'At HWR Berlin, our degrees are consecutive degrees, meaning we mainly focus on your Bachelors degree. You will apply with both your Bachelors and Masters degrees, but the admission board will mainly focus on the Bachelor.'
-  - text: 'You need to apply with your bachelor´s degree if you are applying to a master´s programme at HWR Berlin.'
+  - text: 'You need to apply with your bachelor´s degree if you are applying to a master´s program at HWR Berlin.'
 
   utter_application_from_international_university:
   - text: 'If the university is not considered a German University, then you will have to apply in the same way as the international students do - via Uniassist.'
@@ -174,20 +174,20 @@ responses:
   - text: 'If you completed your Bachelors degree at a German University, then you will apply via S.A.M (directly to HWR Berlin). However, if you have completed your Bachelors degree in another country, you will have to apply via Uni-assist.'
 
   utter_application_many_programs_possible:
-  - text: 'Yes, you can apply for up to three programmes. Please rank your first choice first.'
-  - text: 'Yes, our programmes are highly competitive, therefore you are likely to only be considered for one programme.'
+  - text: 'Yes, you can apply for up to three programs. Please rank your first choice first.'
+  - text: 'Yes, our programs are highly competitive, therefore you are likely to only be considered for one program.'
 
   utter_application_many_programs_needed:
   - text: 'It is not necessary to apply for more then one program.'
   - text: 'You dont have to apply for more than one program.'
 
   utter_application_many_programs_chance_increase:
-  - text: 'It will not increase your chance of admission. Your second or third choice will only be considered if not enough people applied for the programme. This is very unlikely. '
-  - text: 'It will not increase your chances of admission if you apply for more than one programme.'
+  - text: 'It will not increase your chance of admission. Your second or third choice will only be considered if not enough people applied for the program. This is very unlikely. '
+  - text: 'It will not increase your chances of admission if you apply for more than one program.'
 
   utter_how_many_courses:
-  - text: 'You can apply for up to three programmes, but it is not recommended to apply for three.'
-  - text: 'We recommend applying for your favoured programme at your first ranked choice. You can apply for up to three courses if you choose to.'
+  - text: 'You can apply for up to three programs, but it is not recommended to apply for three.'
+  - text: 'We recommend applying for your favoured program at your first ranked choice. You can apply for up to three courses if you choose to.'
 
   utter_application_status:
   - text: 'Unfortunately I cant give you an update on your application status. HWR Berlin will email you between Mid-July and the end of September once an outcome has been reached on your application. The large majority of admission letters are sent in mid to late July. Only applicants via SAM can check their status by logging into SAM. Thank you for your patience.'
@@ -210,8 +210,8 @@ responses:
 
   utter_consecutive_master:
   - text: 'The master programs at HWR Berlin are so-called consecutive programs. They require applicants to have advanced academic knowledge of business-related subjects. This knowledge needs to stem from previous study programs. It cannot be replaced by work experience.'
-  - text: 'Our master programmes are consecutive, you must have completed a relevant bachelor or equivalent.'
-  - text: 'A consecutive master (postgraduate) is a programme that follows the relevant study from a bachelor´s programme (undergraduate)'
+  - text: 'Our master programs are consecutive, you must have completed a relevant bachelor or equivalent.'
+  - text: 'A consecutive master (postgraduate) is a program that follows the relevant study from a bachelor´s program (undergraduate)'
 
   utter_duolingo_accepted:
   - text: 'Duolingo language certificates are not accepted by HWR Berlin as proof of language proficiency.'
@@ -219,13 +219,13 @@ responses:
 
   utter_eligibility:
   - text: 'You are more than welcome to apply, if you feel you meet the requirements. We cannot offer a pre-check of any of your documents. The final decision, whether your academic background is considered sufficient will be made by the admission board after the application period closes.'
-  - text: 'Maybe you are, but we can´t tell you for sure! Please check the admission requirements on the webpage for each study programme.'
+  - text: 'Maybe you are, but we can´t tell you for sure! Please check the admission requirements on the webpage for each study program.'
 
   utter_eligibility_check:
   - text: 'We do not provide pre-application eligibility checks. Please critically check your documents against the elgibility criteria listed on our webpages.'
 
   utter_eligibility_master: 
-  - text: 'You can find the admission requirements for each study programme listed online: https://www.hwr-berlin.de/en/study/degree-programmes/'
+  - text: 'You can find the admission requirements for each study program listed online: https://www.hwr-berlin.de/en/study/degree-programmes/'
 
   utter_eligibility_check_who:
   - text: 'We do not provide pre-application eligibility checks. Please critically check your documents against the elgibility criteria listed on our webpages.'
@@ -237,8 +237,8 @@ responses:
   - text: 'The Graduate Management Admission Test (GMAT) is a graduate admissions entrance exam designed specifically for students who want to go to graduate school for business. A GMAT score is often required when submitting a graduate program application for an MBA, Master of Accountancy, or Master of Finance.'
 
   utter_gmat_needed:
-  - text: 'A GMAT test score is not a mandatory application requirement. You can submit an application to HWR Berlin with or without a GMAT. Please always check the latest requirements listed on our study programmes´ webpages.'
-  - text: 'An application can be considered valid even without a GMAT test score. You can submit an application to HWR Berlin with or without a GMAT. Please always check the latest requirements listed on our study programmes´ webpages.'
+  - text: 'A GMAT test score is not a mandatory application requirement. You can submit an application to HWR Berlin with or without a GMAT. Please always check the latest requirements listed on our study programs´ webpages.'
+  - text: 'An application can be considered valid even without a GMAT test score. You can submit an application to HWR Berlin with or without a GMAT. Please always check the latest requirements listed on our study programs´ webpages.'
 
   utter_hwr_gmat_test:
   - text: 'HWR Berlin does not administer GMAT tests.'
@@ -249,8 +249,8 @@ responses:
   - text: 'Applicants especially from Iran can alternatively submit a GRE instead of a GMAT test score.'
 
   utter_english_proficiency_proof:
-  - text: 'You need to present a standardized test to prove that your English level is a high B2 CEFR or above. We accept certificates of up to five years old. Please see the study programme webpage of your choice for the most up to date requirements.'
-  - text: 'You need to present a standardized test to prove that your English level is a high B2 CEFR or above. We accept certificates of up to five years old. The required minimum score of the accepted English certificates are listed on each study programme´s webpage.'
+  - text: 'You need to present a standardized test to prove that your English level is a high B2 CEFR or above. We accept certificates of up to five years old. Please see the study program webpage of your choice for the most up to date requirements.'
+  - text: 'You need to present a standardized test to prove that your English level is a high B2 CEFR or above. We accept certificates of up to five years old. The required minimum score of the accepted English certificates are listed on each study program´s webpage.'
 
   utter_english_proficiency_proof_studied:
   - text: 'A standardized test is not necessary, if you have studied in the higher education system for a minimum of two semesters entirely in English. This can be accepted as equivalent. Please provide proof e.g. a statement by your university about the language of instruction. A transcript in English is not sufficient. Further you do not need to provide English certificates if you hold a GMAT.'
