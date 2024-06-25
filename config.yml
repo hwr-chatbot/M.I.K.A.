@@ -1,5 +1,6 @@
 # Configuration for Rasa NLU pipeline
 language: en
+recipe: default.v1
 pipeline:
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
@@ -15,6 +16,8 @@ pipeline:
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 100
+  - name: FallbackClassifier
+    threshold: 0.7
 
 # Configuration for Rasa Core
 policies:
@@ -24,6 +27,3 @@ policies:
     epochs: 500
     constrain_similarities: true
   - name: RulePolicy
-    core_fallback_threshold: 0.4
-    core_fallback_action_name: action_default_fallback
-    enable_fallback_prediction: true
