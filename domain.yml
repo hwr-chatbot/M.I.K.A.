@@ -1,4 +1,3 @@
-version: '3.6.20'
 #Hardcodierte Antworten von MIKA auf die Intents (=Utter) von nlu.yml
 intents:
 
