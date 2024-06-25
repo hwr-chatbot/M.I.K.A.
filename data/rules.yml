@@ -17,10 +17,10 @@ rules:
     - action: utter_please_rephrase
 
 - rule: respond to chitchat
-    steps:
-      - intent: chitchat
-      - action: utter_chitchat
-    
+  steps:
+    - intent: chitchat
+    - action: utter_chitchat
+  
     
 #- rule: Say you're welcome anytime the user says thank you
 #  steps:
