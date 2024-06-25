@@ -1,4 +1,4 @@
-version: '3.1'
+version: '4.0'
 #Hardcodierte Antworten von MIKA auf die Intents (=Utter) von nlu.yml
 intents:
 
