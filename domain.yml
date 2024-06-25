@@ -1,4 +1,4 @@
-#Hardcodierte Antworten von MIKA auf die Intents (=Utter) von nlu.yml
+version: '3.1'
 intents:
 
 - qualification_german_hs
@@ -64,8 +64,7 @@ intents:
 
 responses:
   utter_please_rephrase:
-  - text: I'm sorry, I didn't understand that. Could you rephrase it?
-  - text: Sorry, that was too complicated for me. Can you rephrase your question?
+  - text: I'm sorry, I could not find anything about your request in my database. Please try to rephrase it or make a more specific request.
  
   utter_default:
   - text: Sorry, I cant help you with your request. Please contact the Study Administration Service for further help.
