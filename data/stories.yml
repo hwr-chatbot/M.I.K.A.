@@ -1,4 +1,4 @@
-version: "4.0"
+version: '3.6.20'
 #Trainingsdaten für Beispielchatverläufe
 stories:
 
