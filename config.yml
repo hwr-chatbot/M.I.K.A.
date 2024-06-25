@@ -1,5 +1,5 @@
 # Configuration for Rasa NLU pipeline
-language: de
+language: en
 pipeline:
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
