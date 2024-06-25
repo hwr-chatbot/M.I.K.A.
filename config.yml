@@ -2,6 +2,14 @@ version: '3.1'
 language: en
 recipe: default.v1
 pipeline:
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: "char_wb"
+    min_ngram: 1
+    max_ngram: 4 
   - name: DIETClassifier
     epochs: 100
   - name: EntitySynonymMapper
@@ -13,5 +21,5 @@ pipeline:
 policies:
   - name: UnexpecTEDIntentPolicy
     epochs: 500
-  - name: RulePolicy
   - name: MemoizationPolicy
+  - name: RulePolicy
