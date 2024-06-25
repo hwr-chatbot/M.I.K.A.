@@ -24,8 +24,6 @@ policies:
     epochs: 500
     constrain_similarities: true
   - name: RulePolicy
-  - name: FallbackPolicy
-    fallback_action_name: "utter_default"
-    # nlu_threshold: 0.3
-    # core_threshold: 0.3
-    # ambiguity_threshold: 0.1
+    core_fallback_threshold: 0.4
+    core_fallback_action_name: action_default_fallback
+    enable_fallback_prediction: true
