@@ -629,45 +629,45 @@ nlu:
 
 - intent: chitchat/ask_wellbeing
   examples: |
-  - How are you?
-  - How are you doing?
-  - How have you been?
-  - How’s it going?
-  - How are things?
-  - How’s everything?
-  - What’s up?
-  - How’s your day going?
-  - How do you do?
+    - How are you?
+    - How are you doing?
+    - How have you been?
+    - How’s it going?
+    - How are things?
+    - How’s everything?
+    - What’s up?
+    - How’s your day going?
+    - How do you do?
 
 - intent: chitchat/ask_weather
   examples: |
-  - How's the weather?
-  - Whats the weather?
-  - Hows the weather at the HWR?
-  - Is it rainy today?
-  - Is it sunny today?
+    - How's the weather?
+    - Whats the weather?
+    - Hows the weather at the HWR?
+    - Is it rainy today?
+    - Is it sunny today?
 
 - intent: chitchat/ask_hobbies
   examples: |
-  - What do you like to do in your free time?
-  - What are your hobbies
-  - Do you have any hobbies?
-  - What do you do for fun?
-  - What do you enjoy doing in your spare time?
-  - Do you have any interests?
+    - What do you like to do in your free time?
+    - What are your hobbies
+    - Do you have any hobbies?
+    - What do you do for fun?
+    - What do you enjoy doing in your spare time?
+    - Do you have any interests?
 
 - intent: chitchat/ask_music
   examples: |
-  - What kind of music do you like?
-  - Do you like music?
-  - What's your favorite music genre?
-  - Do you have a favorite artist?
-  - What kind of music do you listen to?
+    - What kind of music do you like?
+    - Do you like music?
+    - What's your favorite music genre?
+    - Do you have a favorite artist?
+    - What kind of music do you listen to?
 
 - intent: chitchat/ask_animals
   examples: |
-  - Do you like animals?
-  - Whats your favorite animal?
-  - Do you have a favorite animal?
-  - Are you an animal lover?
-  - Do you have a pet?
+    - Do you like animals?
+    - Whats your favorite animal?
+    - Do you have a favorite animal?
+    - Are you an animal lover?
+    - Do you have a pet?
