@@ -671,3 +671,21 @@ nlu:
     - Do you have a favorite animal?
     - Are you an animal lover?
     - Do you have a pet?
+
+- intent: chitchat/ask_age
+  examples: |
+    - How old are you?
+    - What's your age?
+
+- intent: chitchat/ask_identity
+  examples: |
+    - Who are you?
+    - What's your name?
+    - Whats your prupose?
+    - What are you?
+
+- intent: chitchat/ask_sense_of_life
+  examples: |
+    - What is the meaning of life?
+    - What is the purpose of life?
+    - What is the sense of life?

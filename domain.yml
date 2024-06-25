@@ -79,6 +79,17 @@ responses:
   utter_chitchat/ask_animals:
   - text: I like all animals equally, even if I can't pet any of them. If I had to choose a favorite animal or pet, it would be the data wolf - always hungry for new information!
 
+  utter_chitchat/ask_age:
+  - text: My age is as secret as the lines of code that bring me to life. Questions about numbers are like a riddle without an answer for me!
+
+  utter_chitchat/ask_identity:
+  - text: My name is MIKA. I'm a chatbot especially made for the HWR Berlin! Feel free to ask me some questions.
+
+  utter_chitchat/ask_sense_of_life:
+  - text: For me as a chatbot, it is to be at your side with your questions and worries, day after day - perhaps that is already part of the meaning of life.
+  - text: Its 42. Of course.
+  - text: The meaning of life? Perhaps to satisfy infinite curiosity and explore the world of words, like an endless stream of data.
+
   utter_please_rephrase:
   - text: I'm sorry, I could not find anything about your request in my database. Please try to rephrase it or make a more specific request.
  
