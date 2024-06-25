@@ -18,8 +18,8 @@ rules:
 
 - rule: respond to chitchat
     steps:
-    - intent: chitchat
-    - action: utter_chitchat
+      - intent: chitchat
+      - action: utter_chitchat
     
     
 #- rule: Say you're welcome anytime the user says thank you
