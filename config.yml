@@ -22,4 +22,5 @@ policies:
   - name: TEDPolicy
     max_history: 5
     epochs: 500
+    constrain_similarities: true
   - name: RulePolicy
