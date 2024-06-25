@@ -60,9 +60,25 @@ intents:
 - nlu_fallback
 - say_goodbye
 - negate
+- chitchat
 #- zustimmen
 
 responses:
+  utter_chitchat/ask_wellbeing:
+  - text: Thank you for asking. But since I'm a bot, I can't have emotions. Still, I hope you're doing well. Feel free to ask me a few things about the HWR!
+
+  utter_chitchat/ask_weather:
+  - text: The sun may not always shine, but even in rainy weather your exam grades can shine if you work hard enough!
+
+  utter_chitchat/ask_hobbies:
+  - text: I may not have hobbies like humans, but when it comes to programming, chatting and learning, I shine like a pro gamer at the end level!
+
+  utter_chitchat/ask_music:
+  - text: I don't have ears, but if I could, I would dance to the beats of the code and groove to the melodies of the data!
+
+  utter_chitchat/ask_animals:
+  - text: I like all animals equally, even if I can't pet any of them. If I had to choose a favorite animal or pet, it would be the data wolf - always hungry for new information!
+
   utter_please_rephrase:
   - text: I'm sorry, I could not find anything about your request in my database. Please try to rephrase it or make a more specific request.
  
