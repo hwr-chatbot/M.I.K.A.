@@ -1,4 +1,4 @@
-#Trainingsdaten für Beispielchatverläufe
+version: '3.1'
 stories:
 
 - story: welcome_history

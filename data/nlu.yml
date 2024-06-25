@@ -1,4 +1,4 @@
-#Beispieldaten zum Verstehen von Mika
+version: '3.1'
 nlu:
 - intent: welcome
   examples: |
