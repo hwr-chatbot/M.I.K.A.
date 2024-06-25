@@ -30,9 +30,9 @@ intents:
 - missed_deadline
 - application_deadline
 - where_to_apply
-- applications_many_programs_possible
-- applications_many_programs_needed
-- applications_many_programs_chance_increase
+- application_many_programs_possible
+- application_many_programs_needed
+- application_many_programs_chance_increase
 - how_many_courses
 - application_status
 - application_status_uni_assist
@@ -52,7 +52,7 @@ intents:
 - gre_instead_gmat
 - english_proficiency_proof
 - english_proficiency_proof_studied
-- semester_arrive_later
+- semester_arrive_late
 - defer_study_start
 - semester_start
 - time_span_semester
@@ -175,7 +175,7 @@ responses:
 
   utter_application_many_programs_possible:
   - text: 'Yes, you can apply for up to three programs. Please rank your first choice first.'
-  - text: 'Yes, our programs are highly competitive, therefore you are likely to only be considered for one program.'
+  - text: 'Our programs are highly competitive, therefore you are likely to only be considered for one program.'
 
   utter_application_many_programs_needed:
   - text: 'It is not necessary to apply for more then one program.'
