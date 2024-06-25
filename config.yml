@@ -25,4 +25,4 @@ policies:
     # enable_fallback_prediction: True
   - name: TEDPolicy
     max_history: 5
-    epochs: 50
+    epochs: 5000
