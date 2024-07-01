@@ -1,5 +1,4 @@
-version: "3.1"
-
+version: '3.1'
 rules:
 
 - rule: Say goodbye anytime the user says goodbye
@@ -11,13 +10,17 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
-  
-  
-- rule: fallback
+
+- rule: Implementation of the Two-Stage-Fallback
   steps:
     - intent: nlu_fallback
-    - action: utter_default
-    
+    - action: utter_please_rephrase
+
+- rule: respond to chitchat
+  steps:
+    - intent: chitchat
+    - action: utter_chitchat
+  
     
 #- rule: Say you're welcome anytime the user says thank you
 #  steps:
