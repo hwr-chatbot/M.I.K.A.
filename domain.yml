@@ -311,3 +311,5 @@ actions:
 - utter_end
 - utter_welcome
 - utter_say_goodbye
+
+intent: ask_multiple_questions
