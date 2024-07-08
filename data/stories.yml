@@ -1,6 +1,11 @@
 version: '3.1'
 stories:
 
+- story: handle_multiple_questions
+  steps:
+  - intent: ask_multiple_questions
+  - action: action_process_multiple_questions
+
 - story: welcome_history
   steps:
   - intent: welcome
@@ -374,7 +379,7 @@ stories:
 - story: apply_without_high_school_diploma
   steps:
   - intent: study_without_a-level
-  - action: utter_study_without_a_level
+  - action: utter_study_without_a-level
   - intent: thank
   - action: utter_thank
   - intent: say_goodbye
