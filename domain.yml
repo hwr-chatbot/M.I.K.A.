@@ -91,7 +91,7 @@ responses:
   - text: The meaning of life? Perhaps to satisfy infinite curiosity and explore the world of words, like an endless stream of data.
 
   utter_please_rephrase:
-  - text: I'm sorry, I could not find anything about your request in my database. Please try to rephrase it or make a more specific request.
+  - text: I'm sorry, I could not find anything about your request in my database. Please try to rephrase it or make a more specific request. You have to write a new message for each question. Keep in mind to not provide any personal data.
  
   utter_default:
   - text: Sorry, I cant help you with your request. Please contact the Study Administration Service for further help.
