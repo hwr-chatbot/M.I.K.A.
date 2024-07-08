@@ -12,4 +12,4 @@ RUN poetry install
 RUN poetry run rasa telemetry disable
 # RUN poetry run rasa train
 EXPOSE 5005
-CMD poetry run rasa run --enable-api --cors "*" --model /mika/models/20240625-135354-black-road.tar.gz && rasa run actions --cors "*"
+CMD poetry run rasa run --enable-api --cors "*" && rasa run actions --cors "*"
