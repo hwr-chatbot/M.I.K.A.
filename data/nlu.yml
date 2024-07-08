@@ -534,6 +534,7 @@ nlu:
     - Does your institution accept GRE in lieu of GMAT?
     - Is it possible to apply with GRE scores instead of GMAT?
     - Are GRE scores valid for applications in place of GMAT scores?
+    - I am from Iran. Can I hand in GRE instead of GMAT?1
 
 - intent: english_proficiency_proof
   examples: |
@@ -689,3 +690,115 @@ nlu:
     - What is the meaning of life?
     - What is the purpose of life?
     - What is the sense of life?
+
+- synonym: transfer
+  examples: |
+    - switch
+    - move
+    - change
+    - relocate
+    - move over
+    - move to
+    - move from
+    - transition
+
+- synonym: semester
+  examples: |
+    - term
+    - period
+    - session
+    - academic term
+    - academic period
+    - academic session
+    - semester period
+    - semester term
+
+- synonym: application
+  examples: |
+    - apply
+    - submission
+    - registration
+    - enrollment
+    - admission
+    - application process
+    - application procedure
+    - application submission
+    - application registration
+    - application enrollment
+
+- synonym: univeristy
+  examples: |
+    - college
+    - school
+    - institution
+    - university
+    - higher education institution
+    - academic institution
+    - educational institution
+    - university institution
+
+- synonym: possible
+  examples: |
+    - feasible
+    - achievable
+    - doable
+    - attainable
+    - realizable
+    - viable
+    - within reach
+    - within the realm of possibility
+    - within the realm of feasibility
+
+- synonym: late
+  examples: |
+    - delayed
+    - tardy
+    - behind schedule
+    - overdue
+    - behind time
+    - belated
+    - behind
+    - after the deadline
+    - past the deadline
+
+- synonym: start
+  examples: |
+    - begin
+    - commence
+    - initiate
+    - launch
+    - kick off
+    - get going
+    - get started
+    - get underway
+    - get off the ground
+    - get the ball rolling
+
+- synonym: eligible
+  examples: |
+    - qualified
+    - entitled
+    - authorized
+    - permitted
+    - allowed
+    - suitable
+    - acceptable
+    - admissible
+    - entitled
+    - entitled to
+    - entitled to apply
+    - entitled to submit
+
+- synonym: experience
+  examples: |
+    - work experience
+    - professional experience
+    - practical experience
+    - hands-on experience
+    - real-world experience
+    - on-the-job experience
+    - job experience
+    - employment experience
+    - work background
+    - work history
+    - work record
