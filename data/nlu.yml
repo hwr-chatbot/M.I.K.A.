@@ -691,7 +691,7 @@ nlu:
     - What is the purpose of life?
     - What is the sense of life?
 
-intent: ask_multiple_questions
+- intent: ask_multiple_questions
   examples: |
     - Whats APS? Can I hand it in after the deadline?
     - Can I apply for more than one program? Do I have to apply for more than one program?
