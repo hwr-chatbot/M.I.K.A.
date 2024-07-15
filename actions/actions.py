@@ -1,70 +1,60 @@
-# actions.py
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.types import DomainDict
 import re
 
-class ActionProcessMultipleQuestions(Action):
+class ActionProcessAndRespond(Action):
 
     def name(self) -> Text:
-        return "action_process_multiple_questions"
+        return "action_process_and_respond"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        message = tracker.latest_message.get('text')
-        sentences = re.split(r'[.!?]', message)
-
-        intent_recognized = False
+            domain: DomainDict) -> List[Dict[Text, Any]]:
+        
+        # Get the latest user message
+        user_message = tracker.latest_message.get('text')
+        
+        # Split the message by sentence-ending punctuation
+        sentences = re.split(r'[.!?]', user_message)
+        responses = []
 
         for sentence in sentences:
             sentence = sentence.strip()
             if sentence:
-                if re.search(r'aps', sentence, re.IGNORECASE) and re.search(r'hand it in after the deadline', sentence, re.IGNORECASE):
-                    dispatcher.utter_message(response="utter_ask_weather")
-                    intent_recognized = True
-                elif re.search(r'apply for more than one program', sentence, re.IGNORECASE):
-                    dispatcher.utter_message(response="utter_application_many_programs_possible")
-                    intent_recognized = True
-                elif re.search(r'increase my chances', sentence, re.IGNORECASE):
-                    dispatcher.utter_message(response="utter_application_many_programs_chance_increase")
-                    intent_recognized = True
-                elif re.search(r'hand in GRE instead of GMAT', sentence, re.IGNORECASE):
-                    dispatcher.utter_message(response="utter_gre_instead_gmat")
-                    intent_recognized = True
-                elif re.search(r'GMAT mandatory', sentence, re.IGNORECASE):
-                    dispatcher.utter_message(response="utter_gmat_needed")
-                    intent_recognized = True
-                elif re.search(r'check my eligibility', sentence, re.IGNORECASE):
-                    dispatcher.utter_message(response="utter_eligibility_check")
-                    intent_recognized = True
-                elif re.search(r'who can check my eligibility', sentence, re.IGNORECASE):
-                    dispatcher.utter_message(response="utter_eligibility_check_who")
-                    intent_recognized = True
-                elif re.search(r'defer my study start date', sentence, re.IGNORECASE):
-                    dispatcher.utter_message(response="utter_defer_study_start")
-                    intent_recognized = True
-                elif re.search(r'semester start', sentence, re.IGNORECASE):
-                    dispatcher.utter_message(response="utter_semester_start")
-                    intent_recognized = True
-                elif re.search(r'how long is a typical semester', sentence, re.IGNORECASE):
-                    dispatcher.utter_message(response="utter_time_span_semester")
-                    intent_recognized = True
-                elif re.search(r'Do I need GMAT', sentence, re.IGNORECASE):
-                    dispatcher.utter_message(response="utter_gmat_needed")
-                    intent_recognized = True
-                elif re.search(r'Does HWR give out GMAT tests', sentence, re.IGNORECASE):
-                    dispatcher.utter_message(response="utter_hwr_gmat_test")
-                    intent_recognized = True
-                elif re.search(r'what kind of english certificate do I need', sentence, re.IGNORECASE):
-                    dispatcher.utter_message(response="utter_english_certificate")
-                    intent_recognized = True
-                elif re.search(r'Is duolingo accepted', sentence, re.IGNORECASE):
-                    dispatcher.utter_message(response="utter_duolingo_accepted")
-                    intent_recognized = True
+                # Simulate intent recognition
+                parsed_data = self.simulate_intent_recognition(sentence, domain)
+                intent = parsed_data['intent']['name']
+                entities = parsed_data['entities']
 
-        if not intent_recognized:
-            dispatcher.utter_message(response="utter_please_rephrase")
+                # Generate a response for each recognized intent
+                response = self.generate_response(intent, entities, domain)
+                if response:
+                    responses.append(response)
+        
+        # Join all responses and send them to the user
+        final_response = ' '.join(responses)
+        dispatcher.utter_message(text=final_response)
 
         return []
+
+    def simulate_intent_recognition(self, sentence: Text, domain: DomainDict) -> Dict[Text, Any]:
+        # This function simulates intent recognition
+        intents = domain['intents']
+        for intent in intents:
+            if intent in sentence.lower():
+                return {
+                    "intent": {"name": intent},
+                    "entities": []  # Add entity recognition here if needed
+                }
+        return {"intent": {"name": "default_intent"}, "entities": []}
+    
+    def generate_response(self, intent: Text, entities: List[Dict[Text, Any]], domain: DomainDict) -> Text:
+        # This function generates a response based on the recognized intent
+        responses = domain['responses']
+        utter_key = f'utter_{intent}'
+        if utter_key in responses:
+            return responses[utter_key][0]['text']
+        else:
+            return domain['responses']['utter_default'][0]['text']
