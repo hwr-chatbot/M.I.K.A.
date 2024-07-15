@@ -693,6 +693,9 @@ nlu:
 
 - intent: ask_multiple_questions
   examples: |
+    - Hello! How are you?
+    - Hi! What is your name?
+    - Thanks. Goodbye!
     - Whats APS? Can I hand it in after the deadline?
     - Can I apply for more than one program? Do I have to apply for more than one program?
     - Can I apply for more than one program? Will it increase my chances if I apply for more than one?

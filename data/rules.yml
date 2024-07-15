@@ -20,6 +20,11 @@ rules:
   steps:
     - intent: chitchat
     - action: utter_chitchat
+
+- rule: Process multiple intents
+  steps:
+    - intent: ask_multiple_questions
+    - action: action_process_and_respond
   
     
 #- rule: Say you're welcome anytime the user says thank you

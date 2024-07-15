@@ -4,7 +4,7 @@ stories:
 - story: handle_multiple_questions
   steps:
   - intent: ask_multiple_questions
-  - action: action_process_multiple_questions
+  - action: action_process_and_respond
 
 - story: welcome_history
   steps:
