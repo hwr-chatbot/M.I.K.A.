@@ -243,12 +243,27 @@ responses:
 
   utter_study_without_a-level:
   - text: 'Yes, it is possible to study at the HWR Berlin even if you do not have an Abitur or a Fachhochschulreife. Here you can read about the requirements you need to meet. Find out more at: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/'
+  - text: "Yes, you can study at HWR Berlin without having an Abitur or Fachhochschulreife. You can learn about the necessary requirements here. Discover more at: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/"
+  - text: "Absolutely, it's possible to enroll at HWR Berlin even if you don't have an Abitur or Fachhochschulreife. Check out the requirements you need to fulfill here. For more details, visit: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/"
+  - text: "Yes, studying at HWR Berlin is possible without an Abitur or Fachhochschulreife. Here are the criteria you need to meet. Learn more at: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/"
+  - text: "Indeed, you can study at HWR Berlin even if you do not possess an Abitur or Fachhochschulreife. Here you can find the required qualifications. For further information, visit: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/"
+  - text: "Yes, it's feasible to study at HWR Berlin without an Abitur or Fachhochschulreife. The requirements you need to fulfill are outlined here. Find out more at: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/"
 
   utter_english_courses:
-  - text: 'The HWR Berlin and the Berlin Professional School offer almost 20 degree programs that you study exclusively in English: https://www.hwr-berlin.de/studium/studiengaenge/?mksearch%5Bterm%5D=&mksearch%5Bfq%5D%5Blanguage%5D%5B%5D=2#searchresults'
+  - text: 'The HWR Berlin and the Berlin Professional School offer almost 20 degree programs that you study exclusively in English: https://www.hwr-berlin.de/en/study/degree-programmes/'
+  - text: 'HWR Berlin and the Berlin Professional School provide nearly 20 degree programs taught entirely in English. Find out more here: https://www.hwr-berlin.de/en/study/degree-programmes/'
+  - text: 'You can study nearly 20 degree programs exclusively in English at HWR Berlin and the Berlin Professional School. Learn more at: https://www.hwr-berlin.de/en/study/degree-programmes/'
+  - text: 'At HWR Berlin and the Berlin Professional School, almost 20 degree programs are available that are taught solely in English. Discover more here: https://www.hwr-berlin.de/en/study/degree-programmes/'
+  - text: 'There are nearly 20 degree programs at HWR Berlin and the Berlin Professional School that you can study entirely in English. More details can be found here: https://www.hwr-berlin.de/en/study/degree-programmes/'
+  - text: 'HWR Berlin and the Berlin Professional School offer close to 20 degree programs that are conducted exclusively in English. For more information, visit: https://www.hwr-berlin.de/en/study/degree-programmes/'
 
   utter_guest_auditor:
   - text: 'In principle, HWR Berlin offers the opportunity to take part in courses as a guest student. You can find more information here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
+  - text: 'HWR Berlin generally allows individuals to participate in courses as guest auditors. More information can be found here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
+  - text: 'You have the opportunity to attend courses at HWR Berlin as a guest student. Find more details here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
+  - text: 'As a guest student, you can take part in courses at HWR Berlin. Additional information is available here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
+  - text: 'HWR Berlin offers the chance to join courses as a guest student. Learn more at: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
+  - text: 'Participation in courses as a guest student is possible at HWR Berlin. You can find further information here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
 
   utter_admission_requirement:
   - text: 'You can find the admission requirements for each study program listed online: https://www.hwr-berlin.de/en/study/degree-programmes/'
@@ -257,68 +272,159 @@ responses:
 
   utter_english_certificate:
   - text: 'You need to present a standardized test to prove that your English level is a high B2 CEFR or above. We accept certificates of up to five years old. Exceptions apply, please check our website.'
-  - text: 'Please check each study programs webpage for a list of the accepted standardised certificates. Some exceptions may apply'
+  - text: "Please check each study program's webpage for a list of the accepted standardised certificates. Some exceptions may apply."
+  - text: 'A standardized test proving your English proficiency at high B2 CEFR or above is required. Certificates up to five years old are accepted. For exceptions, please refer to our website.'
+  - text: 'To demonstrate your English level, you need a standardized test showing high B2 CEFR or higher. Certificates must be no older than five years. Check our website for possible exceptions.'
+  - text: 'Standardized tests confirming a high B2 CEFR English level or above are necessary. Certificates up to five years old are valid. Visit our website for any exceptions.'
+  - text: 'You must provide a standardized test result proving your English level is at least high B2 CEFR. Certificates valid for up to five years are accepted. Please visit our website for any exceptions.'
 
   utter_motivational_letter:
   - text: 'Please keep your motivation letter to one A4 page, written in English, unless stated otherwise.'
   - text: 'Write about your motivations for applying to the degree. Please write no more than one page in English.'
+  - text: 'Your motivation letter should be no longer than one A4 page and written in English unless otherwise specified.'
+  - text: 'Please limit your motivational letter to one page in English, detailing your reasons for applying to the program.'
+  - text: 'Ensure your motivation letter is one A4 page in length and written in English, unless specified otherwise.'
+  - text: 'Your letter of motivation should be concise, no more than one page, and written in English. Follow specific instructions if provided.'
+  - text: 'Keep your motivational letter to a single A4 page in English. Write about your reasons for applying to the program.'
 
   utter_cv:
   - text: 'Please keep your CV relevant and tailor it to HWR and the program you are applying to. It´s a good idea to keep it to a maximum of two pages.'
   - text: 'Keep your CV formal, and to a maximum of two pages. Tailor your CV to HWR Berlin and the study program you are applying to.'
+  - text: 'Ensure your CV is relevant and customized for HWR and the specific program you are applying to. Aim for a maximum length of two pages.'
+  - text: 'Your CV should be formal and no longer than two pages. Customize it for HWR Berlin and the program you are interested in.'
+  - text: 'Make sure your CV is pertinent and tailored to HWR and the program of application. Keeping it within two pages is recommended.'
+  - text: 'Keep your CV professional and concise, ideally not exceeding two pages. Adapt it to align with HWR Berlin and the chosen study program.'
+  - text: 'Your CV should be targeted and relevant to HWR and the desired program. It’s advisable to keep it to a maximum of two pages.'
 
   utter_prerequisite_admission:
-  - text: 'Yes, each study program will list the courses on their webpages that must have been completed prior to applying. While names can vary from institution to instituion, the basic content must remain relevant.'
+  - text: 'Yes, each study program will list the courses on their webpages that must have been completed prior to applying. While names can vary from institution to institution, the basic content must remain relevant.'
+  - text: 'Each study program will provide a list of prerequisite courses on their webpages. Course names may vary between institutions, but the essential content should be consistent.'
+  - text: "Yes, the required courses for admission are listed on each study program's webpage. The names may differ between institutions, but the core content must be similar."
+  - text: 'Check the webpages of each study program for the necessary prerequisite courses. While course titles can differ, the fundamental content should align.'
+  - text: 'Yes, you can find the prerequisite courses for each study program on their respective webpages. Although the names might vary, the core content should be relevant.'
+  - text: "Each program's webpage will detail the prerequisite courses needed for application. While course names may vary across institutions, the essential content remains the same."
 
   utter_masters_program:
   - text: 'Yes, you can apply to a master´s program at HWR Berlin even if you are completing the final stages of your undergraduate degree. Please provide a prelimary transcript of record and a letter from your tertiary education institution stating your expected completion date.'
   - text: 'Yes, you will need to provide proof of your expected completion date and a preliminary transcript of records in your application.'
+  - text: 'Yes, you may apply for a master’s program at HWR Berlin while finishing your undergraduate degree. Include a preliminary transcript and a letter from your institution confirming your expected graduation date.'
+  - text: 'Yes, applicants in the final stages of their undergraduate degree can apply to a master’s program at HWR Berlin. Please submit a preliminary transcript and a letter indicating your expected completion date.'
+  - text: 'Yes, it is possible to apply for a master’s program at HWR Berlin if you are close to completing your undergraduate studies. Provide a preliminary transcript and a letter from your university with your expected graduation date.'
+  - text: 'Yes, you can apply to a master’s program while in the last phase of your undergraduate degree. Make sure to include a preliminary transcript and a confirmation letter of your expected completion date.'
+  - text: 'Yes, you are eligible to apply for a master’s program at HWR Berlin if you are nearing the end of your undergraduate studies. Submit a preliminary transcript and a letter from your institution with your anticipated graduation date.'
 
   utter_admission_documents:
   - text: 'Please check the webpage for a list of the documents you must hand in. Generally speaking Transcript of records, University graduation certificates, proof of language proficiency, CV and motivational letter. All documents must be certified and translated into English or German and submitted online along with the originals.'
   - text: 'Check the webpage of each study program to be sure which documents must be handed in. Typical documents are transcript of records, CV, motivational letter, language proficiency proof(s), university graduation certificates.'
+  - text: 'Please refer to the webpage for a detailed list of required documents. Generally, you will need to submit a transcript of records, university graduation certificates, proof of language proficiency, CV, and a motivational letter. All documents must be certified and translated into English or German, and submitted online along with the originals.'
+  - text: 'Check the webpage of each study program to confirm the necessary documents. Typically, you will need a transcript of records, CV, motivational letter, proof of language proficiency, and university graduation certificates.'
+  - text: "For a complete list of required documents, please visit the study program's webpage. Commonly needed documents include a transcript of records, university graduation certificates, proof of language proficiency, CV, and a motivational letter. Ensure all documents are certified, translated into English or German, and submitted online with the originals."
+  - text: 'Visit the webpage of the specific study program to verify the required documents. Typically, you will need to submit a transcript of records, CV, motivational letter, proof of language proficiency, and university graduation certificates.'
+  - text: 'Please check the webpage of each study program for a complete list of required documents. Generally, you will need to submit a transcript of records, university graduation certificates, proof of language proficiency, CV, and a motivational letter. All documents must be certified, translated into English or German, and submitted online along with the originals.'
   
   utter_master_or_bachelor:
   - text: 'At HWR Berlin, our degrees are consecutive degrees, meaning we mainly focus on your Bachelors degree. You will apply with both your Bachelors and Masters degrees, but the admission board will mainly focus on the Bachelor.'
   - text: 'You need to apply with your bachelor´s degree if you are applying to a master´s program at HWR Berlin.'
+  - text: 'For admissions to HWR Berlin, our degrees are structured consecutively, which means the primary focus is on your Bachelor’s degree. While you will submit both your Bachelor’s and Master’s degrees, the admission board will primarily evaluate your Bachelor’s degree.'
+  - text: 'When applying to a master’s program at HWR Berlin, your bachelor’s degree is the main focus. You need to submit both your bachelor’s and master’s degrees, but the admissions committee will mainly consider the bachelor’s degree.'
+  - text: 'At HWR Berlin, the admission process emphasizes consecutive degrees, focusing primarily on your bachelor’s degree. You will apply with both your bachelor’s and master’s degrees, but the bachelor’s degree will be the main consideration.'
+  - text: 'To apply for a master’s program at HWR Berlin, you must submit your bachelor’s degree. The admissions committee will mainly review your bachelor’s degree as part of the evaluation process.'
+  - text: 'HWR Berlin’s programs are based on consecutive degrees, so the primary focus is on your bachelor’s degree. You will need to apply with both your bachelor’s and master’s degrees, but the main evaluation will be on your bachelor’s degree.'
 
   utter_application_from_international_university:
   - text: 'If the university is not considered a German University, then you will have to apply in the same way as the international students do - via Uniassist.'
   - text: 'If you hold a bachelor´s degree issued by a German university then you can apply via SAM at HWR Berlin. If you do not then please apply via uni-assist.'
   - text: 'Please apply via uni-assist if you hold an international bachelor´s degree.'
+  - text: 'If your bachelor’s degree is from an international university, you will need to apply through Uniassist, similar to other international students.'
+  - text: 'For those with a bachelor’s degree from a German university, please apply through SAM at HWR Berlin. Otherwise, submit your application via Uniassist.'
+  - text: 'Applicants with a bachelor’s degree from a German university can use SAM at HWR Berlin. International degree holders must apply via Uniassist.'
+  - text: 'If your university is not recognized as a German University, you must apply through Uniassist, the same process as for international students.'
+  - text: 'To apply with an international bachelor’s degree, please use Uniassist. Those with a degree from a German university should apply via SAM at HWR Berlin.'
+  - text: 'Holders of international bachelor’s degrees should apply via Uniassist. If your degree is from a German university, please apply through SAM at HWR Berlin.'
 
   utter_missed_deadline:
   - text: 'Unfortunately the uni-assist deadline is the same as our deadline at the HWR Berlin. You have to apply during the next application period.'
-  - text: 'Unfortunately the deadline is the deadline. Please apply during the next application period.' 
+  - text: 'Unfortunately the deadline is the deadline. Please apply during the next application period.'
+  - text: 'Sadly, the uni-assist deadline coincides with our HWR Berlin deadline. You will need to apply in the next application period.'
+  - text: 'Unfortunately, the deadlines are firm. Please submit your application during the next application period.'
+  - text: 'Regrettably, the uni-assist deadline is identical to HWR Berlin’s deadline. You will have to wait for the next application period to apply.'
+  - text: 'The deadline has passed, unfortunately. Please apply in the next application period.'
+  - text: 'We’re sorry, but the deadline is fixed. You’ll need to apply during the next application cycle.'
+  - text: 'Unfortunately, both the uni-assist and HWR Berlin deadlines are the same. You must wait for the next application period to apply.'
 
   utter_application_deadline:
   - text: 'Applicants with a bachelor´s degree from a German university: 15 April – 15 June (application directly at HWR Berlin); Applicants with a bachelor´s degree from a university abroad: 15 March -15 May (application via uni-assist);'
   - text: 'It depends on where you completed your bachelor degree. At a German university: 15. June. At a non-German university: 15. May.'
+  - text: 'For applicants with a bachelor’s degree from a German university: Apply between 15 April and 15 June directly at HWR Berlin. For those with a degree from a university abroad: Apply between 15 March and 15 May via uni-assist.'
+  - text: 'The application deadline varies based on where you completed your bachelor’s degree. For degrees from German universities: 15 June. For degrees from non-German universities: 15 May.'
+  - text: 'If you have a bachelor’s degree from a German university, you need to apply between 15 April and 15 June directly at HWR Berlin. For degrees from universities abroad, apply between 15 March and 15 May via uni-assist.'
+  - text: 'Deadlines depend on the location of your bachelor’s degree. For German university degrees: 15 June. For degrees from non-German universities: 15 May.'
+  - text: 'Applicants with a bachelor’s degree from a German institution should apply between 15 April and 15 June directly at HWR Berlin. Those with international degrees should apply between 15 March and 15 May through uni-assist.'
+  - text: 'The deadlines differ based on where you earned your bachelor’s degree. For degrees from German universities: 15 June. For degrees from international universities: 15 May.'
 
   utter_where_to_apply:
   - text: 'If you completed your Bachelors degree at a German University, then you will apply via S.A.M (directly to HWR Berlin). However, if you have completed your Bachelors degree in another country, you will have to apply via Uni-assist.'
+  - text: 'If you obtained your bachelor’s degree from a German university, you should apply via S.A.M directly to HWR Berlin. If your degree is from a foreign university, please apply through Uni-assist.'
+  - text: 'Applicants with a bachelor’s degree from a German university should apply through S.A.M directly to HWR Berlin. If your degree is from an international university, use Uni-assist to apply.'
+  - text: 'If your bachelor’s degree is from a German university, you will need to apply via S.A.M directly to HWR Berlin. For those with degrees from other countries, applications should be submitted via Uni-assist.'
+  - text: 'Apply via S.A.M if you completed your bachelor’s degree at a German university, directly to HWR Berlin. For degrees earned abroad, use Uni-assist for your application.'
+  - text: 'Those who completed their bachelor’s degree at a German university should apply directly to HWR Berlin via S.A.M. If you have a degree from another country, apply through Uni-assist.'
 
   utter_application_many_programs_possible:
   - text: 'Yes, you can apply for up to three programs. Please rank your first choice first.'
   - text: 'Our programs are highly competitive, therefore you are likely to only be considered for one program.'
+  - text: 'Yes, you may apply for up to three programs. Make sure to list your top choice first.'
+  - text: 'Due to the competitive nature of our programs, it is likely that you will only be considered for one program.'
+  - text: 'Yes, you can submit applications for up to three programs. Please prioritize by listing your first choice at the top.'
+  - text: 'Given the competitiveness of our programs, you will probably be considered for just one program.'
+  - text: 'You are allowed to apply for up to three programs. Ensure your preferred program is listed as your first choice.'
+  - text: 'Our programs are very competitive, so you will most likely only be considered for one program.'
 
   utter_application_many_programs_needed:
-  - text: 'It is not necessary to apply for more then one program.'
-  - text: 'You dont have to apply for more than one program.'
+  - text: 'It is not necessary to apply for more than one program.'
+  - text: "You don't have to apply for more than one program."
+  - text: 'There is no need to apply for more than one program.'
+  - text: 'Applying for more than one program is not required.'
+  - text: 'It is sufficient to apply for just one program.'
+  - text: 'You only need to apply for one program.'
+  - text: 'Applying to multiple programs is not necessary.'
 
   utter_application_many_programs_chance_increase:
-  - text: 'It will not increase your chance of admission. Your second or third choice will only be considered if not enough people applied for the program. This is very unlikely. '
+  - text: 'It will not increase your chance of admission. Your second or third choice will only be considered if not enough people applied for the program. This is very unlikely.'
   - text: 'It will not increase your chances of admission if you apply for more than one program.'
+  - text: 'Applying for multiple programs will not increase your chances of admission. Your secondary choices are only considered if there are insufficient applicants for those programs, which is quite rare.'
+  - text: 'Submitting applications to multiple programs does not boost your admission chances. Second and third choices are only reviewed if there are not enough applicants, which seldom happens.'
+  - text: 'Your chance of admission does not improve by applying to more than one program. Secondary choices are considered only in the unlikely event of a shortage of applicants.'
+  - text: 'Applying for more than one program does not enhance your admission chances. Only if there are too few applicants for your secondary choices will they be considered, which is unlikely.'
+  - text: "It won't increase your likelihood of admission to apply for multiple programs. Secondary and tertiary choices are typically only considered if there are not enough applicants, which is rare."
 
   utter_how_many_courses:
   - text: 'You can apply for up to three programs, but it is not recommended to apply for three.'
   - text: 'We recommend applying for your favoured program at your first ranked choice. You can apply for up to three courses if you choose to.'
+  - text: 'You may apply for up to three programs, though we do not recommend applying for all three.'
+  - text: "We suggest that you prioritize your top program choice in your application. While you can apply for up to three programs, it's best to focus on your primary interest."
+  - text: "Although you can apply for up to three programs, it's advisable not to apply for all three."
+  - text: 'We recommend that you apply to your preferred program as your first choice. You have the option to apply for up to three programs in total.'
+  - text: 'While it is possible to apply for up to three programs, we do not encourage applying for all three.'
+  - text: 'Focus on your preferred program in your application. You can apply for up to three programs, but it is recommended to apply to fewer.'
 
   utter_application_status:
-  - text: 'Unfortunately I cant give you an update on your application status. HWR Berlin will email you between Mid-July and the end of September once an outcome has been reached on your application. The large majority of admission letters are sent in mid to late July. Only applicants via SAM can check their status by logging into SAM. Thank you for your patience.'
+  - text: "Unfortunately I can't give you an update on your application status. HWR Berlin will email you between mid-July and the end of September once an outcome has been reached on your application. The large majority of admission letters are sent in mid to late July. Only applicants via SAM can check their status by logging into SAM. Thank you for your patience."
+  - text: 'I’m sorry, but I cannot provide an update on your application status. HWR Berlin will notify you by email between mid-July and the end of September once a decision has been made. Most admission letters are sent out in mid to late July. Applicants via SAM can check their status by logging into SAM. Thank you for your patience.'
+  - text: "Regrettably, I can't provide you with an update on your application status. HWR Berlin will contact you by email between mid-July and the end of September with the outcome of your application. The majority of admission letters are dispatched in mid to late July. Applicants who applied via SAM can check their status by logging into SAM. Thank you for your patience."
+  - text: 'I cannot provide an update on your application status at this time. HWR Berlin will email you between mid-July and the end of September once a decision has been made. Most admission letters are issued in mid to late July. Applicants using SAM can check their status by logging into SAM. Thank you for your patience.'
+  - text: 'Unfortunately, I am unable to give you an update on your application status. HWR Berlin will email you with a decision between mid-July and the end of September. The majority of admission letters are sent out in mid to late July. Applicants via SAM can check their status by logging into SAM. Thank you for your patience.'
+  - text: 'I’m unable to provide an update on your application status. HWR Berlin will email you between mid-July and the end of September once a decision has been made. Most admission letters are sent in mid to late July. Applicants through SAM can check their status by logging into SAM. Thank you for your patience.'
+  - text: 'Unfortunately, I cannot update you on your application status. HWR Berlin will email you the outcome between mid-July and the end of September. Most admission letters are sent in mid to late July. Applicants via SAM can check their status by logging into SAM. Thank you for your patience.'
 
   utter_application_status_uni_assist:
   - text: 'Mid-July at the earliest. Most letters of offer are sent out in mid to late July.'
+  - text: 'The earliest you will hear back is mid-July. Most letters of offer are issued in mid to late July.'
+  - text: 'Expect to hear back no earlier than mid-July. The majority of letters of offer are sent out in mid to late July.'
+  - text: 'Notifications start in mid-July, with most letters of offer sent in mid to late July.'
+  - text: 'Responses begin in mid-July, with the majority of letters of offer dispatched in mid to late July.'
+  - text: 'You will be notified from mid-July onwards. Most letters of offer are sent out in mid to late July.'
+  - text: 'Feedback starts from mid-July, with most offer letters issued in mid to late July.'
 
   utter_aps_hand_in_late:
   - text: 'The APS certificate must be handed in on time.'
@@ -331,7 +437,12 @@ responses:
   - text: 'You can find out if you need an APS by carefully reading this page: https://www.uni-assist.de/en/tools/glossary-of-terms/description/term/akademische-pruefstelle-aps/'
 
   utter_whats_aps:
-  - text: 'The APS is a joint institution of the German Embassy and the German Academic Exchange Service (DAAD). It exists in China, Vietnam and India. The APS checks the authenticity of educational biographies and the corresponding educational certificates, and issues certificates if the result is positive. For these countries, the APS certificate is a requirement for applying to a German university'
+  - text: 'The APS is a joint institution of the German Embassy and the German Academic Exchange Service (DAAD). It exists in China, Vietnam and India. The APS checks the authenticity of educational biographies and the corresponding educational certificates, and issues certificates if the result is positive. For these countries, the APS certificate is a requirement for applying to a German university.'
+  - text: 'The APS is a collaborative institution of the German Embassy and the German Academic Exchange Service (DAAD), operating in China, Vietnam, and India. It verifies the authenticity of educational histories and certificates, issuing certificates upon positive results. An APS certificate is required for applying to a German university from these countries.'
+  - text: 'APS, a joint initiative of the German Embassy and the German Academic Exchange Service (DAAD), functions in China, Vietnam, and India. It authenticates educational backgrounds and certificates, providing certificates if results are positive. An APS certificate is mandatory for university applications in Germany from these countries.'
+  - text: 'The APS is a partnership between the German Embassy and the German Academic Exchange Service (DAAD) and operates in China, Vietnam, and India. It authenticates educational records and certificates, issuing certificates when the result is positive. An APS certificate is required for applications to German universities from these regions.'
+  - text: 'APS, an institution co-founded by the German Embassy and the German Academic Exchange Service (DAAD), is present in China, Vietnam, and India. It verifies the authenticity of educational documents and biographies, issuing certificates upon positive verification. This APS certificate is necessary for applying to German universities from these countries.'
+  - text: 'The APS, a joint organization of the German Embassy and the German Academic Exchange Service (DAAD), operates in China, Vietnam, and India. It authenticates educational records and certificates, and issues a certificate if the verification is positive. This APS certificate is essential for applying to German universities from these countries.'
 
   utter_consecutive_master:
   - text: 'The master programs at HWR Berlin are so-called consecutive programs. They require applicants to have advanced academic knowledge of business-related subjects. This knowledge needs to stem from previous study programs. It cannot be replaced by work experience.'
@@ -341,64 +452,164 @@ responses:
   utter_duolingo_accepted:
   - text: 'Duolingo language certificates are not accepted by HWR Berlin as proof of language proficiency.'
   - text: 'We do not accept Duolingo certificates as proof of language proficiency.'
+  - text: 'HWR Berlin does not accept Duolingo language certificates as valid proof of language proficiency.'
+  - text: 'Unfortunately, Duolingo certificates are not recognized by HWR Berlin as proof of language proficiency.'
+  - text: 'Duolingo certificates cannot be used to prove language proficiency at HWR Berlin.'
+  - text: 'HWR Berlin does not recognize Duolingo language certificates as acceptable proof of language proficiency.'
+  - text: 'We regret to inform you that Duolingo certificates are not accepted by HWR Berlin for language proficiency verification.'
 
   utter_eligibility:
   - text: 'You are more than welcome to apply, if you feel you meet the requirements. We cannot offer a pre-check of any of your documents. The final decision, whether your academic background is considered sufficient will be made by the admission board after the application period closes.'
-  - text: 'Maybe you are, but we can´t tell you for sure! Please check the admission requirements on the webpage for each study program.'
+  - text: 'Maybe you are, but we can’t tell you for sure! Please check the admission requirements on the webpage for each study program.'
+  - text: 'You are encouraged to apply if you believe you meet the requirements. Unfortunately, we cannot pre-check any of your documents. The admission board will make the final decision on the sufficiency of your academic background after the application period ends.'
+  - text: "Possibly, but we can't confirm that! Please review the admission requirements listed on the webpage for each study program."
+  - text: 'Feel free to apply if you think you meet the requirements. We do not offer pre-checks of documents. The admission board will decide on the sufficiency of your academic background after the application period closes.'
+  - text: 'We encourage you to apply if you feel qualified. We cannot pre-assess any documents. The final decision regarding your academic background will be made by the admission board after the application period.'
+  - text: 'You might be eligible, but we can’t guarantee it! Please check each study program’s webpage for the specific admission requirements.'
+  - text: 'You are welcome to apply if you meet the requirements. Pre-checks of documents are not possible. The admission board will determine the sufficiency of your academic background after the application period.'
 
   utter_eligibility_check:
-  - text: 'We do not provide pre-application eligibility checks. Please critically check your documents against the elgibility criteria listed on our webpages.'
+  - text: 'We do not provide pre-application eligibility checks. Please critically check your documents against the eligibility criteria listed on our webpages.'
+  - text: 'Pre-application eligibility checks are not provided. Please carefully compare your documents with the eligibility criteria on our webpages.'
+  - text: 'We do not offer pre-application eligibility assessments. Please thoroughly review your documents against the eligibility criteria listed on our webpages.'
+  - text: 'Eligibility checks before application are not provided. Please ensure your documents meet the criteria listed on our webpages.'
+  - text: 'We do not conduct pre-application eligibility checks. Please diligently compare your documents with the eligibility criteria available on our webpages.'
+  - text: 'No pre-application eligibility checks are available. Please review your documents carefully against the eligibility criteria provided on our webpages.'
+  - text: 'Pre-application eligibility checks are unavailable. Please cross-check your documents with the eligibility criteria listed on our webpages.'
 
-  utter_eligibility_master: 
+  utter_eligibility_master:
   - text: 'You can find the admission requirements for each study program listed online: https://www.hwr-berlin.de/en/study/degree-programmes/'
+  - text: 'The admission requirements for each study program are available online: https://www.hwr-berlin.de/en/study/degree-programmes/'
+  - text: 'Please refer to the online listings for the admission requirements for each study program: https://www.hwr-berlin.de/en/study/degree-programmes/'
+  - text: 'Admission requirements for each study program can be found online here: https://www.hwr-berlin.de/en/study/degree-programmes/'
+  - text: 'Find the admission requirements for each study program online: https://www.hwr-berlin.de/en/study/degree-programmes/'
+  - text: 'You can view the admission requirements for each study program on our website: https://www.hwr-berlin.de/en/study/degree-programmes/'
+  - text: 'The online listings provide the admission requirements for each study program: https://www.hwr-berlin.de/en/study/degree-programmes/'
 
   utter_eligibility_check_who:
-  - text: 'We do not provide pre-application eligibility checks. Please critically check your documents against the elgibility criteria listed on our webpages.'
+  - text: 'We do not provide pre-application eligibility checks. Please critically check your documents against the eligibility criteria listed on our webpages.'
+  - text: 'Pre-application eligibility checks are not provided. Please carefully compare your documents with the eligibility criteria on our webpages.'
+  - text: 'We do not offer pre-application eligibility assessments. Please thoroughly review your documents against the eligibility criteria listed on our webpages.'
+  - text: 'Eligibility checks before application are not provided. Please ensure your documents meet the criteria listed on our webpages.'
+  - text: 'We do not conduct pre-application eligibility checks. Please diligently compare your documents with the eligibility criteria available on our webpages.'
+  - text: 'No pre-application eligibility checks are available. Please review your documents carefully against the eligibility criteria provided on our webpages.'
+  - text: 'Pre-application eligibility checks are unavailable. Please cross-check your documents with the eligibility criteria listed on our webpages.'
 
   utter_no_relevant_studies:
   - text: 'You can apply if you have successfully completed the relevant prerequisite courses prior to applying for a master at HWR Berlin. You can also apply with work experience or degrees in other fields, but you must be able to fulfill the academic requirements.'
+  - text: 'You may apply if you have completed the necessary prerequisite courses before applying for a master’s at HWR Berlin. Additionally, you can apply with work experience or degrees in other fields, provided you meet the academic requirements.'
+  - text: 'Applying is possible if you have successfully finished the relevant prerequisite courses prior to applying for a master’s at HWR Berlin. You can also apply with work experience or degrees in other areas, as long as you meet the academic requirements.'
+  - text: 'If you have completed the required prerequisite courses, you can apply for a master’s at HWR Berlin. You may also apply with work experience or degrees in different fields, but you must meet the academic criteria.'
+  - text: 'You can apply for a master’s at HWR Berlin if you have successfully completed the relevant prerequisite courses. Additionally, work experience or degrees in other fields are acceptable, provided you fulfill the academic requirements.'
+  - text: 'Completion of the relevant prerequisite courses allows you to apply for a master’s at HWR Berlin. You can also apply with work experience or degrees in other fields, but you must meet the academic standards.'
+  - text: 'You are eligible to apply if you have completed the necessary prerequisite courses before applying for a master’s at HWR Berlin. Work experience or degrees in other fields are also acceptable if you fulfill the academic requirements.'
 
   utter_whats_gmat:
   - text: 'The Graduate Management Admission Test (GMAT) is a graduate admissions entrance exam designed specifically for students who want to go to graduate school for business. A GMAT score is often required when submitting a graduate program application for an MBA, Master of Accountancy, or Master of Finance.'
+  - text: 'The Graduate Management Admission Test (GMAT) is an entrance exam for graduate business programs. A GMAT score is typically required for applications to MBA programs, as well as Master of Accountancy and Master of Finance programs.'
+  - text: 'The GMAT, or Graduate Management Admission Test, is an entrance exam used for admission to business graduate schools. It is often required for MBA, Master of Accountancy, and Master of Finance program applications.'
+  - text: 'GMAT stands for Graduate Management Admission Test, a standardized exam for students aiming to attend business graduate schools. It is commonly required for MBA, Master of Accountancy, and Master of Finance applications.'
+  - text: 'The GMAT (Graduate Management Admission Test) is an exam specifically designed for business school applicants. It is frequently needed when applying for MBA, Master of Accountancy, or Master of Finance programs.'
+  - text: 'The Graduate Management Admission Test, or GMAT, is a standardized test for students seeking admission to business graduate programs. A GMAT score is often necessary for MBA, Master of Accountancy, and Master of Finance applications.'
+  - text: 'The GMAT (Graduate Management Admission Test) is a standardized entrance exam for graduate business schools. It is typically required for MBA, Master of Accountancy, and Master of Finance program applications.'
 
   utter_gmat_needed:
   - text: 'A GMAT test score is not a mandatory application requirement. You can submit an application to HWR Berlin with or without a GMAT. Please always check the latest requirements listed on our study programs´ webpages.'
   - text: 'An application can be considered valid even without a GMAT test score. You can submit an application to HWR Berlin with or without a GMAT. Please always check the latest requirements listed on our study programs´ webpages.'
+  - text: 'A GMAT score is not required for application. You may apply to HWR Berlin with or without a GMAT. Always verify the latest requirements on our study programs’ webpages.'
+  - text: 'Submitting a GMAT score is not compulsory for your application. You can apply to HWR Berlin regardless of whether you have a GMAT score. Please check the current requirements on our study programs’ webpages.'
+  - text: 'You do not need a GMAT test score to apply. Applications to HWR Berlin can be submitted with or without a GMAT. Always refer to the latest requirements on our study programs’ webpages.'
+  - text: 'A GMAT test score is optional for application. You can apply to HWR Berlin whether you have a GMAT score or not. Make sure to check the latest requirements on our study programs’ webpages.'
+  - text: 'A GMAT score is not essential for applying. You may submit your application to HWR Berlin with or without a GMAT. Always review the latest requirements on our study programs’ webpages.'
 
   utter_hwr_gmat_test:
   - text: 'HWR Berlin does not administer GMAT tests.'
   - text: 'HWR Berlin does not conduct GMAT tests.'
+  - text: 'HWR Berlin does not offer GMAT testing.'
+  - text: 'GMAT tests are not provided by HWR Berlin.'
+  - text: 'HWR Berlin does not facilitate GMAT exams.'
+  - text: 'GMAT testing is not conducted at HWR Berlin.'
+  - text: 'HWR Berlin does not hold GMAT test sessions.'
 
   utter_gre_instead_gmat:
   - text: 'A GRE can be accepted instead of a GMAT especially in the cases of Iranian bachelor holding applicants.'
   - text: 'Applicants especially from Iran can alternatively submit a GRE instead of a GMAT test score.'
+  - text: 'A GRE score may be accepted in place of a GMAT, particularly for applicants holding a bachelor’s degree from Iran.'
+  - text: 'Especially for applicants from Iran, a GRE score can be submitted as an alternative to a GMAT.'
+  - text: 'A GRE can be used instead of a GMAT, especially for Iranian applicants with a bachelor’s degree.'
+  - text: 'Applicants, particularly those from Iran, can submit a GRE score instead of a GMAT.'
+  - text: 'In particular cases, such as for Iranian bachelor degree holders, a GRE can be accepted instead of a GMAT.'
 
   utter_english_proficiency_proof:
   - text: 'You need to present a standardized test to prove that your English level is a high B2 CEFR or above. We accept certificates of up to five years old. Please see the study program webpage of your choice for the most up to date requirements.'
   - text: 'You need to present a standardized test to prove that your English level is a high B2 CEFR or above. We accept certificates of up to five years old. The required minimum score of the accepted English certificates are listed on each study program´s webpage.'
+  - text: 'To prove your English proficiency, you need to present a standardized test showing a high B2 CEFR level or above. We accept certificates up to five years old. Check the study program webpage for the latest requirements.'
+  - text: 'A standardized test proving your English level as high B2 CEFR or above is required. Certificates up to five years old are accepted. Refer to the study program webpage for the most current requirements.'
+  - text: 'You must present a standardized test indicating that your English proficiency is at least high B2 CEFR. Certificates that are up to five years old are accepted. Please see the study program webpage for updated requirements.'
+  - text: 'To demonstrate English proficiency, a standardized test showing high B2 CEFR or above is necessary. We accept certificates up to five years old. The minimum required scores are listed on each study program’s webpage.'
+  - text: 'Presenting a standardized test proving your English level is high B2 CEFR or above is required. We accept certificates that are up to five years old. Visit the study program webpage for the latest requirements.'
+  - text: 'You need a standardized test proving your English level is high B2 CEFR or higher. Certificates up to five years old are valid. Please check the specific study program webpage for the most current requirements.'
 
   utter_english_proficiency_proof_studied:
-  - text: 'A standardized test is not necessary, if you have studied in the higher education system for a minimum of two semesters entirely in English. This can be accepted as equivalent. Please provide proof e.g. a statement by your university about the language of instruction. A transcript in English is not sufficient. Further you do not need to provide English certificates if you hold a GMAT.'
-  - text: 'If you have studied in the higher education system for a minimum of two semesters entirely in English, then a standardised test may not be neccersary. This can be accepted as equivalent.'
+  - text: 'A standardized test is not necessary if you have studied in the higher education system for a minimum of two semesters entirely in English. This can be accepted as equivalent. Please provide proof, such as a statement by your university about the language of instruction. A transcript in English is not sufficient. Furthermore, you do not need to provide English certificates if you hold a GMAT.'
+  - text: 'If you have studied in the higher education system for a minimum of two semesters entirely in English, then a standardized test may not be necessary. This can be accepted as equivalent.'
+  - text: 'You do not need a standardized test if you have studied for at least two semesters in higher education entirely in English. Please provide proof, like a statement from your university about the language of instruction. A transcript in English is not sufficient. Also, if you hold a GMAT, you do not need to provide English certificates.'
+  - text: 'A standardized test may not be required if you have studied in higher education for at least two semesters entirely in English. This can be considered equivalent. Please provide proof, such as a statement from your university. A transcript in English alone is not sufficient.'
+  - text: 'If you have completed at least two semesters in higher education entirely in English, a standardized test is not required. This is considered equivalent. Provide proof, such as a statement from your university about the language of instruction. A transcript in English is not enough. You also do not need English certificates if you have a GMAT.'
+  - text: 'Studying in the higher education system for at least two semesters entirely in English means you do not need a standardized test. This can be accepted as equivalent. Provide proof, like a statement from your university. An English transcript alone is insufficient. Additionally, no English certificates are needed if you have a GMAT.'
+  - text: 'A standardized test is not needed if you have studied for at least two semesters in higher education entirely in English. Please provide proof, such as a university statement about the language of instruction. A transcript in English is not enough. If you hold a GMAT, English certificates are also not required.'
 
   utter_semester_arrive_late:
-  - text: 'It is not recommended.  We have an attendance requirement, meaning you can miss between 2 - 3 times in a semester. You need to be in Berlin by the beginning of October.'
+  - text: 'It is not recommended. We have an attendance requirement, meaning you can miss between 2 - 3 times in a semester. You need to be in Berlin by the beginning of October.'
   - text: 'Classes will be taught on campus at the university in Berlin. It is mandatory to be in Berlin by October, otherwise it will not be possible to take part in the classes. All courses have a mandatory class attendance of 80%.'
+  - text: 'Arriving late is not recommended. Attendance is required, and you can only miss 2-3 classes per semester. You must be in Berlin by the beginning of October.'
+  - text: 'You need to be in Berlin by October as classes are taught on campus. It will be impossible to participate if you arrive late. There is an 80% attendance requirement for all courses.'
+  - text: 'We do not recommend arriving late. There is a strict attendance policy allowing only 2-3 absences per semester. You need to be in Berlin by the start of October.'
+  - text: 'Classes are held on campus in Berlin, and it is mandatory to be present by October. Missing classes due to late arrival is not allowed as there is an 80% attendance requirement for all courses.'
+  - text: 'It is not advisable to arrive late. Our attendance policy allows only 2-3 absences per semester. You need to be in Berlin by the beginning of October.'
+  - text: 'You must arrive in Berlin by October to attend on-campus classes. Late arrival will make participation impossible. An 80% attendance rate is mandatory for all courses.'
 
   utter_defer_study_start:
   - text: 'Deferral is not offered as part of an admissions offer. Any offer letter for study at HWR Berlin will outline how to accept or reject the offer. In case you cannot get a visa on time we recommend that you apply again next year.'
+  - text: 'Deferral is not available with an admissions offer. The offer letter from HWR Berlin will explain how to accept or reject the offer. If you cannot obtain a visa in time, we suggest reapplying next year.'
+  - text: 'HWR Berlin does not offer deferral with admissions offers. The offer letter will provide details on how to accept or reject the offer. If you cannot secure a visa on time, please consider reapplying next year.'
+  - text: 'Deferral is not an option with an admissions offer at HWR Berlin. The offer letter will specify how to accept or decline the offer. If you are unable to get a visa in time, we recommend applying again next year.'
+  - text: 'There is no deferral option with the admissions offer at HWR Berlin. The offer letter will include instructions on how to accept or reject the offer. Should you fail to obtain a visa on time, we advise reapplying next year.'
+  - text: 'HWR Berlin does not provide deferral with admissions offers. The offer letter will detail how to accept or reject the offer. If you cannot get a visa on time, it is recommended to reapply next year.'
+  - text: 'Deferral is not included in an admissions offer at HWR Berlin. Your offer letter will explain the process for accepting or rejecting the offer. If you are unable to secure a visa on time, we suggest reapplying next year.'
 
   utter_semester_start:
   - text: 'The winter semester starts on October 1st. The summer semester begins on the 1st of April.'
+  - text: 'The winter semester begins on October 1st, and the summer semester starts on April 1st.'
+  - text: 'Our winter semester starts on October 1st, while the summer semester starts on April 1st.'
+  - text: 'The start date for the winter semester is October 1st, and for the summer semester, it is April 1st.'
+  - text: 'The winter semester commences on October 1st, and the summer semester begins on April 1st.'
+  - text: 'October 1st marks the beginning of the winter semester, and April 1st is the start of the summer semester.'
 
   utter_time_span_semester:
   - text: 'The academic year is split into the summer semester and winter semester. Each summer semester lasts from April 1st through to September 30th. Each winter semester lasts from October 1st through to March 31st.'
+  - text: 'The academic year is divided into two semesters: the summer semester and the winter semester. The summer semester runs from April 1st to September 30th, and the winter semester runs from October 1st to March 31st.'
+  - text: 'Our academic year consists of the summer and winter semesters. The summer semester spans from April 1st to September 30th, while the winter semester extends from October 1st to March 31st.'
+  - text: 'There are two semesters in the academic year: the summer semester from April 1st to September 30th, and the winter semester from October 1st to March 31st.'
+  - text: 'The academic year is divided into summer and winter semesters. The summer semester lasts from April 1st to September 30th, and the winter semester from October 1st to March 31st.'
+  - text: 'Each academic year includes a summer semester and a winter semester. The summer semester goes from April 1st to September 30th, and the winter semester goes from October 1st to March 31st.'
 
   utter_work_experience_accepted:
-  - text: 'Work experience is an asset and can have a positive impact on your application. It is voluntary to hand in proof of work experience. The amount to which it affects your application is dependent on the course you are interested in, as well as whether you have one or two (or more) years of full-time work experience. You can list part-time, casual, or internship work experience gained while enrolled as a student, however please list it on your CV.'  
+  - text: 'Work experience is an asset and can have a positive impact on your application. It is voluntary to hand in proof of work experience. The amount to which it affects your application is dependent on the course you are interested in, as well as whether you have one or two (or more) years of full-time work experience. You can list part-time, casual, or internship work experience gained while enrolled as a student, however please list it on your CV.'
+  - text: 'Work experience can positively impact your application and is considered an asset. Submitting proof of work experience is optional. The extent to which it affects your application depends on the course you are interested in and whether you have one or two (or more) years of full-time work experience. You may include part-time, casual, or internship work experience gained while studying, but please list it on your CV.'
+  - text: 'Having work experience is beneficial and can enhance your application. Providing proof of work experience is voluntary. Its impact on your application varies depending on the course and whether you have one or two (or more) years of full-time work experience. Part-time, casual, or internship work experience obtained during your studies can be included, but make sure to list it on your CV.'
+  - text: 'Work experience is advantageous and can positively influence your application. It is optional to submit proof of work experience. The degree to which it affects your application depends on the program you are applying for and whether you have one or two (or more) years of full-time work experience. You may also list part-time, casual, or internship work experience gained while studying on your CV.'
+  - text: 'Including work experience can benefit your application and is seen as an asset. Submitting proof of work experience is optional. The impact it has on your application depends on the specific course and whether you have one or two (or more) years of full-time work experience. You can also list part-time, casual, or internship work experience from your student years on your CV.'
+  - text: 'Work experience is valuable and can positively impact your application. Submitting proof of work experience is voluntary. Its effect on your application depends on the course you are applying for and whether you have one or two (or more) years of full-time work experience. Be sure to include part-time, casual, or internship work experience gained during your studies on your CV.'
 
   utter_swap_work_experience:
   - text: 'It is not possible to take work experience into account for the required courses. The required course must be university courses from an accredited university.'
+  - text: 'Work experience cannot be substituted for the required courses. The required courses must be completed at an accredited university.'
+  - text: 'We cannot accept work experience in place of the required courses. The required courses must be university courses from an accredited institution.'
+  - text: 'Substituting work experience for the required courses is not allowed. The necessary courses must be taken at an accredited university.'
+  - text: 'It is not permissible to use work experience as a substitute for the required courses. These courses must be completed at an accredited university.'
+  - text: 'Required courses must be taken at an accredited university and work experience cannot be counted towards them.'
+  - text: 'Work experience cannot replace the required university courses. All required courses must be completed at an accredited institution.'
 
 session_config:
   session_expiration_time: 60
