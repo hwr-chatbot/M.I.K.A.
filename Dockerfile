@@ -7,6 +7,9 @@ ENV PATH=$PATH:/root/.local/bin
 RUN apt update && apt upgrade -y && \
     apt install curl vim nano git -y
 
+# Install tini
+RUN apt-get install -y tini
+
 # Create and set working directory
 RUN mkdir /mika
 WORKDIR /mika
@@ -26,9 +29,8 @@ EXPOSE 5005
 # Expose port 5055 for Actions server
 EXPOSE 5055
 
-# Copy the entrypoint script
-COPY entrypoint.sh /mika/entrypoint.sh
-RUN chmod +x /mika/entrypoint.sh
+# Use tini as the entrypoint
+ENTRYPOINT ["/usr/bin/tini", "--"]
 
-# Use the entrypoint script to start both Rasa server and Actions server
-CMD ["/mika/entrypoint.sh"]
+# Command to run both Rasa server and Actions server
+CMD ["sh", "-c", "poetry run rasa run --enable-api --cors '*' & poetry run rasa run actions --cors '*'"]
