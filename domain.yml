@@ -309,7 +309,4 @@ session_config:
   carry_over_slots_to_new_session: true
 
 actions:
-- utter_end
-- utter_welcome
-- utter_say_goodbye
-- action_process_multiple_questions 
+- action_process_and_respond
