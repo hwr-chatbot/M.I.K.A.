@@ -27,8 +27,8 @@ EXPOSE 5005
 EXPOSE 5055
 
 # Copy the entrypoint script
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
+COPY entrypoint.sh /mika/entrypoint.sh
+RUN chmod +x /mika/entrypoint.sh
 
 # Use the entrypoint script to start both Rasa server and Actions server
-CMD ["/entrypoint.sh"]
+CMD ["/mika/entrypoint.sh"]
