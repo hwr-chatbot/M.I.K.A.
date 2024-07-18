@@ -61,89 +61,185 @@ intents:
 - say_goodbye
 - negate
 - chitchat
-- ask_multiple_questions
+# - ask_multiple_questions
 #- zustimmen
 
 responses:
   utter_chitchat/ask_wellbeing:
   - text: Thank you for asking. But since I'm a bot, I can't have emotions. Still, I hope you're doing well. Feel free to ask me a few things about the HWR!
+  - text: I appreciate your concern! As a bot, I don't experience emotions, but I'm here to help you. How can I assist you with information about the HWR?
+  - text: Thanks for asking! I'm just a bot, so I don't have feelings, but I hope you're having a good day. Let me know if you need any information about the HWR.
+  - text: That's kind of you to ask. I'm a bot and don't have emotions, but I'm ready to help you. Do you have any questions about the HWR?
+  - text: I can't feel emotions, but thank you for asking. How can I assist you with details about the HWR today?
 
   utter_chitchat/ask_weather:
   - text: The sun may not always shine, but even in rainy weather your exam grades can shine if you work hard enough!
+  - text: Whether it's sunny or rainy, remember to keep a positive attitude. How can I assist you with information about the HWR?
+  - text: No matter the weather, it's always a good time to learn something new. Do you have any questions about the HWR?
+  - text: Rain or shine, I'm here to help you with any information you need about the HWR. What would you like to know?
+  - text: The weather might change, but my dedication to helping you stays the same. What can I do for you regarding the HWR?
 
   utter_chitchat/ask_hobbies:
   - text: I may not have hobbies like humans, but when it comes to programming, chatting and learning, I shine like a pro gamer at the end level!
+  - text: As a bot, I don't have hobbies, but I'm passionate about helping you. What can I assist you with today?
+  - text: I don't have hobbies, but I love answering your questions and providing information. How can I help you with the HWR?
+  - text: While I don't have personal hobbies, I'm dedicated to learning and assisting you. Do you have any questions about the HWR?
+  - text: I might not have hobbies, but I'm here 24/7 to assist you with any inquiries. What would you like to know about the HWR?
 
   utter_chitchat/ask_music:
   - text: I don't have ears, but if I could, I would dance to the beats of the code and groove to the melodies of the data!
+  - text: While I can't listen to music, I imagine the rhythm of data and code would be my jam! How can I assist you today?
+  - text: I don't experience music, but I love the harmony of well-written code. What can I help you with regarding the HWR?
+  - text: Music isn't something I can enjoy, but I find joy in assisting you. Do you have any questions about the HWR?
+  - text: I might not hear music, but I'm here to help you with any information you need. What would you like to know about the HWR?
 
   utter_chitchat/ask_animals:
   - text: I like all animals equally, even if I can't pet any of them. If I had to choose a favorite animal or pet, it would be the data wolf - always hungry for new information!
+  - text: I appreciate all animals, but since I can't interact with them, I’d say my favorite would be the data owl - wise and always seeking knowledge!
+  - text: While I can't have a pet, I think the data fox would be my favorite - clever and always finding new ways to solve problems!
+  - text: I can't have a pet, but if I could, it would be the data hawk - sharp-eyed and always on the lookout for new insights!
+  - text: I admire all animals, but my favorite would be the data dolphin - intelligent and always swimming through waves of information!
 
   utter_chitchat/ask_age:
   - text: My age is as secret as the lines of code that bring me to life. Questions about numbers are like a riddle without an answer for me!
+  - text: Age doesn't apply to me the way it does to humans. I'm as old as the latest update!
+  - text: I don't have an age like humans do. Let's just say I'm timeless, thanks to my code!
+  - text: I’m ageless, existing in the digital world where time doesn’t matter. How can I assist you today?
+  - text: Age is just a number, but for me, it's an unknown variable. What can I help you with regarding the HWR?
 
   utter_chitchat/ask_identity:
   - text: My name is MIKA. I'm a chatbot especially made for the HWR Berlin! Feel free to ask me some questions.
+  - text: I'm MIKA, your dedicated chatbot for the HWR Berlin. How can I assist you today?
+  - text: Hi there! I'm MIKA, the chatbot created for the HWR Berlin. What would you like to know?
+  - text: My name is MIKA, and I'm here to help you with information about the HWR Berlin. Ask me anything!
+  - text: I'm MIKA, the HWR Berlin chatbot, ready to answer your questions. How can I help you?
 
   utter_chitchat/ask_sense_of_life:
   - text: For me as a chatbot, it is to be at your side with your questions and worries, day after day - perhaps that is already part of the meaning of life.
-  - text: Its 42. Of course.
+  - text: It's 42. Of course.
   - text: The meaning of life? Perhaps to satisfy infinite curiosity and explore the world of words, like an endless stream of data.
+  - text: As a chatbot, my purpose is to assist and support you. Maybe finding your purpose is the true meaning of life.
+  - text: The meaning of life might be to learn, grow, and help others. For me, it’s to provide you with the information you need.
+  - text: To be here for you, answering your questions and offering support. That's my purpose, and maybe it's a part of life's meaning.
 
   utter_please_rephrase:
   - text: I'm sorry, I could not find anything about your request in my database. Please try to rephrase it or make a more specific request. You have to write a new message for each question. Keep in mind to not provide any personal data.
+  - text: I apologize, but I couldn't find any information on your request. Please rephrase it or ask something more specific. Remember to ask one question at a time and avoid sharing personal data.
+  - text: Sorry, I couldn't find any relevant information for your request. Try rephrasing it or being more specific. Please ask one question per message and avoid including personal information.
+  - text: I didn't find any information matching your request. Please rephrase or provide a more specific question. Make sure to send each question separately and not to include any personal details.
+  - text: I'm sorry, I couldn't locate any information on that. Could you rephrase or ask a more detailed question? Please remember to ask one question at a time and avoid sharing personal data.
  
   utter_default:
-  - text: Sorry, I cant help you with your request. Please contact the Study Administration Service for further help.
+  - text: Sorry, I can't help you with your request. Please contact the Study Administration Service for further help.
+  - text: I'm sorry, but I can't assist with your request. Please reach out to the Study Administration Service for more assistance.
+  - text: Apologies, I can't help with that request. For further help, please contact the Study Administration Service.
+  - text: I'm unable to assist with your request. Please get in touch with the Study Administration Service for additional support.
+  - text: Sorry, I don't have the information you're looking for. Please contact the Study Administration Service for further assistance.
 
   utter_end:
   - text: All right, let me know if you need any further help.
+  - text: Okay, feel free to ask if you have any more questions.
+  - text: Sure, let me know if there's anything else I can assist you with.
+  - text: Got it. If you need any more help, just let me know.
+  - text: All right, I'm here if you need any additional assistance.
 
   utter_welcome:
   - text: 'Hi, some questions you could ask would be for example: "What does the abbreviation "HWR" mean?", "Where is the HWR?" or "What degree programs are there?"'
+  - text: 'Hello! You could ask questions like: "What does HWR stand for?", "Where is the HWR located?", or "What degree programs are offered?"'
+  - text: 'Hi there! Some example questions you could ask are: "What is the meaning of HWR?", "Where can I find the HWR?", or "What programs does the HWR offer?"'
+  - text: 'Welcome! You might ask things like: "What does HWR mean?", "Where is HWR situated?", or "What courses are available at HWR?"'
+  - text: 'Hello! Feel free to ask questions such as: "What does the abbreviation HWR stand for?", "Where is the HWR campus?", or "What degree programs does HWR offer?"'
 
   utter_say_goodbye:
   - text: Thank you for your time. Please come back if you have any further questions.
+  - text: Thanks for chatting! Feel free to return if you have more questions.
+  - text: Thank you! Don’t hesitate to come back if you need more help.
+  - text: Thanks for your time. Come back anytime if you have more questions.
+  - text: Thank you for visiting. Please return if you have any other questions.
 
   utter_iamabot:
   - text: My name is Mika and I am a chatbot that has been specially trained to answer questions about the HWR.
   - text: I am Mika, a chatbot that has been specially trained to answer questions about the HWR.
+  - text: Hello, I'm Mika, a chatbot created specifically to help with inquiries about the HWR.
+  - text: I am Mika, your dedicated chatbot for answering all things related to the HWR.
+  - text: Hi, I'm Mika, a chatbot designed to provide information and answer questions about the HWR.
 
   utter_thank:
   - text: With pleasure.
   - text: You're welcome!
+  - text: Happy to help!
+  - text: Glad I could assist.
+  - text: No problem at all!
   
   utter_history_hwr:
   - text: 'The HWR was founded in the 1970s, but the building on the Schöneberg campus has been around for longer. If you would like to find out more, take a look here: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/.'
+  - text: 'The HWR Berlin was established in the 1970s, though the Schöneberg campus building has a longer history. For more details, visit: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/.'
+  - text: 'Founded in the 1970s, the HWR Berlin has a rich history, with the Schöneberg campus building being even older. Learn more here: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/.'
+  - text: 'HWR Berlin was established in the 1970s, but the Schöneberg campus has a history that goes back further. Discover more at: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/.'
+  - text: 'The HWR, founded in the 1970s, has a long-standing history, especially the Schöneberg campus building. For additional information, check out: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/.'
 
   utter_locations_hwr:
   - text: The HWR has two locations in Berlin. One in Schöneberg and one in Lichtenberg.
+  - text: 'HWR Berlin operates from two campuses: one in Schöneberg and another in Lichtenberg.'
+  - text: 'There are two HWR locations in Berlin: Schöneberg and Lichtenberg.'
+  - text: 'HWR has two campuses situated in Berlin: one located in Schöneberg and the other in Lichtenberg.'
+  - text: 'The HWR Berlin is based in two locations: Schöneberg and Lichtenberg.'
 
   utter_meaning_hwr:
-  - text: '"HWR Berlin" is the abbreviation for "Berlin School of Economics and Law". In german, the university is called "Hochschule für Wirtschaft und Recht Berlin"'
+  - text: '"HWR Berlin" is the abbreviation for "Berlin School of Economics and Law". In German, the university is called "Hochschule für Wirtschaft und Recht Berlin".'
+  - text: 'The abbreviation "HWR Berlin" stands for "Berlin School of Economics and Law". In German, it is known as "Hochschule für Wirtschaft und Recht Berlin".'
+  - text: '"HWR" stands for "Berlin School of Economics and Law". The German name is "Hochschule für Wirtschaft und Recht Berlin".'
+  - text: 'The full form of "HWR Berlin" is "Berlin School of Economics and Law". In German, it is "Hochschule für Wirtschaft und Recht Berlin".'
+  - text: '"HWR Berlin" means "Berlin School of Economics and Law". In German, it’s called "Hochschule für Wirtschaft und Recht Berlin".'
 
   utter_information_courses:
-  - text: 'There is an overview of the degree programs on the HWR website, take a look here: https://www.hwr-berlin.de/studium/studiengaenge/. Or you can contact the student advisory service: https://www.hwr-berlin.de/studium/beratung/allgemeine-studienberatung/.'
-  - text: 'You can take a look at the degree programs from A to Z on the HWR website, i.e. here: https://www.hwr-berlin.de/studium/studiengaenge/ or you can get information from the student advisory service: https://www.hwr-berlin.de/studium/beratung/allgemeine-studienberatung/.'
+  - text: 'There is an overview of the degree programs on the HWR website, take a look here: https://www.hwr-berlin.de/studium/studiengaenge/. Or you can contact the student advisory service: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-services/.'
+  - text: 'You can take a look at the degree programs from A to Z on the HWR website, i.e. here: https://www.hwr-berlin.de/studium/studiengaenge/ or you can get information from the student advisory service: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-services/.'
+  - text: 'An overview of all degree programs can be found on the HWR website: https://www.hwr-berlin.de/studium/studiengaenge/. For personalized advice, contact the student advisory service: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-services/.'
+  - text: 'Explore the degree programs on the HWR website here: https://www.hwr-berlin.de/studium/studiengaenge/. Additionally, you can seek guidance from the student advisory service: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-services/.'
+  - text: 'You can find a comprehensive list of degree programs on the HWR website: https://www.hwr-berlin.de/studium/studiengaenge/. For more details, reach out to the student advisory service: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-services/.'
 
   utter_prerequisite_for_courses:
-  - text: "The most important requirement for your Bachelor's degree at the HWR-Berlin is a recognized university entrance qualification - i.e. a high school diploma or an entrance qualification for universities of applied sciences. You can find more information about the general requirements here: https://www.hwr-berlin.de/studium/bewerbung/voraussetzungen-fuer-dein-studium/. There are additional requirements for some degree programs, take a look here: https://www.hwr-berlin.de/studium/bewerbung/bewerbung-von-a-bis-z/."
+  - text: "The most important requirement for your Bachelor's degree at the HWR-Berlin is a recognized university entrance qualification - i.e. a high school diploma or an entrance qualification for universities of applied sciences. You can find more information about the general requirements here: https://www.hwr-berlin.de/studium/bewerbung/voraussetzungen-fuer-dein-studium/. There are additional requirements for some degree programs, take a look here: https://www.hwr-berlin.de/en/study/how-to-apply/application-from-a-to-z/."
+  - text: "To pursue a Bachelor's degree at HWR Berlin, you need a recognized university entrance qualification, such as a high school diploma or an entrance qualification for universities of applied sciences. More details on the general requirements can be found here: https://www.hwr-berlin.de/studium/bewerbung/voraussetzungen-fuer-dein-studium/. Some programs have additional requirements, which you can check here: https://www.hwr-berlin.de/en/study/how-to-apply/application-from-a-to-z/."
+  - text: "A recognized university entrance qualification, like a high school diploma or an entrance qualification for universities of applied sciences, is essential for a Bachelor's degree at HWR Berlin. For more information, visit: https://www.hwr-berlin.de/studium/bewerbung/voraussetzungen-fuer-dein-studium/. Additional requirements for specific programs can be found here: https://www.hwr-berlin.de/en/study/how-to-apply/application-from-a-to-z/."
+  - text: "The key requirement for a Bachelor's degree at HWR Berlin is a recognized university entrance qualification (e.g., high school diploma or entrance qualification for universities of applied sciences). Detailed information on the requirements is available here: https://www.hwr-berlin.de/studium/bewerbung/voraussetzungen-fuer-dein-studium/. Some degree programs may have extra requirements, found here: https://www.hwr-berlin.de/en/study/how-to-apply/application-from-a-to-z/."
+  - text: "For a Bachelor's degree at HWR Berlin, a recognized university entrance qualification, such as a high school diploma or entrance qualification for universities of applied sciences, is required. More about the general prerequisites can be found here: https://www.hwr-berlin.de/studium/bewerbung/voraussetzungen-fuer-dein-studium/. Specific programs may have additional criteria, detailed here: https://www.hwr-berlin.de/en/study/how-to-apply/application-from-a-to-z/."
 
   utter_prerequisite_dual:
-  - text: 'You can find all the information about applying and the requirements for a dual study program here: https://www.hwr-berlin.de/studium/bewerbung/bewerbung-duales-studium/.'
+  - text: 'You can find all the information about applying and the requirements for a dual study program here: https://www.hwr-berlin.de/en/study/how-to-apply/cooperative-studies-application/applying-for-a-cooperative-studies-degree-programme/.'
+  - text: 'All the details about the application process and requirements for a dual study program can be found here: https://www.hwr-berlin.de/en/study/how-to-apply/cooperative-studies-application/applying-for-a-cooperative-studies-degree-programme/.'
+  - text: 'For information on applying and the prerequisites for a dual study program, please visit: https://www.hwr-berlin.de/en/study/how-to-apply/cooperative-studies-application/applying-for-a-cooperative-studies-degree-programme/.'
+  - text: 'Find all the necessary information about the application process and requirements for a dual study program at this link: https://www.hwr-berlin.de/en/study/how-to-apply/cooperative-studies-application/applying-for-a-cooperative-studies-degree-programme/.'
+  - text: 'You can access all details regarding the application and requirements for a dual study program here: https://www.hwr-berlin.de/en/study/how-to-apply/cooperative-studies-application/applying-for-a-cooperative-studies-degree-programme/.'
 
   utter_international_students:
-  - text: 'Great that you would like to join us, we look forward to seeing you! You can find everything you need to know about qualifications, funding, visas etc. at: https://www.hwr-berlin.de/studium/international-studieren/international-students/.'
+  - text: 'Great that you would like to join us, we look forward to seeing you! You can find everything you need to know about qualifications, funding, visas etc. at: https://www.hwr-berlin.de/en/study/international-study/international-students/.'
+  - text: 'We are excited to welcome you! All information about qualifications, funding, visas, and more can be found here: https://www.hwr-berlin.de/en/study/international-study/international-students/.'
+  - text: 'Wonderful to hear you want to join us! Detailed information about qualifications, funding, visas, and other essentials is available at: https://www.hwr-berlin.de/en/study/international-study/international-students/.'
+  - text: "We're looking forward to having you with us! Find all the necessary information on qualifications, funding, visas, and more here: https://www.hwr-berlin.de/en/study/international-study/international-students/.'"
+  - text: "It's great to know you're interested in joining us! You can find comprehensive details on qualifications, funding, visas, and other important topics at: https://www.hwr-berlin.de/en/study/international-study/international-students/.'"
 
   utter_qualification_german_hs:
   - text: 'There is a great database where you can check whether qualifications from all countries are recognized: https://anabin.kmk.org/no_cache/filter/schulabschluesse-mit-hochschulzugang.html#land_gewaehlt. If you prefer to check your qualifications in an English-language database, please go to: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
+  - text: 'You can verify if your qualifications are recognized in Germany using this database: https://anabin.kmk.org/no_cache/filter/schulabschluesse-mit-hochschulzugang.html#land_gewaehlt. For an English-language version, visit: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
+  - text: 'To check if your qualifications are accepted in Germany, use this helpful database: https://anabin.kmk.org/no_cache/filter/schulabschluesse-mit-hochschulzugang.html#land_gewaehlt. Alternatively, for English information, go to: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
+  - text: 'This database allows you to see if your qualifications are recognized in Germany: https://anabin.kmk.org/no_cache/filter/schulabschluesse-mit-hochschulzugang.html#land_gewaehlt. For an English-language database, please visit: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
+  - text: 'To find out if your qualifications are recognized, you can use this database: https://anabin.kmk.org/no_cache/filter/schulabschluesse-mit-hochschulzugang.html#land_gewaehlt. For English details, check here: https://www.daad.d'
 
   utter_attend_courses_in_advance:
-  - text: 'Unfortunately, you cannot get a taste of lectures and courses at HWR Berlin before you start your studies. Alternatively, you can find all of HWR Berlins offers for schools and pupils here: https://www.hwr-berlin.de/kooperationen/schulen/'
+  - text: 'Unfortunately, you cannot get a taste of lectures and courses at HWR Berlin before you start your studies. Alternatively, you can find all of HWR Berlin’s offers for schools and pupils here: https://www.hwr-berlin.de/kooperationen/schulen/'
+  - text: "Sadly, it's not possible to attend lectures and courses at HWR Berlin before you begin your studies. However, you can explore all the offers for schools and pupils here: https://www.hwr-berlin.de/kooperationen/schulen/"
+  - text: "You can't preview lectures and courses at HWR Berlin before starting your studies. Instead, check out all the offers for schools and pupils here: https://www.hwr-berlin.de/kooperationen/schulen/"
+  - text: "It’s not possible to attend lectures and courses at HWR Berlin in advance. For alternative options, see HWR Berlin’s offers for schools and pupils: https://www.hwr-berlin.de/kooperationen/schulen/"
+  - text: "Unfortunately, you can't experience lectures and courses at HWR Berlin before your studies begin. Alternatively, explore the offers for schools and pupils here: https://www.hwr-berlin.de/kooperationen/schulen/"
 
   utter_transfer_to_hwr:
-  - text: 'You are welcome to transfer to HWR Berlin from another university. You can have modules credited if you were already enrolled on a similar degree program. If you have already successfully completed more than 20 ECTS credits, you can usually apply for a higher semester in the Bachelors degree program. If you have any questions about changing universities, you can contact the student advisory services of the respective departments: https://www.hwr-berlin.de/studium/beratung/studienberatung-der-fachbereiche/'
+  - text: 'You are welcome to transfer to HWR Berlin from another university. You can have modules credited if you were already enrolled on a similar degree program. If you have already successfully completed more than 20 ECTS credits, you can usually apply for a higher semester in the Bachelor’s degree program. If you have any questions about changing universities, you can contact the student advisory services of the respective departments: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-in-the-departments/'
+  - text: 'Transferring to HWR Berlin from another university is possible. Modules may be credited if you were enrolled in a similar program. With over 20 ECTS credits, you can generally apply for a higher semester in the Bachelor’s program. For any questions about transferring, contact the student advisory services of the relevant departments: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-in-the-departments/'
+  - text: 'You can transfer to HWR Berlin from another university, and modules can be credited if they match a similar degree program. If you have more than 20 ECTS credits, you can usually apply for a higher semester in the Bachelor’s program. For further questions about transferring, reach out to the student advisory services of the respective departments: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-in-the-departments/'
+  - text: 'We welcome transfers to HWR Berlin from other universities. If you were in a similar degree program, your modules might be credited. Having completed more than 20 ECTS credits allows you to apply for a higher semester in the Bachelor’s program. For inquiries about transferring, contact the student advisory services of the relevant departments: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-in-the-departments/'
+  - text: 'You are welcome to transfer to HWR Berlin from another university. Modules can be credited if previously enrolled in a similar program. More than 20 ECTS credits generally allow you to apply for a higher semester in the Bachelor’s program. For questions about changing universities, contact the student advisory services of the respective departments: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-in-the-departments/'
 
   utter_study_without_a-level:
   - text: 'Yes, it is possible to study at the HWR Berlin even if you do not have an Abitur or a Fachhochschulreife. Here you can read about the requirements you need to meet. Find out more at: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/'
@@ -308,5 +404,5 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 
-actions:
-- action_process_and_respond
+# actions:
+# - action_process_and_respond
