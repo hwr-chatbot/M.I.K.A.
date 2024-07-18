@@ -389,6 +389,12 @@ nlu:
 
 - intent: aps_needed
   examples: |
+    - Do I need APS?
+    - Is APS required for my application?
+    - Do I have to provide APS?
+    - Do I need APS?
+    - Do I need to submit APS?
+    - Is APS mandatory?
     - Do I need an APS certificate?
     - Is an APS certificate required for my application?
     - Do I need to provide an APS certificate?
@@ -427,6 +433,7 @@ nlu:
 - intent: duolingo_accepted
   examples: |
     - Do you accept Duolingo certificates?
+    - Is Duolingo accepted?
     - Do you recognize Duolingo English Test certificates?
     - Are Duolingo certificates accepted for admission?
     - Is the Duolingo English Test valid for your application process?
@@ -694,6 +701,8 @@ nlu:
 - intent: ask_multiple_questions
   examples: |
     - Hello! How are you?
+    - Whats APS? Do I need APS?
+    - Whats GMAT? Do I need GMAT?
     - Hi! What is your name?
     - Thanks. Goodbye!
     - Whats APS? Can I hand it in after the deadline?
