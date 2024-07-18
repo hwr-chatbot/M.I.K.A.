@@ -79,6 +79,25 @@ nlu:
     - When was the HWR Berlin founded?
     - In which year was the HWR founded?
     - How long has the university been in existence?
+    - When did the HWR start?
+    - Can you tell me the history of HWR?
+    - What year did HWR Berlin begin?
+    - How many years has the HWR been here?
+    - When was the university established?
+    - What is the founding year of HWR?
+    - Since when has HWR been operating?
+    - How old is the HWR Berlin?
+    - What can you tell me about the history of HWR Berlin?
+    - When did the HWR come into existence?
+    - What year was the HWR Berlin established?
+    - How many years ago was HWR founded?
+    - When did HWR first open its doors?
+    - What year did HWR Berlin start?
+    - Tell me about the origin of HWR Berlin.
+    - How long has HWR been a university?
+    - When did the HWR get founded?
+    - How long ago was the HWR established?
+    - Can you share the history of HWR?
 
 - intent: locations_hwr
   examples: |
@@ -87,6 +106,26 @@ nlu:
     - Which locations are there?
     - Where is the HWR located?
     - Where is the HWR?
+    - Where can I find the HWR campuses?
+    - How many locations does HWR have?
+    - Can you tell me the locations of HWR Berlin?
+    - What are the different campuses of HWR?
+    - Where are the HWR Berlin campuses?
+    - Where are the HWR buildings located?
+    - What locations does HWR have?
+    - Where is the main campus of HWR?
+    - How many campuses does HWR Berlin have?
+    - Can you list the locations of HWR?
+    - Where is HWR in Berlin?
+    - What are the addresses of the HWR campuses?
+    - Where can I find the HWR Berlin locations?
+    - What locations are included in HWR Berlin?
+    - Where are the HWR study sites?
+    - Where are the campuses of HWR Berlin?
+    - Where exactly can I find HWR?
+    - Can you tell me where HWR is located?
+    - What are the sites of HWR Berlin?
+    - Where are HWR's campuses?
 
 - intent: meaning_hwr
   examples: |
@@ -94,6 +133,26 @@ nlu:
     - What does HWR mean?
     - What does the abbreviation "HWR" mean?
     - What is HWR Berlin?
+    - Can you explain what HWR stands for?
+    - What is the full form of HWR?
+    - What does the acronym HWR represent?
+    - What is the meaning of HWR?
+    - What does HWR represent?
+    - What is the definition of HWR?
+    - Tell me what HWR stands for.
+    - Explain the meaning of HWR.
+    - What does HWR stand for in full?
+    - What is the abbreviation HWR short for?
+    - What does the abbreviation HWR stand for?
+    - What does HWR refer to?
+    - What does the short form HWR mean?
+    - What is the full name of HWR?
+    - What does the initialism HWR mean?
+    - What is meant by HWR?
+    - What does HWR stand for in Berlin?
+    - Can you tell me the meaning of HWR?
+    - What is HWR an abbreviation for?
+    - What is the long form of HWR?
 
 - intent: information_courses
   examples: |
@@ -102,6 +161,25 @@ nlu:
     - What degree programs are available at the HWR Berlin?
     - Where can I find information about the degree programs at the HWR?
     - Which degree programs are available?
+    - How can I learn about the degree programs at HWR Berlin?
+    - Where can I get details about the degree programs at HWR?
+    - What courses are offered at HWR Berlin?
+    - Where can I see the available degree programs at HWR?
+    - Which programs does HWR Berlin offer?
+    - Where can I find details about the degree programs at HWR Berlin?
+    - What are the degree options at HWR?
+    - How can I find out about the courses at HWR Berlin?
+    - What degrees can I pursue at HWR Berlin?
+    - Where can I get information on HWR's degree programs?
+    - Can you tell me about the degree programs at HWR?
+    - What study programs are there at HWR Berlin?
+    - How can I find information about HWR Berlin's degree programs?
+    - Where can I find out which degree programs HWR offers?
+    - What are the available courses at HWR Berlin?
+    - How do I get information on degree programs at HWR?
+    - Where can I learn about the HWR Berlin courses?
+    - What kind of degree programs does HWR provide?
+    - How can I get more details on HWR's degree programs?
 
 - intent: prerequisite_for_courses
   examples: |
@@ -111,6 +189,25 @@ nlu:
     - Is a high school diploma enough for all degree programs?
     - Do I need a high school diploma for all degree programs?
     - Do I need an Abitur for all degree programs?
+    - What are the prerequisites for the degree programs at HWR?
+    - What qualifications are required for each degree program?
+    - What do I need to enroll in different degree programs at HWR?
+    - Are there specific requirements for each degree program?
+    - Is a high school diploma necessary for all programs?
+    - What are the entry requirements for HWR degree programs?
+    - Do I need any specific qualifications for HWR programs?
+    - What are the academic requirements for degree programs at HWR?
+    - Is an Abitur required for every degree program at HWR?
+    - Do all degree programs need a high school diploma?
+    - What do I need to qualify for the degree programs at HWR?
+    - What are the degree program prerequisites at HWR Berlin?
+    - Do I need certain qualifications for each program at HWR?
+    - Are there specific degrees needed for different programs at HWR?
+    - Is a high school diploma sufficient for all HWR programs?
+    - What are the qualifications required for HWR degree programs?
+    - Do I need an Abitur to apply for HWR degree programs?
+    - What qualifications do I need to apply for HWR Berlin programs?
+    - Are there different requirements for different degree programs at HWR?
 
 - intent: prerequisite_dual
   examples: |
@@ -118,6 +215,27 @@ nlu:
     - What qualifications do I need for a dual study program?
     - And what if I want to do a dual study program?
     - What do I need for a dual study program?
+    - What are the prerequisites for a dual study program?
+    - What do I need to qualify for a dual study program?
+    - Are there specific requirements for a dual study program?
+    - What qualifications are necessary for a dual study program?
+    - What do I need to enroll in a dual study program?
+    - What are the entry requirements for a dual study program?
+    - Do I need special qualifications for a dual study program?
+    - What are the academic requirements for a dual study program?
+    - Is there a specific requirement for a dual study program?
+    - What should I have to join a dual study program?
+    - What are the conditions for a dual study program?
+    - What kind of qualifications are needed for a dual study program?
+    - Do I need a high school diploma for a dual study program?
+    - What do I need to apply for a dual study program?
+    - Can you tell me the requirements for a dual study program?
+    - What are the educational requirements for a dual study program?
+    - What do I have to do to start a dual study program?
+    - Do I need specific qualifications to start a dual study program?
+    - What do I need if I want to do a dual study program?
+    - What is required for a dual study program at HWR?
+    - Are there any specific prerequisites for a dual study program?
 
 - intent: international_students
   examples: |
@@ -129,6 +247,23 @@ nlu:
     - What do international students have to do to be able to study at the HWR Berlin?
     - What are the requirements for international students?
     - What do international students have to do if they want to study at the HWR?
+    - What do I need to do as an international student to study at HWR Berlin?
+    - What qualifications are required for international students at HWR?
+    - How can I apply as an international student to HWR Berlin?
+    - What are the steps for international students to enroll at HWR?
+    - What do I need to know as an international student applying to HWR?
+    - Are there special requirements for international students at HWR Berlin?
+    - What should I prepare as an international student to study at HWR?
+    - What documents do I need to study at HWR Berlin as an international student?
+    - What is required for international students to apply to HWR?
+    - How can international students get admission to HWR Berlin?
+    - What criteria must international students meet to study at HWR?
+    - What should international students do to study at HWR Berlin?
+    - Can international students apply to HWR Berlin, and what are the requirements?
+    - What are the necessary steps for international students to enroll at HWR?
+    - What must international students consider before applying to HWR Berlin?
+    - What does an international student need to study at HWR?
+    - What requirements must be fulfilled by international students at HWR Berlin?
 
 - intent: qualification_german_hs
   examples: |
@@ -139,6 +274,24 @@ nlu:
     - How do I know which degrees are recognized by German universities?
     - How do I know if my degree is sufficient for studying in Germany?
     - Is my foreign degree sufficient to be able to study at the HWR?
+    - What qualifications are needed to study in Germany?
+    - What do I need to study in Germany?
+    - What qualifications must I have to study at HWR Berlin?
+    - How can I verify if my degree is accepted in Germany?
+    - Will my degree be recognized by German universities?
+    - What do I need to qualify for studying in Germany?
+    - Are foreign degrees accepted for studying in Germany?
+    - How can I find out if my degree is valid for studying in Germany?
+    - Is my diploma enough to study at a German university?
+    - What are the accepted qualifications for studying in Germany?
+    - Do I need specific qualifications to study in Germany?
+    - What do German universities require in terms of qualifications?
+    - Can I study in Germany with my current qualifications?
+    - What proof do I need to study at HWR Berlin?
+    - How can I check if my degree meets the requirements for studying in Germany?
+    - What kind of qualifications are needed to enroll at HWR Berlin?
+    - Do I need to validate my degree to study in Germany?
+    - What academic qualifications are necessary to study in Germany?
 
 - intent: attend_courses_in_advance
   examples: |
@@ -147,19 +300,79 @@ nlu:
     - Can I attend courses in advance without studying there?
     - Can I attend courses without being a student?
     - Can I attend courses before I start studying?
+    - Is it possible to sit in on classes at HWR Berlin before enrolling?
+    - Can I audit courses at HWR Berlin before becoming a student?
+    - Am I allowed to attend classes at HWR before my studies begin?
+    - Can I participate in courses at HWR Berlin before I officially enroll?
+    - Can I join classes at HWR before starting my studies?
+    - Can I take classes at HWR Berlin before my official start?
+    - Is it possible to attend HWR courses before starting my degree?
+    - Can I join HWR Berlin courses as a visitor before enrolling?
+    - Can I observe classes at HWR before my studies begin?
+    - Can I attend lectures at HWR Berlin prior to enrollment?
+    - Can I sit in on courses at HWR without being a student yet?
+    - Is it possible to take part in HWR courses before starting my studies?
+    - Can I be in HWR classes before becoming a registered student?
+    - Can I attend HWR Berlin classes in advance of my studies?
+    - Can I join HWR classes before officially becoming a student?
+    - Is it possible to take courses at HWR Berlin before I am enrolled?
+    - Can I sit in on HWR courses without being enrolled yet?
+    - Can I attend HWR Berlin lectures before starting my degree?
+    - Can I participate in HWR classes as a guest before starting my studies?
 
 - intent: transfer_to_hwr
   examples: |
     - Can I transfer from another university to the HWR Berlin?
-    - I would like to transfer to the Hwr, is that possible?
+    - I would like to transfer to the HWR, is that possible?
     - Can I transfer to the HWR?
     - Can I transfer to the HWR from another university?
     - Is it possible to transfer to the HWR from another university?
+    - How can I transfer to HWR Berlin from another university?
+    - What is the process to transfer to HWR Berlin?
+    - Can I join HWR Berlin as a transfer student?
+    - Is transferring to HWR Berlin from another university allowed?
+    - Can I switch to HWR Berlin from a different university?
+    - Are transfers accepted at HWR Berlin?
+    - Can students from other universities transfer to HWR Berlin?
+    - Can I move to HWR Berlin from another institution?
+    - Is it possible to join HWR Berlin from another university?
+    - How can I apply for a transfer to HWR Berlin?
+    - What are the requirements to transfer to HWR Berlin?
+    - Can I transfer my studies to HWR Berlin?
+    - Is it allowed to transfer to HWR Berlin from another college?
+    - What do I need to transfer to HWR Berlin?
+    - How do I transfer to HWR Berlin from another university?
+    - Can I change my university to HWR Berlin?
+    - Can I switch my studies to HWR Berlin?
+    - Is it possible to transfer my credits to HWR Berlin?
+    - Can I continue my studies at HWR Berlin as a transfer student?
 
 - intent: study_without_a-level
   examples: |
     - Can I study without a high school diploma?
     - Can I study without a general higher education entrance qualification?
+    - Is it possible to study without an A-level?
+    - Can I enroll in university without a high school diploma?
+    - Can I go to HWR Berlin without a high school diploma?
+    - Do I need a high school diploma to study at HWR Berlin?
+    - Can I be admitted to HWR without a general higher education entrance qualification?
+    - Can I apply to HWR Berlin without an A-level?
+    - Is it required to have a high school diploma to study at HWR?
+    - Can I join HWR Berlin without a general higher education entrance qualification?
+    - Can I study at HWR Berlin without a high school diploma?
+    - Do I need an A-level to study at HWR Berlin?
+    - Can I be a student at HWR Berlin without a high school diploma?
+    - Is a high school diploma necessary for studying at HWR Berlin?
+    - Can I study at HWR without having a general higher education entrance qualification?
+    - Do I need an A-level to enroll at HWR Berlin?
+    - Can I get into HWR Berlin without a high school diploma?
+    - Is a high school diploma mandatory for studying at HWR Berlin?
+    - Can I attend HWR Berlin without a general higher education entrance qualification?
+    - Is it possible to study at HWR without a high school diploma?
+    - What if I don’t have a high school diploma, can I still study at HWR Berlin?
+    - Can I be accepted at HWR Berlin without an A-level?
+    - Is a high school diploma a must for studying at HWR Berlin?
+    - Can I pursue a degree at HWR Berlin without a general higher education entrance qualification?
 
 - intent: english_courses
   examples: |
@@ -170,6 +383,24 @@ nlu:
     - Is it possible to study an English course at the HWR?
     - Does the HWR offer degree programs in English?
     - Does the HWR also offer degree programs in English?
+    - What courses are taught in English at HWR Berlin?
+    - Can I study in English at HWR Berlin?
+    - Which programs can I take in English at HWR?
+    - Are there any English-taught degree programs at HWR?
+    - Do you have degree programs in English at HWR Berlin?
+    - What English-language programs does HWR offer?
+    - Are there any English-medium courses at HWR Berlin?
+    - What courses are available in English at HWR?
+    - Can I find degree programs in English at HWR?
+    - Does HWR Berlin provide English-taught programs?
+    - Are there any undergraduate programs in English at HWR?
+    - Are there any master's programs in English at HWR Berlin?
+    - Is it possible to do my degree in English at HWR?
+    - What study options are available in English at HWR?
+    - Does HWR Berlin have courses conducted in English?
+    - Can I pursue my studies in English at HWR Berlin?
+    - Are there any bachelor's programs in English at HWR Berlin?
+    - Does HWR Berlin offer master's degree programs in English?
 
 - intent: guest_auditor
   examples: |
@@ -179,6 +410,24 @@ nlu:
     - Can I register as a secondary listener?
     - Can I attend lectures as a guest?
     - Is it possible to attend lectures as a guest?
+    - Can I enroll as a guest auditor?
+    - Can I participate in classes as a guest student?
+    - Can I join courses as a guest student?
+    - Can I sign up as a guest student at HWR Berlin?
+    - Is it possible to attend classes as a guest student at HWR?
+    - Can I audit classes as a guest at HWR Berlin?
+    - Can I attend HWR Berlin lectures as a guest?
+    - Is it allowed to be a guest student at HWR?
+    - Can I join HWR Berlin as a guest auditor?
+    - Is it possible to register as a guest auditor at HWR?
+    - Can I participate as a secondary listener at HWR Berlin?
+    - Can I sit in on lectures as a guest at HWR?
+    - Can I attend HWR Berlin courses as a guest student?
+    - Is it possible to be a guest student at HWR Berlin?
+    - Can I take HWR Berlin classes as a guest?
+    - Can I become a guest auditor at HWR?
+    - Can I sign up to be a guest student at HWR Berlin?
+    - Can I enroll as a secondary listener at HWR?
 
 - intent: admission_requirement
   examples: |
@@ -190,6 +439,23 @@ nlu:
     - What are the prerequisites for admission?
     - What are the conditions for admissions?
     - What are the eligibility requirements for admission?
+    - What are the requirements to get admitted?
+    - What do I need to apply for admission?
+    - What qualifications do I need for admission?
+    - What are the standards for admission?
+    - What are the admission criteria?
+    - What qualifications must I have for admission?
+    - What are the academic requirements for admission?
+    - What are the needed qualifications for admission?
+    - What is required to be admitted?
+    - What conditions must be met for admission?
+    - What do I need to fulfill for admission?
+    - What are the admission rules?
+    - What do I need to qualify for admission?
+    - What must I have for admission?
+    - What are the necessary qualifications for admission?
+    - What is needed to be admitted?
+    - What are the qualifications for admission?
 
 - intent: english_certificate
   examples: |
@@ -200,6 +466,24 @@ nlu:
     - What level of English certificate is mandatory?
     - What English language qualification is required?
     - What kind of English certificate is required?
+    - What English certificate do I need to apply?
+    - What English language certificate is needed?
+    - What English proficiency level is necessary?
+    - Which English test certificate is required?
+    - What English qualification do I need for admission?
+    - What type of English certification is mandatory?
+    - What English language credential do I need?
+    - What English test do I need to take?
+    - Which English language certificate do I need?
+    - What English exam is required?
+    - Which English certificate must I have?
+    - What English language test is necessary?
+    - What English proficiency certification do I need?
+    - What English level certificate is needed?
+    - What English exam certificate is required?
+    - Which English qualification is mandatory?
+    - What English certificate should I have?
+    - What English language exam do I need?
 
 - intent: motivational_letter
   examples: |
@@ -210,8 +494,24 @@ nlu:
     - What formatting rules apply to the motivational letter?
     - Are there formal expectations for the motivational letter?
     - Are there particular guidelines for writing the motivational letter?
-    - What are the structural requirements fpr the motivational letter?
-    - Are there any prescribed formats for the motivation letter?
+    - What are the structural requirements for the motivational letter?
+    - Are there any prescribed formats for the motivational letter?
+    - What are the guidelines for the motivational letter?
+    - Are there any specific rules for the motivational letter?
+    - What should be included in the motivational letter?
+    - Are there any format requirements for the motivational letter?
+    - What are the standards for the motivational letter?
+    - Are there any official criteria for the motivational letter?
+    - What are the formal expectations for the motivational letter?
+    - Are there any guidelines for structuring the motivational letter?
+    - What is the required format for the motivational letter?
+    - Do I need to follow a specific format for the motivational letter?
+    - What should the motivational letter include?
+    - Are there any specific instructions for the motivational letter?
+    - What are the official requirements for the motivational letter?
+    - Are there formal rules for the motivational letter?
+    - What format should I follow for the motivational letter?
+    - What structure is expected for the motivational letter?
 
 - intent: cv
   examples: |
@@ -220,26 +520,80 @@ nlu:
     - What format should I use for my CV?
     - How should I structure my CV?
     - What is the preferred layout for a CV?
+    - What format is preferred for a CV?
+    - How do I properly format my CV?
+    - What structure should I follow for my CV?
+    - Are there any guidelines for CV formatting?
+    - How should I arrange my CV?
+    - What is the recommended CV format?
+    - What should the layout of my CV be?
+    - How should I organize my CV?
+    - What details should be included in my CV?
+    - What style should my CV have?
+    - Is there a specific format for the CV?
+    - How should the sections in my CV be arranged?
+    - What is the best way to format my CV?
+    - What layout should my CV follow?
+    - How should my CV be organized?
+    - What is the ideal format for a CV?
+    - How should I design my CV?
+    - What should the format of my CV be?
+    - How should I set up my CV?
+    - What are the formatting requirements for a CV?
 
 - intent: prerequisite_admission
   examples: |
-    - Are there any prerequiste courses required for admission to this program? 
+    - Are there any prerequisite courses required for admission to this program?
     - Are there specific courses I need to take before applying to this program?
     - Are there prerequisite classes necessary for admission to this program?
     - Are there required courses I need to have completed for entry into this program?
     - Are there specific academic prerequisites for admission to this program?
     - Are there courses I must have taken beforehand to be eligible for this program?
     - Are there particular classes I need to have finished before applying to this program?
+    - Do I need to complete any courses before applying to this program?
+    - Are there specific subjects I need to have studied for admission to this program?
+    - Are there any classes I must take before being admitted to this program?
+    - Are there required subjects for applying to this program?
+    - Are there particular courses I need to have completed to apply to this program?
+    - Are there specific academic requirements for entry into this program?
+    - Must I complete certain classes before I can apply to this program?
+    - Do I need to have taken certain courses for eligibility for this program?
+    - Are there mandatory classes needed for admission to this program?
+    - Are there specific courses required to qualify for this program?
+    - Are there any academic courses needed before applying to this program?
+    - Are there courses that must be finished prior to admission to this program?
+    - Are there prerequisite subjects for this program?
+    - Are there any courses that are required before I can apply to this program?
+    - Do I need any specific courses completed to be eligible for this program?
+    - Are there classes I need to have taken before I can apply to this program?
+    - Are there any necessary courses for admission to this program?
 
 - intent: masters_program
   examples: |
     - Can I apply for a master's program if I am currently finishing my undergraduate degree?
-    - Can I apply for a masters program while still completing my undergraduate degree?
-    - Is it possible to apply or a masters program if I havent completed my undergraduate degree?
-    - Can I begin the application process for a masters program before finishing my undergraduate studies?
-    - Can I pursue a masters degree while I am still in the final stages of my undergraduate program?
-    - Is it permissible to apply for a masters degree if I am nearing the completion of my bachelors degree?
-    - Am I allowed to seek admission to a masters program before offically completing my bachelors degree?
+    - Can I apply for a master's program while still completing my undergraduate degree?
+    - Is it possible to apply for a master's program if I haven't completed my undergraduate degree?
+    - Can I begin the application process for a master's program before finishing my undergraduate studies?
+    - Can I pursue a master's degree while I am still in the final stages of my undergraduate program?
+    - Is it permissible to apply for a master's degree if I am nearing the completion of my bachelor's degree?
+    - Am I allowed to seek admission to a master's program before officially completing my bachelor's degree?
+    - Can I start applying for a master's program while finishing my bachelor's degree?
+    - Is it okay to apply for a master's degree before completing my undergraduate degree?
+    - Can I apply for a master's program if I am about to finish my undergraduate degree?
+    - Is it allowed to apply for a master's degree while still an undergraduate student?
+    - Can I apply for a master's program if I haven't yet graduated from my undergraduate degree?
+    - Can I pursue a master's degree if I am still completing my bachelor's degree?
+    - Can I start the application for a master's program before my undergraduate degree is complete?
+    - Is it possible to apply for a master's program while nearing the end of my undergraduate studies?
+    - Can I apply for a master's program if I am close to finishing my bachelor's degree?
+    - Can I be admitted to a master's program before completing my bachelor's degree?
+    - Is it allowed to apply for a master's program if I am finishing my undergraduate studies?
+    - Can I apply for a master's program if my bachelor's degree is not yet complete?
+    - Can I start a master's degree application while still in my undergraduate program?
+    - Can I submit my application for a master's program if I am about to graduate from my bachelor's degree?
+    - Is it possible to seek admission to a master's program before my undergraduate graduation?
+    - Can I apply for a master's degree if I am in the final year of my undergraduate studies?
+    - Can I apply for a master's program while still an undergraduate?
 
 - intent: admission_documents
   examples: |
@@ -250,14 +604,51 @@ nlu:
     - Which materials must I submit?
     - Which documents are necessary for submission?
     - What documentation is needed?
+    - What documents are needed for admission?
+    - Which documents should I prepare for submission?
+    - What documents are required for my application?
+    - What materials do I need to submit for admission?
+    - What paperwork is necessary for my application?
+    - Which documents do I need to hand in for admission?
+    - What documents are required to apply?
+    - What documents must I provide for admission?
+    - What documentation do I need for my application?
+    - What documents should I submit for my application?
+    - Which documents are needed for my admission?
+    - What materials should I prepare for my application?
+    - Which documents are needed for the application process?
+    - What documentation is required for admission?
+    - What documents are necessary to apply?
+    - What paperwork must I submit for my application?
+    - What documents are necessary for my application?
+    - Which documents are required for my admission process?
 
 - intent: master_or_bachelor
   examples: |
-    - If I have already completed a masters degree, do I apply with my bachelor or masters degree?
-    - Should I submit my Bachelors or masters degree if I have already completed a masters program?
-    - Which degree should I use for my application if I hold a bachelor and a masters degree?
-    - Should I provide my bachelors or masters degree for application?
-    - Do I need to submit my bachelors degree if I have already obtained a masters degree?
+    - If I have already completed a master's degree, do I apply with my bachelor or master's degree?
+    - Should I submit my bachelor's or master's degree if I have already completed a master's program?
+    - Which degree should I use for my application if I hold a bachelor's and a master's degree?
+    - Should I provide my bachelor's or master's degree for application?
+    - Do I need to submit my bachelor's degree if I have already obtained a master's degree?
+    - If I have a master's degree, which one do I use for my application, bachelor's or master's?
+    - For my application, should I use my bachelor's or master's degree if I have both?
+    - Should I include my bachelor's or master's degree in my application?
+    - When applying, do I need to submit my bachelor's or master's degree?
+    - If I hold both degrees, which one should I submit for my application?
+    - Do I need to provide my bachelor's degree if I have a master's degree?
+    - Which degree is required for my application if I have completed a master's program?
+    - Should I use my bachelor's or master's degree for the application process?
+    - If I have both degrees, which should I submit, bachelor's or master's?
+    - For the application, should I submit my bachelor's or master's degree?
+    - If I completed a master's degree, do I need to apply with my bachelor's degree?
+    - Do I apply with my bachelor's or master's degree if I have already completed a master's?
+    - Which degree should be submitted if I have both a bachelor's and a master's?
+    - Should I apply with my master's degree if I already have one?
+    - If I have a master's, do I still need to submit my bachelor's degree?
+    - Should I use my bachelor's degree for the application if I have a master's?
+    - Do I apply with my bachelor's degree if I have a master's?
+    - When I have both degrees, which one is needed for the application, bachelor's or master's?
+    - Which degree should I provide for the application process if I have completed a master's?
 
 - intent: application_from_international_university
   examples: |
@@ -267,10 +658,28 @@ nlu:
     - What are the steps to apply if I earned my Bachelor's degree from an international university in Germany?
     - How should I proceed with my application if I graduated from a university in Germany with an international background?
     - What is the application process like for someone who completed their Bachelor's degree at an international university in Germany?
+    - How do I apply if my Bachelor's degree is from an international university in Germany?
+    - What should I do to apply if I have a Bachelor's degree from an international university in Germany?
+    - How can I apply with a Bachelor's degree from an international university in Germany?
+    - What is the procedure to apply if I graduated from an international university in Germany?
+    - How do I proceed with my application if I have a Bachelor's from an international university in Germany?
+    - What are the application steps for a graduate from an international university in Germany?
+    - How do I apply with a degree from an international university in Germany?
+    - What process should I follow if my Bachelor's degree is from an international university in Germany?
+    - How do I submit my application if I have a Bachelor's degree from an international university in Germany?
+    - What is required to apply if I graduated from an international university in Germany?
+    - How do I go about applying if I have a degree from an international university in Germany?
+    - What is the application procedure for someone with a Bachelor's from an international university in Germany?
+    - How do I apply for a program if my degree is from an international university in Germany?
+    - What should I know about applying with a Bachelor's degree from an international university in Germany?
+    - What are the necessary steps to apply with a Bachelor's from an international university in Germany?
+    - How should I apply with a Bachelor's degree from an international university in Germany?
+    - How do I proceed if I completed my Bachelor's at an international university in Germany?
+    - What steps should I take to apply if I have a Bachelor's from an international university in Germany?
 
 - intent: missed_deadline
   examples: |
-    - I missed the uni-assist application deadline, can I still apply? 
+    - I missed the uni-assist application deadline, can I still apply?
     - Is it possible to apply after missing the uni-assist application deadline?
     - Can I still submit my application even though I missed the uni-assist deadline?
     - Is there a chance to apply late for uni-assist after missing the deadline?
@@ -279,6 +688,21 @@ nlu:
     - Is there a way to apply to uni-assist after the deadline has passed?
     - What steps can I take if I missed the uni-assist application deadline?
     - Can I apply to uni-assist even if I missed the initial application deadline?
+    - Can I still apply if I missed the uni-assist deadline?
+    - Is there any possibility to submit my application after the uni-assist deadline?
+    - What can I do if I missed the uni-assist application deadline?
+    - Can I submit a late application to uni-assist?
+    - Are there options for applying to uni-assist after the deadline?
+    - Is it possible to send my application after the uni-assist deadline?
+    - What should I do if I missed the uni-assist deadline?
+    - Can I still be considered if I apply after the uni-assist deadline?
+    - Is late submission allowed for uni-assist applications?
+    - What happens if I miss the uni-assist application deadline?
+    - Are there any exceptions for applying after the uni-assist deadline?
+    - Can I request an extension if I missed the uni-assist application deadline?
+    - Is it feasible to apply after the uni-assist deadline has passed?
+    - Can I still get admitted if I missed the uni-assist application deadline?
+    - What are my options for applying if I missed the uni-assist deadline?
 
 - intent: application_deadline
   examples: |
@@ -291,6 +715,22 @@ nlu:
     - Which deadline should I adhere to for my application?
     - What is the applicable deadline for my application?
     - Which deadline is appropriate for me to apply?
+    - What is the correct application deadline for me?
+    - What deadline do I need to meet for my application?
+    - Which deadline is relevant for my application process?
+    - What is the specific deadline for my application?
+    - Which deadline should I consider for my application?
+    - What is the exact application deadline for me?
+    - Which application deadline do I need to follow?
+    - Which application deadline fits my situation?
+    - What is the relevant deadline for submitting my application?
+    - What is the right deadline for my application?
+    - Which submission deadline applies to me?
+    - What application deadline must I follow?
+    - Which application deadline applies to my case?
+    - What is the necessary deadline for my application?
+    - Which application deadline should I take into account?
+    - Which deadline is relevant for me to submit my application?
 
 - intent: where_to_apply
   examples: |
@@ -303,6 +743,21 @@ nlu:
     - Do I need to go through uni-assist or apply directly to HWR Berlin?
     - Should I apply through uni-assist or should I apply directly to HWR Berlin?
     - Which method of application is required: uni-assist or direct to HWR Berlin?
+    - Should I submit my application via uni-assist or straight to HWR Berlin?
+    - Do I need to apply using uni-assist or can I apply directly to HWR Berlin?
+    - Is it better to apply via uni-assist or directly to HWR Berlin?
+    - What is the recommended way to apply: uni-assist or direct to HWR Berlin?
+    - Should I process my application through uni-assist or directly to HWR Berlin?
+    - Which application path should I follow: uni-assist or direct to HWR Berlin?
+    - Is the application done via uni-assist or directly to HWR Berlin?
+    - Do I need to use uni-assist for my application or apply directly to HWR Berlin?
+    - Should I go through uni-assist or submit my application directly to HWR Berlin?
+    - Which platform should I use for my application: uni-assist or HWR Berlin?
+    - Should the application be submitted through uni-assist or directly to HWR Berlin?
+    - Is it necessary to apply via uni-assist or can I apply directly to HWR Berlin?
+    - Do I apply through uni-assist or can I apply directly to HWR Berlin?
+    - Which application method is preferred: uni-assist or direct to HWR Berlin?
+    - Which is the correct way to apply: uni-assist or direct to HWR Berlin?
 
 - intent: application_many_programs_possible
   examples: |
@@ -315,6 +770,21 @@ nlu:
     - Are applicants permitted to submit applications for multiple programs?
     - Is there a limit on the number of programs I can apply to?
     - Can I apply for several programs?
+    - Can I apply to multiple programs at HWR Berlin?
+    - Is it allowed to apply for more than one program at HWR?
+    - Can I send applications for multiple programs?
+    - Can I submit more than one application for different programs?
+    - Am I able to apply to several programs at once?
+    - Can I enroll in more than one program at the same time?
+    - Is it possible to submit multiple applications for different programs?
+    - Can I apply to more than one program in a single application cycle?
+    - Are multiple program applications accepted?
+    - Is it okay to apply for multiple programs simultaneously?
+    - Can I try for several programs at the same time?
+    - Can I apply for different programs concurrently?
+    - Can I put in applications for multiple programs?
+    - Is it feasible to apply for several programs at HWR Berlin?
+    - Are multiple applications allowed for different programs?
 
 - intent: application_many_programs_needed
   examples: |
@@ -327,6 +797,17 @@ nlu:
     - Is applying for more than one program mandatory?
     - Am I expected to apply to multiple programs?
     - Is it compulsory to apply for more than one program?
+    - Do I have to submit applications for more than one program?
+    - Is it obligatory to apply for multiple programs?
+    - Do I need to apply to several programs?
+    - Is it needed to apply for more than one program?
+    - Must I submit applications for more than one program?
+    - Is it mandatory to apply for multiple programs?
+    - Am I required to apply for several programs?
+    - Do I have to apply to different programs?
+    - Is it essential to apply for more than one program?
+    - Do I need to apply for various programs?
+    - Is it a must to apply for multiple programs?
 
 - intent: application_many_programs_chance_increase
   examples: |
@@ -339,10 +820,25 @@ nlu:
     - Do I have a better chance of admission if I apply to more than one programme?
     - Will applying for multiple programmes improve my admission prospects?
     - Is it advantageous to apply for more than one programme to increase my chances of admission?
+    - Will applying to multiple programs boost my chances of admission?
+    - Does submitting applications for several programs increase my likelihood of acceptance?
+    - Will my chances be better if I apply for more than one program?
+    - Is it beneficial to apply for multiple programs to enhance my chances of admission?
+    - Does applying to more than one program increase my chances of getting in?
+    - Will my odds of admission improve if I apply for multiple programs?
+    - Is there an advantage in applying for several programs to improve my admission chances?
+    - Does applying for various programs help in increasing my chances of acceptance?
+    - Will my likelihood of being admitted be higher if I apply to multiple programs?
+    - Is it helpful to apply for more than one program to increase my chances of being accepted?
+    - Will submitting applications to several programs improve my chances of admission?
+    - Do I stand a better chance of getting admitted if I apply for multiple programs?
+    - Will my chances of being accepted be greater if I apply to more than one program?
+    - Is it better to apply for multiple programs to boost my admission chances?
+    - Does applying for several programs increase my chances of getting in?
 
 - intent: how_many_courses
   examples: |
-    - How many courses can I apply for? 
+    - How many courses can I apply for?
     - What is the maximum number of courses I can apply for?
     - Is there a limit to how many courses I can apply for?
     - How many programs can I apply to?
@@ -350,6 +846,22 @@ nlu:
     - Is there a restriction on the number of courses I can apply for?
     - Am I limited in the number of courses I can apply to?
     - How many applications can I send in?
+    - How many programs can I apply for?
+    - What is the maximum number of programs I can apply to?
+    - Is there a limit to the number of programs I can apply for?
+    - How many courses am I allowed to apply for?
+    - How many programs can I submit applications for?
+    - What is the cap on the number of courses I can apply to?
+    - Is there an upper limit on the number of programs I can apply for?
+    - Can I apply to multiple courses, and if so, how many?
+    - How many different programs can I apply for?
+    - How many courses can I include in my application?
+    - What is the maximum number of courses for which I can apply?
+    - Are there limits on how many programs I can apply to?
+    - Can I apply for several courses at once, and if so, how many?
+    - How many courses can I submit my application to?
+    - What is the maximum number of courses I am allowed to apply for?
+    - Is there a limit to the number of applications I can make?
 
 - intent: application_status
   examples: |
@@ -362,6 +874,22 @@ nlu:
     - Do you have any information regarding my application status?
     - Is there any news on the status of my application?
     - Can you let me know if there is any update on my application?
+    - Can you update me on the progress of my application?
+    - What is the latest on my application status?
+    - Is there an update on my application status?
+    - How is my application progressing?
+    - Can you check the status of my application?
+    - What is the current progress of my application?
+    - Do you have any updates on my application status?
+    - Can you inform me about my application status?
+    - Could you tell me the status of my application?
+    - Is there any update on my application?
+    - Can you provide me with the current status of my application?
+    - May I know the status of my application?
+    - What is the status of my application now?
+    - Do you have any information on the progress of my application?
+    - Can you give me an update on my application status?
+    - What is the latest update on my application status?
 
 - intent: application_status_uni_assist
   examples: |
@@ -374,6 +902,21 @@ nlu:
     - What is the average waiting period for a response from the university after submitting an application through uni-assist?
     - Could you provide an estimate of when I might receive a response from the university after using uni-assist to submit my application?
     - When can I expect notification from the university after submitting my application through uni-assist?
+    - How long does it take to get a response after applying through uni-assist?
+    - When will the university respond to my uni-assist application?
+    - What is the response time from the university after a uni-assist application?
+    - When will I hear back after my uni-assist application?
+    - How long does the university take to reply after a uni-assist application?
+    - What is the timeline for a response after applying via uni-assist?
+    - When will I get feedback from the university after applying through uni-assist?
+    - How long is the wait for a university response after a uni-assist application?
+    - What is the typical response time for the university after a uni-assist application?
+    - When should I expect a university reply after applying via uni-assist?
+    - How soon after submitting my application through uni-assist will the university contact me?
+    - Can you tell me when I will receive a response from the university after a uni-assist application?
+    - What is the expected wait time for a response from the university after applying through uni-assist?
+    - When will I be notified by the university after a uni-assist application?
+    - How long does it generally take to get a university response after applying through uni-assist?
 
 - intent: aps_hand_in_late
   examples: |
@@ -386,13 +929,28 @@ nlu:
     - Is it acceptable to hand in my APS results after the deadline?
     - Can I deliver my APS evaluation at a later time?
     - Is there a grace period for submitting my APS certificate?
+    - Can I submit my APS certificate late due to processing delays?
+    - Is it okay to hand in my APS certificate after the deadline?
+    - Can I send in my APS documentation after the due date?
+    - Is it possible to provide my APS results past the deadline?
+    - Can I turn in my APS certificate late?
+    - Is there any leniency in the deadline for submitting my APS certificate?
+    - Can I submit my APS assessment past the specified deadline?
+    - Is late submission of my APS certificate permitted?
+    - Can I hand in my APS documentation at a later date?
+    - Is it acceptable to submit my APS results after the due date?
+    - Can I provide my APS evaluation after the deadline?
+    - Is there any allowance for late submission of my APS certificate?
+    - Can I hand in my APS assessment after the deadline has passed?
+    - Is it possible to submit my APS certificate beyond the deadline?
+    - Can I submit my APS documentation after the specified due date?
+    - Is there any flexibility for submitting my APS certificate late?
 
 - intent: aps_needed
   examples: |
     - Do I need APS?
     - Is APS required for my application?
     - Do I have to provide APS?
-    - Do I need APS?
     - Do I need to submit APS?
     - Is APS mandatory?
     - Do I need an APS certificate?
@@ -404,10 +962,21 @@ nlu:
     - Is an APS certificate mandatory for admission?
     - Do I need to include an APS certificate in my application?
     - Is an APS certificate needed for my application process?
+    - Do I need to provide APS for my application?
+    - Is it compulsory to have an APS certificate?
+    - Is APS a required document for my application?
+    - Is an APS certificate a must for my application?
+    - Do I need to obtain an APS certificate for my application?
+    - Is it obligatory to submit an APS certificate?
+    - Is an APS certificate essential for my application?
+    - Do I need to get an APS certificate for admission?
+    - Do I need an APS certificate to apply?
+    - Is having an APS certificate a requirement?
+    - Must I include an APS certificate with my application?
 
 - intent: whats_aps
   examples: |
-    - whats aps?
+    - What's APS?
     - What is the APS certificate?
     - Can you explain what the APS certificate is?
     - What does the APS certificate entail?
@@ -417,6 +986,21 @@ nlu:
     - What exactly is an APS certificate?
     - What is the role of the APS certificate in the application process?
     - What does an APS certificate signify?
+    - What is the meaning of an APS certificate?
+    - Can you tell me what the APS certificate is?
+    - What is involved in getting an APS certificate?
+    - Why do I need an APS certificate?
+    - What does APS stand for?
+    - What is the function of the APS certificate?
+    - What are the details of the APS certificate?
+    - Can you describe the APS certificate?
+    - What does the APS certificate represent?
+    - What is the APS certificate used for?
+    - What is the significance of the APS certificate?
+    - What does the APS certificate verify?
+    - What is the importance of the APS certificate in my application?
+    - Why is the APS certificate required?
+    - What are the key aspects of the APS certificate?
 
 - intent: consecutive_master
   examples: |
@@ -429,6 +1013,21 @@ nlu:
     - What is a consecutive master’s program?
     - What are the characteristics of a consecutive master’s degree?
     - What does it mean to enroll in a consecutive master’s program?
+    - What is the definition of a consecutive master’s degree?
+    - Can you tell me what a consecutive master’s program is?
+    - What does a consecutive master’s program involve?
+    - What does it mean to have a consecutive master’s degree?
+    - What is unique about a consecutive master’s program?
+    - What sets a consecutive master’s degree apart?
+    - What is the concept of a consecutive master’s program?
+    - What is a consecutive master’s degree all about?
+    - Can you describe what a consecutive master’s program is?
+    - What does a consecutive master’s entail?
+    - What is the purpose of a consecutive master’s degree?
+    - How would you define a consecutive master’s program?
+    - What does it mean to pursue a consecutive master’s degree?
+    - What is special about a consecutive master’s program?
+    - What is involved in a consecutive master’s degree?
 
 - intent: duolingo_accepted
   examples: |
@@ -442,13 +1041,47 @@ nlu:
     - Is a Duolingo certificate acceptable for your language proficiency criteria?
     - Will you accept Duolingo English Test results for admission?
     - Are Duolingo English Test certificates recognized by your institution?
+    - Do you acknowledge Duolingo certificates for admission purposes?
+    - Is the Duolingo English Test certificate valid for applying?
+    - Can I use a Duolingo certificate to meet English proficiency requirements?
+    - Does your institution recognize Duolingo English Test scores?
+    - Are Duolingo English Test results accepted for language requirements?
+    - Is the Duolingo English Test acceptable for your language proficiency needs?
+    - Will a Duolingo certificate be accepted as proof of English proficiency?
+    - Is Duolingo an accepted English proficiency test at your institution?
+    - Can I use Duolingo test results for my English language proof?
+    - Are Duolingo English Test scores valid for your application process?
+    - Is the Duolingo English Test recognized for admission?
+    - Will you consider Duolingo English Test certificates for language proficiency?
+    - Are Duolingo certificates acknowledged by your university?
+    - Can I provide a Duolingo English Test certificate for my application?
 
 - intent: eligibility
   examples: |
-    - Am I eligible to apply?  
+    - Am I eligible to apply?
     - Do I meet the eligibility criteria to apply?
     - Am I eligible to submit an application?
     - Am I eligible to apply with my current qualifications?
+    - Can I apply with my current qualifications?
+    - Do my qualifications make me eligible to apply?
+    - Am I qualified to submit an application?
+    - Do I qualify to apply?
+    - Do my credentials meet the eligibility requirements for applying?
+    - Am I allowed to apply with my current credentials?
+    - Are my qualifications sufficient to be eligible to apply?
+    - Do I fulfill the eligibility criteria for application?
+    - Can I apply given my current qualifications?
+    - Are my current qualifications enough to be eligible to apply?
+    - Am I eligible for application with my existing qualifications?
+    - Can I submit an application with the qualifications I have?
+    - Are my current credentials enough to apply?
+    - Do I meet the qualifications required to apply?
+    - Do I meet the standards to be eligible to apply?
+    - Am I eligible for application with my current credentials?
+    - Can I proceed with an application given my qualifications?
+    - Are my qualifications adequate to apply?
+    - Do I have the necessary qualifications to be eligible to apply?
+    - Do I qualify to submit an application with my current qualifications?
 
 - intent: eligibility_check
   examples: |
@@ -463,6 +1096,19 @@ nlu:
     - Can you evaluate my eligibility for application?
     - Could you check if I meet the requirements to apply?
     - Can you verify my qualifications for eligibility?
+    - Can you tell me if I am eligible to apply?
+    - Can you confirm my eligibility to apply?
+    - Could you check my qualifications for eligibility?
+    - Can you confirm if I meet the criteria to apply?
+    - Can you verify if I qualify to apply?
+    - Can you assess my eligibility to apply?
+    - Could you determine if I am qualified to apply?
+    - Can you review if I am eligible to apply?
+    - Could you evaluate if I meet the application requirements?
+    - Can you confirm if my qualifications make me eligible to apply?
+    - Could you check my eligibility status?
+    - Can you assess my qualifications for application eligibility?
+    - Can you verify if I am eligible to apply with my qualifications?
 
 - intent: eligibility_master
   examples: |
@@ -471,10 +1117,29 @@ nlu:
     - What are the standard eligibility conditions for your master's programs?
     - What are the main requirements to be eligible for your master's programs?
     - What GPA is required to be eligible for the master's program?
+    - Do I qualify for a master's program?
+    - What are the eligibility criteria for the master's programs?
+    - What qualifications do I need to apply for a master's program?
+    - What are the entry requirements for your master's programs?
+    - What academic qualifications are necessary for a master's program?
+    - What is the minimum GPA needed for eligibility for a master's program?
+    - What do I need to be eligible for your master's programs?
+    - What qualifications make me eligible for a master's program?
+    - What are the prerequisites for applying to a master's program?
+    - What GPA do I need to qualify for a master's program?
+    - What are the essential eligibility requirements for a master's program?
+    - What criteria must I meet to be eligible for a master's program?
+    - What academic standards are required for eligibility for a master's program?
+    - What are the key eligibility requirements for a master's program?
+    - What GPA is necessary to apply for a master's program?
+    - What qualifications must I have to be eligible for a master's program?
+    - What are the eligibility guidelines for the master's programs?
+    - What GPA is needed to be considered for a master's program?
+    - What are the academic requirements for eligibility for a master's program?
 
 - intent: eligibility_check_who
   examples: |
-    - Who can check my eligibility? 
+    - Who can check my eligibility?
     - Can I send the certificate to someone who can say if it is valid?
     - Can you check my documents and let me know if I am eligible?
     - Who is responsible for verifying my eligibility?
@@ -485,19 +1150,46 @@ nlu:
     - Who can review my qualifications for eligibility?
     - Who can evaluate my eligibility for the application process?
     - Who is the right person to verify my eligibility?
+    - Who can I talk to about checking my eligibility?
+    - Who can help me verify if I am eligible?
+    - Who can I reach out to for eligibility verification?
+    - Who can I send my documents to for eligibility checking?
+    - Who can provide an assessment of my eligibility?
+    - Who can I contact for confirmation of my eligibility?
+    - Who can I ask to verify my qualifications for eligibility?
+    - Who is in charge of checking eligibility for the program?
+    - Who can give me a definitive answer on my eligibility?
+    - Who can I consult to check if I meet the eligibility criteria?
+    - Who is the appropriate person to check my eligibility?
+    - Who can I send my documents to for an eligibility review?
+    - Who can provide confirmation of my eligibility status?
 
 - intent: no_relevant_studies
   examples: |
     - Can I study if I have not completed the relevant courses?
-    - I have work expierience but studied in a different field. Can I apply?
-    - I only have a business related master can I still apply?
-    - I work in marketing can I apply for International Marketing Management?
-    - Is it possible to apply holding a non-business Bachelor degree?
+    - I have work experience but studied in a different field. Can I apply?
+    - I only have a business-related master’s degree. Can I still apply?
+    - I work in marketing. Can I apply for International Marketing Management?
+    - Is it possible to apply holding a non-business bachelor’s degree?
     - Can I apply for a master's degree if my undergraduate degree is not in business?
-    - Can someone with a non-business undergraduate degree qualify for one of your master degree's?
-    - Will my non business undergraduate degree affect my eligiblity for you master's programs?
+    - Can someone with a non-business undergraduate degree qualify for one of your master’s degrees?
+    - Will my non-business undergraduate degree affect my eligibility for your master’s programs?
     - What are options for students with non-business backgrounds who want to pursue a business master's?
-    - Do I need a business related bachelor's to pursure a master's in business? 
+    - Do I need a business-related bachelor's to pursue a master's in business?
+    - Can I apply for a master's in business if my bachelor’s degree is in a different field?
+    - Is it possible to get into a business master's program with a non-business bachelor's degree?
+    - Do you accept applicants with non-business undergraduate degrees for business master's programs?
+    - Can I qualify for a business master's with a degree in another field?
+    - Will my non-business bachelor's degree hinder my application for a business master's?
+    - What should I do if I want to study business but my bachelor's is in another field?
+    - Can I pursue a business master's with a background in a different field?
+    - Is work experience in business enough to apply for a business master's without a related degree?
+    - Can I still apply for a business master's if my bachelor's is unrelated?
+    - What are my chances of getting into a business master's program with a different academic background?
+    - Am I eligible for a business master's if my undergraduate studies were in a different field?
+    - Can a non-business undergraduate degree holder apply for a business-related master's program?
+    - Is a business-related bachelor's degree mandatory for applying to your business master's programs?
+    - Can I apply for a business master's with a non-business academic background?
 
 - intent: whats_gmat
   examples: |
@@ -509,6 +1201,22 @@ nlu:
     - What is the purpose of the GMAT?
     - What kind of exam is the GMAT?
     - What does the GMAT measure?
+    - What is the GMAT used for?
+    - Can you tell me what the GMAT is?
+    - What does GMAT stand for?
+    - What is involved in the GMAT?
+    - What is tested in the GMAT?
+    - What areas does the GMAT cover?
+    - What do GMAT scores indicate?
+    - What does a GMAT score represent?
+    - What is the GMAT exam all about?
+    - What are GMAT scores used for?
+    - What is the significance of the GMAT?
+    - Why is the GMAT important?
+    - What does GMAT test for?
+    - How is the GMAT structured?
+    - What sections are included in the GMAT?
+    - What does one need to know about the GMAT?
 
 - intent: gmat_needed
   examples: |
@@ -518,6 +1226,24 @@ nlu:
     - Do I have to submit a GMAT test score?
     - Is GMAT required to apply?
     - Can I apply without GMAT?
+    - Is a GMAT score necessary for my application?
+    - Must I take the GMAT to apply?
+    - Do I need to provide a GMAT score?
+    - Is the GMAT a required test for admission?
+    - Am I required to take the GMAT?
+    - Is it possible to apply without a GMAT score?
+    - What is the minimum GMAT score needed to apply?
+    - Is GMAT compulsory for application?
+    - Do I need a GMAT score to be eligible to apply?
+    - Is it mandatory to have a GMAT score for application?
+    - Can I submit my application without a GMAT score?
+    - Is a GMAT test score a requirement for application?
+    - What GMAT score do I need for admission?
+    - Is taking the GMAT necessary for applying?
+    - Is a GMAT score part of the application requirements?
+    - Do all applicants need to submit a GMAT score?
+    - Is GMAT a required criterion for applying?
+    - Can I proceed with my application without a GMAT score?
 
 - intent: hwr_gmat_test
   examples: |
@@ -528,7 +1254,19 @@ nlu:
     - Does HWR offer GMAT testing services?
     - Are GMAT exams conducted at HWR?
     - Can I schedule a GMAT test at HWR?
-    - Is it possible to take the GMAT at HWR
+    - Is it possible to take the GMAT at HWR?
+    - Can I book a GMAT test at HWR?
+    - Does HWR facilitate GMAT testing?
+    - Are there GMAT test sessions available at HWR?
+    - Can I register for a GMAT test at HWR?
+    - Does HWR host GMAT exams?
+    - Is HWR an authorized center for GMAT testing?
+    - Can I take my GMAT exam at HWR?
+    - Does HWR provide facilities for taking the GMAT?
+    - Is it possible to book a GMAT test slot at HWR?
+    - Are GMAT test dates available at HWR?
+    - Does HWR have the capability to conduct GMAT tests?
+    - Can I take the GMAT test on campus at HWR?
 
 - intent: gre_instead_gmat
   examples: |
@@ -541,7 +1279,20 @@ nlu:
     - Does your institution accept GRE in lieu of GMAT?
     - Is it possible to apply with GRE scores instead of GMAT?
     - Are GRE scores valid for applications in place of GMAT scores?
-    - I am from Iran. Can I hand in GRE instead of GMAT?1
+    - I am from Iran. Can I hand in GRE instead of GMAT?
+    - Can I use GRE scores instead of GMAT for admission?
+    - Is GRE accepted as a substitute for GMAT?
+    - Are GRE scores interchangeable with GMAT scores for your program?
+    - Can I apply with GRE scores rather than GMAT?
+    - Is submitting GRE scores instead of GMAT acceptable?
+    - Does your application process accept GRE in place of GMAT?
+    - Can GRE scores be used as a replacement for GMAT scores?
+    - Will you accept GRE scores if I don't have GMAT?
+    - Can I provide GRE scores for my application instead of GMAT?
+    - Are GRE results considered equivalent to GMAT for your admissions?
+    - Do your admissions accept GRE scores as a GMAT alternative?
+    - Will GRE scores fulfill the GMAT requirement for your program?
+    - Is it allowed to submit GRE results instead of GMAT for application?
 
 - intent: english_proficiency_proof
   examples: |
@@ -553,6 +1304,22 @@ nlu:
     - What type of English proficiency documentation do I need to provide?
     - Which English language certificates are valid for application?
     - What English language proof is mandatory for my application?
+    - What English language tests are recognized for application?
+    - Which English proficiency tests do you accept?
+    - What is required to prove my English language skills?
+    - What are the accepted English language certificates?
+    - What kind of English language documentation is required?
+    - Which English proficiency certifications are acceptable?
+    - What English language qualifications do I need to submit?
+    - Which English language tests are valid for proving proficiency?
+    - What documentation is necessary to prove English language proficiency?
+    - Which certificates can I use to demonstrate my English language level?
+    - What are the required English language proofs for admission?
+    - Which English language tests are needed for my application?
+    - What type of English language proof is needed for your application process?
+    - Which English proficiency documentation is necessary for applying?
+    - What English language tests are required to apply?
+    - Which certificates are accepted to demonstrate English proficiency?
 
 - intent: english_proficiency_proof_studied
   examples: |
@@ -565,9 +1332,20 @@ nlu:
     - Do I have to provide an English test score if my previous education was in English?
     - Is it necessary to take an English proficiency exam if I studied in an English-speaking environment?
     - Will I need to take an English test if my degree was taught in English?
+    - Do I need to submit an English proficiency test if I studied in English?
+    - Is an English proficiency exam mandatory if I have studied in English?
+    - If my education was in English, do I still need to take a test?
+    - Do I need to take an English test if my courses were in English?
+    - If I have a degree in English, do I need to provide a test score?
+    - Must I submit an English test result if I studied in an English-speaking country?
+    - Is it necessary to prove my English proficiency if my education was in English?
+    - Do I need an English proficiency certificate if my degree was in English?
+    - If my degree was completed in English, do I need to take a language test?
+    - Will an English test be required if my studies were conducted in English?
+    - Do I have to take an English proficiency test if my education was in an English-speaking institution?
 
 - intent: semester_arrive_late
-  examples: | 
+  examples: |
     - Is it possible to arrive later in the semester?
     - Can I start the semester late?
     - Is late arrival in the semester allowed?
@@ -577,6 +1355,17 @@ nlu:
     - Is late entry into the semester permitted?
     - Can I commence my studies later in the semester?
     - Is it acceptable to arrive partway through the semester?
+    - Can I start my classes after the semester has started?
+    - Is it okay to join the semester late?
+    - Is there an option to begin the semester late?
+    - Can I enroll after the semester begins?
+    - Is starting the semester late possible?
+    - Can I attend classes if I arrive later in the semester?
+    - Can I enter the semester after the official start date?
+    - Is it permissible to begin the semester after it starts?
+    - Is it allowed to start my studies late in the semester?
+    - Can I register for the semester if I arrive late?
+    - Is it possible to start the semester late and still join classes?
 
 - intent: defer_study_start
   examples: |
@@ -588,7 +1377,23 @@ nlu:
     - Can I postpone the start date of my studies?
     - Am I allowed to defer my start date for studying?
     - Is deferring my study start date an option?
-  
+    - Can I delay the beginning of my studies?
+    - Is it possible to start my studies at a later date?
+    - Can I request a deferral of my study start date?
+    - Can I delay my enrollment at HWR Berlin?
+    - Can I defer my admission to HWR Berlin?
+    - Is it allowed to defer my study start at HWR Berlin?
+    - Can I push back my study start date?
+    - Is it possible to reschedule my study start date?
+    - Can I change my start date for studying at HWR Berlin?
+    - Is deferring my start date for studies at HWR Berlin possible?
+    - Can I ask for a deferral of my study commencement date?
+    - Can I delay the start of my studies at HWR Berlin?
+    - Can I postpone my enrollment at HWR Berlin?
+    - Is it permissible to defer my study place due to visa issues?
+    - Can I move my study start date to a later time?
+    - Can I defer my study place if I am not ready to start yet?
+
 - intent: semester_start
   examples: |
     - When does the semester start?
@@ -599,6 +1404,22 @@ nlu:
     - Can you tell me the semester start date?
     - What is the beginning date for the semester?
     - When is the first day of the semester?
+    - When does the fall semester start?
+    - What is the starting date for the semester?
+    - When does the academic semester commence?
+    - When is the semester start date?
+    - What date does the semester begin?
+    - Can you provide the start date for the semester?
+    - When do classes start for the semester?
+    - When is the official start of the semester?
+    - When does the new semester start?
+    - When does the academic term begin?
+    - What is the date the semester starts?
+    - Can you tell me when the semester begins?
+    - When will the semester start?
+    - What is the first day of classes for the semester?
+    - When does the university semester start?
+    - What is the opening date of the semester?
 
 - intent: time_span_semester
   examples: |
@@ -609,6 +1430,19 @@ nlu:
     - What is the typical length of a semester?
     - How long does a usual semester run?
     - How long does a semester typically last?
+    - What is the time span of a typical semester?
+    - How long is a standard semester?
+    - What is the usual duration of a semester?
+    - How long does the average semester last?
+    - What is the average length of a semester?
+    - How many weeks does a semester typically last?
+    - How long does one semester usually last?
+    - What is the standard duration of a semester?
+    - How many months is a semester?
+    - How long does the academic semester last?
+    - What is the usual length of a semester?
+    - How long is each semester?
+    - What is the normal duration of a semester?
 
 - intent: work_experience_accepted
   examples: |
@@ -622,6 +1456,16 @@ nlu:
     - Does work experience accumulated during my studies count towards eligibility?
     - Will my work experience during my academic studies be considered?
     - Is work experience an asset?
+    - Can work experience gained while studying be included in my application?
+    - Is work experience during my studies valid for application purposes?
+    - Do you acknowledge work experience gained while I was a student?
+    - Is work experience from my student years accepted?
+    - Is work experience earned during my academic period taken into account?
+    - Will you count work experience I gained while in school?
+    - Does work experience during my education matter for the application?
+    - Can I include work experience from my study period in my application?
+    - Is student-time work experience accepted in the evaluation?
+    - Is work experience an advantage if gained while studying?
 
 - intent: swap_work_experience
   examples: |
@@ -634,6 +1478,21 @@ nlu:
     - Can work experience satisfy the academic study prerequisites?
     - Is work experience considered an alternative to meeting academic study requirements?
     - Am I allowed to use work experience to fulfill academic study criteria?
+    - Can work experience replace academic study requirements?
+    - Is it permissible to use work experience instead of academic studies?
+    - Can I meet the academic study requirements through work experience?
+    - Is work experience acceptable in lieu of academic study requirements?
+    - Can relevant work experience be used to fulfill academic requirements?
+    - Can I use my work experience to meet the academic prerequisites?
+    - Is it allowed to use work experience to substitute academic studies?
+    - Can work experience be counted towards academic study requirements?
+    - Is there a provision to use work experience in place of academic courses?
+    - Can I leverage work experience to meet academic requirements?
+    - Can I use my professional experience instead of academic qualifications?
+    - Is work experience valid to fulfill academic criteria?
+    - Can I use my job experience to meet the academic study requirements?
+    - Can professional experience substitute academic prerequisites?
+    - Is it acceptable to use work experience to meet academic study standards?
 
 - intent: chitchat/ask_wellbeing
   examples: |
@@ -646,23 +1505,67 @@ nlu:
     - What’s up?
     - How’s your day going?
     - How do you do?
+    - How are you feeling?
+    - How’s life?
+    - How are you today?
+    - How is everything going?
+    - How are you getting on?
+    - How is your day?
+    - How have you been doing?
+    - How's it been?
+    - How’s your week going?
+    - How are you this morning?
+    - How are you this afternoon?
+    - How are you this evening?
+    - What's new?
+    - How’s your day been?
+    - How have things been for you?
 
 - intent: chitchat/ask_weather
   examples: |
     - How's the weather?
-    - Whats the weather?
-    - Hows the weather at the HWR?
+    - What's the weather?
+    - How's the weather at the HWR?
     - Is it rainy today?
     - Is it sunny today?
+    - What's the weather like today?
+    - How's the weather outside?
+    - Is it cold today?
+    - Is it hot today?
+    - Is it cloudy today?
+    - What's the forecast for today?
+    - How's the weather looking today?
+    - Is it snowing today?
+    - What's the temperature like today?
+    - Is it windy today?
+    - What's the weather report for today?
+    - How's the weather going to be today?
+    - Will it rain today?
+    - Will it be sunny today?
+    - Is it clear skies today?
 
 - intent: chitchat/ask_hobbies
   examples: |
     - What do you like to do in your free time?
-    - What are your hobbies
+    - What are your hobbies?
     - Do you have any hobbies?
     - What do you do for fun?
     - What do you enjoy doing in your spare time?
     - Do you have any interests?
+    - What are your favorite hobbies?
+    - What activities do you enjoy?
+    - How do you spend your free time?
+    - What do you do to relax?
+    - What are your leisure activities?
+    - What do you like to do for enjoyment?
+    - Do you have any favorite pastimes?
+    - How do you like to unwind?
+    - What are your interests outside of work?
+    - Do you have any special hobbies?
+    - What do you enjoy doing when you're not working?
+    - What kinds of hobbies do you have?
+    - What do you like to do for recreation?
+    - Do you have any fun activities you like to do?
 
 - intent: chitchat/ask_music
   examples: |
@@ -671,49 +1574,120 @@ nlu:
     - What's your favorite music genre?
     - Do you have a favorite artist?
     - What kind of music do you listen to?
+    - What’s your favorite type of music?
+    - Who is your favorite musician?
+    - What songs do you like to listen to?
+    - Do you have a favorite band?
+    - What music do you enjoy?
+    - Are you into music?
+    - What’s your go-to music genre?
+    - Do you have a favorite song?
+    - What kind of tunes do you enjoy?
+    - What’s your favorite music style?
+    - Who is your favorite singer?
+    - What genre of music do you prefer?
+    - What kind of music are you into?
+    - Do you have a preferred music genre?
+    - What’s your top music choice?
 
 - intent: chitchat/ask_animals
   examples: |
     - Do you like animals?
-    - Whats your favorite animal?
+    - What's your favorite animal?
     - Do you have a favorite animal?
     - Are you an animal lover?
     - Do you have a pet?
+    - What kind of animals do you like?
+    - Do you have any pets?
+    - Are you fond of animals?
+    - What's your favorite pet?
+    - Do you like pets?
+    - Do you have a favorite kind of animal?
+    - Are you a pet owner?
+    - Do you enjoy being around animals?
+    - What’s your favorite type of animal?
+    - Do you prefer any specific animal?
+    - Have you ever had a pet?
+    - What’s your favorite pet animal?
+    - Are you interested in animals?
+    - Do you have any favorite animals?
+    - What’s your most liked animal?
 
 - intent: chitchat/ask_age
   examples: |
     - How old are you?
     - What's your age?
+    - Can you tell me your age?
+    - How many years old are you?
+    - What is your age?
+    - How old do you happen to be?
+    - May I ask your age?
+    - What age are you?
+    - How old might you be?
+    - How old are you, if you don't mind me asking?
 
 - intent: chitchat/ask_identity
   examples: |
     - Who are you?
     - What's your name?
-    - Whats your prupose?
+    - What's your purpose?
     - What are you?
+    - Can you tell me who you are?
+    - What is your name?
+    - Who am I talking to?
+    - May I know your name?
+    - What’s your role?
+    - Who is this?
+    - Can you identify yourself?
+    - What’s your function?
+    - Who are you exactly?
+    - What do you do?
+    - What should I call you?
+    - How should I address you?
+    - What is your job?
+    - Who am I interacting with?
+    - What’s your task here?
+    - Who is responding to me?
 
 - intent: chitchat/ask_sense_of_life
   examples: |
+    - What is the matter of life?
     - What is the meaning of life?
     - What is the purpose of life?
     - What is the sense of life?
+    - Can you tell me the meaning of life?
+    - What do you think the purpose of life is?
+    - What’s the reason for life?
+    - What is life all about?
+    - Do you know the meaning of life?
+    - What is the ultimate purpose of life?
+    - Why are we here?
+    - What’s the goal of life?
+    - What is life’s meaning?
+    - What is the point of life?
+    - What do you believe the meaning of life is?
+    - What’s life’s purpose?
+    - What’s the sense of our existence?
+    - What’s the reason behind life?
+    - Can you explain the purpose of life?
+    - What’s life’s significance?
 
-- intent: ask_multiple_questions
-  examples: |
-    - Hello! How are you?
-    - Whats APS? Do I need APS?
-    - Whats GMAT? Do I need GMAT?
-    - Hi! What is your name?
-    - Thanks. Goodbye!
-    - Whats APS? Can I hand it in after the deadline?
-    - Can I apply for more than one program? Do I have to apply for more than one program?
-    - Can I apply for more than one program? Will it increase my chances if I apply for more than one?
-    - Can I hand in GRE instead of GMAT? Is GMAT mandatory?
-    - Can you check my eligibility? Who can check my eligibility?
-    - Can I defer my study start date? Can I defer my study place at HWR Berlin?
-    - When does the semester start? How long is a typical semester?
-    - Do I need GMAT? Does HWR give out GMAT tests?
-    - What kind of english certificate do I need? Is duolingo accepted?
+# - intent: ask_multiple_questions
+#   examples: |
+#     - Hello! How are you?
+#     - Whats APS? Do I need APS?
+#     - Whats GMAT? Do I need GMAT?
+#     - Hi! What is your name?
+#     - Thanks. Goodbye!
+#     - Whats APS? Can I hand it in after the deadline?
+#     - Can I apply for more than one program? Do I have to apply for more than one program?
+#     - Can I apply for more than one program? Will it increase my chances if I apply for more than one?
+#     - Can I hand in GRE instead of GMAT? Is GMAT mandatory?
+#     - Can you check my eligibility? Who can check my eligibility?
+#     - Can I defer my study start date? Can I defer my study place at HWR Berlin?
+#     - When does the semester start? How long is a typical semester?
+#     - Do I need GMAT? Does HWR give out GMAT tests?
+#     - What kind of english certificate do I need? Is duolingo accepted?
 
 - synonym: transfer
   examples: |
