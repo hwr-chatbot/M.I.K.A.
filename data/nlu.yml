@@ -19,6 +19,10 @@ nlu:
 - intent: say_goodbye
   examples: |
     - goodbye
+    - thanks, goodbye
+    - thank you, goodbye
+    - thanks, bye
+    - thank you, ciao
     - ciao
     - see you then
     - see you soon
@@ -360,6 +364,8 @@ nlu:
     - Is it required to have a high school diploma to study at HWR?
     - Can I join HWR Berlin without a general higher education entrance qualification?
     - Can I study at HWR Berlin without a high school diploma?
+    - Can I study without Abitur at HWR Berlin?
+    - Can I study without Abitur?
     - Do I need an A-level to study at HWR Berlin?
     - Can I be a student at HWR Berlin without a high school diploma?
     - Is a high school diploma necessary for studying at HWR Berlin?
@@ -734,6 +740,9 @@ nlu:
 
 - intent: where_to_apply
   examples: |
+    - Where do I have to apply?
+    - To whom do I need to submit my application?
+    - Where should I send my application?
     - Do I apply via uni-assist or directly to HWR Berlin?
     - Should I apply through uni-assist or directly to HWR Berlin?
     - Do I submit my application through uni-assist or directly to HWR Berlin?
