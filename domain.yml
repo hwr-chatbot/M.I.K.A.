@@ -371,14 +371,10 @@ responses:
   - text: 'Those who completed their bachelor’s degree at a German university should apply directly to HWR Berlin via S.A.M. If you have a degree from another country, apply through Uni-assist.'
 
   utter_application_many_programs_possible:
-  - text: 'Yes, you can apply for up to three programs. Please rank your first choice first.'
-  - text: 'Our programs are highly competitive, therefore you are likely to only be considered for one program.'
-  - text: 'Yes, you may apply for up to three programs. Make sure to list your top choice first.'
-  - text: 'Due to the competitive nature of our programs, it is likely that you will only be considered for one program.'
-  - text: 'Yes, you can submit applications for up to three programs. Please prioritize by listing your first choice at the top.'
-  - text: 'Given the competitiveness of our programs, you will probably be considered for just one program.'
-  - text: 'You are allowed to apply for up to three programs. Ensure your preferred program is listed as your first choice.'
-  - text: 'Our programs are very competitive, so you will most likely only be considered for one program.'
+  - text: 'Yes, you can apply for up to three programs. Please rank your first choice first. Our programs are highly competitive, therefore you are likely to only be considered for one program.'
+  - text: 'Yes, you may apply for up to three programs. Make sure to list your top choice first. Due to the competitive nature of our programs, it is likely that you will only be considered for one program.'
+  - text: 'Yes, you can submit applications for up to three programs. Please prioritize by listing your first choice at the top. Given the competitiveness of our programs, you will probably be considered for just one program.'
+  - text: 'You are allowed to apply for up to three programs. Ensure your preferred program is listed as your first choice. Our programs are very competitive, so you will most likely only be considered for one program.'
 
   utter_application_many_programs_needed:
   - text: 'It is not necessary to apply for more than one program.'
