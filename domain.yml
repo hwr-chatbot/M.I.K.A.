@@ -172,11 +172,11 @@ responses:
   - text: No problem at all!
   
   utter_history_hwr:
-  - text: 'The HWR was founded in the 1970s, but the building on the Schöneberg campus has been around for longer. If you would like to find out more, take a look here: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/.'
-  - text: 'The HWR Berlin was established in the 1970s, though the Schöneberg campus building has a longer history. For more details, visit: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/.'
-  - text: 'Founded in the 1970s, the HWR Berlin has a rich history, with the Schöneberg campus building being even older. Learn more here: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/.'
-  - text: 'HWR Berlin was established in the 1970s, but the Schöneberg campus has a history that goes back further. Discover more at: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/.'
-  - text: 'The HWR, founded in the 1970s, has a long-standing history, especially the Schöneberg campus building. For additional information, check out: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/.'
+  - text: 'The HWR was founded in the 1970s, but the building on the Schöneberg campus has been around for longer. If you would like to find out more, take a look here: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/. This page is unfortunately not available in English.'
+  - text: 'The HWR Berlin was established in the 1970s, though the Schöneberg campus building has a longer history. For more details, visit: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/. This page is unfortunately not available in English.'
+  - text: 'Founded in the 1970s, the HWR Berlin has a rich history, with the Schöneberg campus building being even older. Learn more here: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/. This page is unfortunately not available in English.'
+  - text: 'HWR Berlin was established in the 1970s, but the Schöneberg campus has a history that goes back further. Discover more at: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/. This page is unfortunately not available in English.'
+  - text: 'The HWR, founded in the 1970s, has a long-standing history, especially the Schöneberg campus building. For additional information, check out: https://www.hwr-berlin.de/hwr-berlin/ueber-uns/geschichte/. This page is unfortunately not available in English.'
 
   utter_locations_hwr:
   - text: The HWR has two locations in Berlin. One in Schöneberg and one in Lichtenberg.
@@ -193,11 +193,11 @@ responses:
   - text: '"HWR Berlin" means "Berlin School of Economics and Law". In German, it’s called "Hochschule für Wirtschaft und Recht Berlin".'
 
   utter_information_courses:
-  - text: 'There is an overview of the degree programs on the HWR website, take a look here: https://www.hwr-berlin.de/studium/studiengaenge/. Or you can contact the student advisory service: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-services/.'
-  - text: 'You can take a look at the degree programs from A to Z on the HWR website, i.e. here: https://www.hwr-berlin.de/studium/studiengaenge/ or you can get information from the student advisory service: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-services/.'
-  - text: 'An overview of all degree programs can be found on the HWR website: https://www.hwr-berlin.de/studium/studiengaenge/. For personalized advice, contact the student advisory service: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-services/.'
-  - text: 'Explore the degree programs on the HWR website here: https://www.hwr-berlin.de/studium/studiengaenge/. Additionally, you can seek guidance from the student advisory service: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-services/.'
-  - text: 'You can find a comprehensive list of degree programs on the HWR website: https://www.hwr-berlin.de/studium/studiengaenge/. For more details, reach out to the student advisory service: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-services/.'
+  - text: 'There is an overview of the degree programs on the HWR website, take a look here: https://www.hwr-berlin.de/en/study/degree-programmes/. Or you can contact the student advisory service: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-services/.'
+  - text: 'You can take a look at the degree programs from A to Z on the HWR website, i.e. here: https://www.hwr-berlin.de/en/study/degree-programmes/ or you can get information from the student advisory service: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-services/.'
+  - text: 'An overview of all degree programs can be found on the HWR website: https://www.hwr-berlin.de/en/study/degree-programmes/. For personalized advice, contact the student advisory service: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-services/.'
+  - text: 'Explore the degree programs on the HWR website here: https://www.hwr-berlin.de/en/study/degree-programmes/. Additionally, you can seek guidance from the student advisory service: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-services/.'
+  - text: 'You can find a comprehensive list of degree programs on the HWR website: https://www.hwr-berlin.de/en/study/degree-programmes/. For more details, reach out to the student advisory service: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-services/.'
 
   utter_prerequisite_for_courses:
   - text: "The most important requirement for your Bachelor's degree at the HWR-Berlin is a recognized university entrance qualification - i.e. a high school diploma or an entrance qualification for universities of applied sciences. You can find more information about the general requirements here: https://www.hwr-berlin.de/studium/bewerbung/voraussetzungen-fuer-dein-studium/. There are additional requirements for some degree programs, take a look here: https://www.hwr-berlin.de/en/study/how-to-apply/application-from-a-to-z/."
@@ -221,18 +221,18 @@ responses:
   - text: "It's great to know you're interested in joining us! You can find comprehensive details on qualifications, funding, visas, and other important topics at: https://www.hwr-berlin.de/en/study/international-study/international-students/.'"
 
   utter_qualification_german_hs:
-  - text: 'There is a great database where you can check whether qualifications from all countries are recognized: https://anabin.kmk.org/no_cache/filter/schulabschluesse-mit-hochschulzugang.html#land_gewaehlt. If you prefer to check your qualifications in an English-language database, please go to: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
-  - text: 'You can verify if your qualifications are recognized in Germany using this database: https://anabin.kmk.org/no_cache/filter/schulabschluesse-mit-hochschulzugang.html#land_gewaehlt. For an English-language version, visit: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
-  - text: 'To check if your qualifications are accepted in Germany, use this helpful database: https://anabin.kmk.org/no_cache/filter/schulabschluesse-mit-hochschulzugang.html#land_gewaehlt. Alternatively, for English information, go to: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
-  - text: 'This database allows you to see if your qualifications are recognized in Germany: https://anabin.kmk.org/no_cache/filter/schulabschluesse-mit-hochschulzugang.html#land_gewaehlt. For an English-language database, please visit: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
-  - text: 'To find out if your qualifications are recognized, you can use this database: https://anabin.kmk.org/no_cache/filter/schulabschluesse-mit-hochschulzugang.html#land_gewaehlt. For English details, check here: https://www.daad.d'
+  - text: 'There is a great database where you can check whether qualifications from all countries are recognized: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
+  - text: 'You can verify if your qualifications are recognized in Germany using this database: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
+  - text: 'To check if your qualifications are accepted in Germany, use this helpful database: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
+  - text: 'This database allows you to see if your qualifications are recognized in Germany: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
+  - text: 'To find out if your qualifications are recognized, you can use this database: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/admission-database/.'
 
   utter_attend_courses_in_advance:
-  - text: 'Unfortunately, you cannot get a taste of lectures and courses at HWR Berlin before you start your studies. Alternatively, you can find all of HWR Berlin’s offers for schools and pupils here: https://www.hwr-berlin.de/kooperationen/schulen/'
-  - text: "Sadly, it's not possible to attend lectures and courses at HWR Berlin before you begin your studies. However, you can explore all the offers for schools and pupils here: https://www.hwr-berlin.de/kooperationen/schulen/"
-  - text: "You can't preview lectures and courses at HWR Berlin before starting your studies. Instead, check out all the offers for schools and pupils here: https://www.hwr-berlin.de/kooperationen/schulen/"
-  - text: "It’s not possible to attend lectures and courses at HWR Berlin in advance. For alternative options, see HWR Berlin’s offers for schools and pupils: https://www.hwr-berlin.de/kooperationen/schulen/"
-  - text: "Unfortunately, you can't experience lectures and courses at HWR Berlin before your studies begin. Alternatively, explore the offers for schools and pupils here: https://www.hwr-berlin.de/kooperationen/schulen/"
+  - text: 'Unfortunately, you cannot get a taste of lectures and courses at HWR Berlin before you start your studies. Alternatively, you can find all of HWR Berlin’s offers for schools and pupils here: https://www.hwr-berlin.de/kooperationen/schulen/. This page is unfortunately not available in English.'
+  - text: "Sadly, it's not possible to attend lectures and courses at HWR Berlin before you begin your studies. However, you can explore all the offers for schools and pupils here: https://www.hwr-berlin.de/kooperationen/schulen/. This page is unfortunately not available in English."
+  - text: "You can't preview lectures and courses at HWR Berlin before starting your studies. Instead, check out all the offers for schools and pupils here: https://www.hwr-berlin.de/kooperationen/schulen/. This page is unfortunately not available in English."
+  - text: "It’s not possible to attend lectures and courses at HWR Berlin in advance. For alternative options, see HWR Berlin’s offers for schools and pupils: https://www.hwr-berlin.de/kooperationen/schulen/. This page is unfortunately not available in English."
+  - text: "Unfortunately, you can't experience lectures and courses at HWR Berlin before your studies begin. Alternatively, explore the offers for schools and pupils here: https://www.hwr-berlin.de/kooperationen/schulen/. This page is unfortunately not available in English."
 
   utter_transfer_to_hwr:
   - text: 'You are welcome to transfer to HWR Berlin from another university. You can have modules credited if you were already enrolled on a similar degree program. If you have already successfully completed more than 20 ECTS credits, you can usually apply for a higher semester in the Bachelor’s degree program. If you have any questions about changing universities, you can contact the student advisory services of the respective departments: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-in-the-departments/'
@@ -242,12 +242,12 @@ responses:
   - text: 'You are welcome to transfer to HWR Berlin from another university. Modules can be credited if previously enrolled in a similar program. More than 20 ECTS credits generally allow you to apply for a higher semester in the Bachelor’s program. For questions about changing universities, contact the student advisory services of the respective departments: https://www.hwr-berlin.de/en/study/counselling-services/student-counselling-in-the-departments/'
 
   utter_study_without_a-level:
-  - text: 'Yes, it is possible to study at the HWR Berlin even if you do not have an Abitur or a Fachhochschulreife. Here you can read about the requirements you need to meet. Find out more at: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/'
-  - text: "Yes, you can study at HWR Berlin without having an Abitur or Fachhochschulreife. You can learn about the necessary requirements here. Discover more at: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/"
-  - text: "Absolutely, it's possible to enroll at HWR Berlin even if you don't have an Abitur or Fachhochschulreife. Check out the requirements you need to fulfill here. For more details, visit: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/"
-  - text: "Yes, studying at HWR Berlin is possible without an Abitur or Fachhochschulreife. Here are the criteria you need to meet. Learn more at: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/"
-  - text: "Indeed, you can study at HWR Berlin even if you do not possess an Abitur or Fachhochschulreife. Here you can find the required qualifications. For further information, visit: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/"
-  - text: "Yes, it's feasible to study at HWR Berlin without an Abitur or Fachhochschulreife. The requirements you need to fulfill are outlined here. Find out more at: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/"
+  - text: 'Yes, it is possible to study at the HWR Berlin even if you do not have an Abitur or a Fachhochschulreife. Here you can read about the requirements you need to meet. Find out more at: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur. This page is unfortunately not available in English.'
+  - text: "Yes, you can study at HWR Berlin without having an Abitur or Fachhochschulreife. You can learn about the necessary requirements here. Discover more at: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/. This page is unfortunately not available in English."
+  - text: "Absolutely, it's possible to enroll at HWR Berlin even if you don't have an Abitur or Fachhochschulreife. Check out the requirements you need to fulfill here. For more details, visit: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/. This page is unfortunately not available in English."
+  - text: "Yes, studying at HWR Berlin is possible without an Abitur or Fachhochschulreife. Here are the criteria you need to meet. Learn more at: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/. This page is unfortunately not available in English."
+  - text: "Indeed, you can study at HWR Berlin even if you do not possess an Abitur or Fachhochschulreife. Here you can find the required qualifications. For further information, visit: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/. This page is unfortunately not available in English."
+  - text: "Yes, it's feasible to study at HWR Berlin without an Abitur or Fachhochschulreife. The requirements you need to fulfill are outlined here. Find out more at: https://www.hwr-berlin.de/studium/bewerbung/studieren-ohne-abitur/. This page is unfortunately not available in English."
 
   utter_english_courses:
   - text: 'The HWR Berlin and the Berlin Professional School offer almost 20 degree programs that you study exclusively in English: https://www.hwr-berlin.de/en/study/degree-programmes/'
@@ -258,12 +258,12 @@ responses:
   - text: 'HWR Berlin and the Berlin Professional School offer close to 20 degree programs that are conducted exclusively in English. For more information, visit: https://www.hwr-berlin.de/en/study/degree-programmes/'
 
   utter_guest_auditor:
-  - text: 'In principle, HWR Berlin offers the opportunity to take part in courses as a guest student. You can find more information here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
-  - text: 'HWR Berlin generally allows individuals to participate in courses as guest auditors. More information can be found here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
-  - text: 'You have the opportunity to attend courses at HWR Berlin as a guest student. Find more details here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
-  - text: 'As a guest student, you can take part in courses at HWR Berlin. Additional information is available here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
-  - text: 'HWR Berlin offers the chance to join courses as a guest student. Learn more at: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
-  - text: 'Participation in courses as a guest student is possible at HWR Berlin. You can find further information here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/'
+  - text: 'In principle, HWR Berlin offers the opportunity to take part in courses as a guest student. You can find more information here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/. This page is unfortunately not available in English.'
+  - text: 'HWR Berlin generally allows individuals to participate in courses as guest auditors. More information can be found here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/. This page is unfortunately not available in English.'
+  - text: 'You have the opportunity to attend courses at HWR Berlin as a guest student. Find more details here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/. This page is unfortunately not available in English.'
+  - text: 'As a guest student, you can take part in courses at HWR Berlin. Additional information is available here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/. This page is unfortunately not available in English.'
+  - text: 'HWR Berlin offers the chance to join courses as a guest student. Learn more at: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/. This page is unfortunately not available in English.'
+  - text: 'Participation in courses as a guest student is possible at HWR Berlin. You can find further information here: https://www.hwr-berlin.de/studium/weitere-studienangebote/gast-und-nebenhoererschaft/. This page is unfortunately not available in English.'
 
   utter_admission_requirement:
   - text: 'You can find the admission requirements for each study program listed online: https://www.hwr-berlin.de/en/study/degree-programmes/'
@@ -428,9 +428,9 @@ responses:
   - text: 'Unfortunately it is not possible to submit an APS certificate late.'
 
   utter_aps_needed:
-  - text: 'If you studied your undergraduate studies in India, Vietnam, China and you would like to apply to HWR Berlin then you must submit an APS certificate.'
-  - text: 'For documents issued in the countries China, Vietnam and India, the APS certificate is an absolute requirement to apply to HWR Berlin and must be submitted before the application deadline has passed.'
-  - text: 'You can find out if you need an APS by carefully reading this page: https://www.uni-assist.de/en/tools/glossary-of-terms/description/term/akademische-pruefstelle-aps/'
+  - text: 'If you studied your undergraduate studies in India, Vietnam, China and you would like to apply to HWR Berlin then you must submit an APS certificate. Find out more here: https://www.uni-assist.de/en/tools/glossary-of-terms/description/term/akademische-pruefstelle-aps/.'
+  - text: 'For documents issued in the countries China, Vietnam and India, the APS certificate is an absolute requirement to apply to HWR Berlin and must be submitted before the application deadline has passed. Find out more here: https://www.uni-assist.de/en/tools/glossary-of-terms/description/term/akademische-pruefstelle-aps/.'
+  - text: 'You can find out if you need an APS by carefully reading this page: https://www.uni-assist.de/en/tools/glossary-of-terms/description/term/akademische-pruefstelle-aps/.'
 
   utter_whats_aps:
   - text: 'The APS is a joint institution of the German Embassy and the German Academic Exchange Service (DAAD). It exists in China, Vietnam and India. The APS checks the authenticity of educational biographies and the corresponding educational certificates, and issues certificates if the result is positive. For these countries, the APS certificate is a requirement for applying to a German university.'
