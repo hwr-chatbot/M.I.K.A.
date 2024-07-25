@@ -61,7 +61,7 @@ intents:
 - say_goodbye
 - negate
 - chitchat
-# - ask_multiple_questions
+- ask_multiple_questions
 #- zustimmen
 
 responses:
