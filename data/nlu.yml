@@ -1681,9 +1681,20 @@ nlu:
     - Can you explain the purpose of life?
     - What’s life’s significance?
 
-- intent: ask_multiple_questions
+- regex: ask_multiple_questions
   examples: |
     - .+[.?!]\s+.+[.?!]
+
+- intent: ask_multiple_questions
+  examples: |
+    - Hello! How are you? What is your name?
+    - What is your favorite animal? Do you like music?
+    - What is GMAT? Do I need GMAT?
+    - What is the weather like today? How are you doing?
+    - What is APS? Do I need APS?
+    - When does the semester start? How long is a typical semester?
+    - Whendoes the semester start? Can I defer my study start date?
+    - Do I need an English proficiency test? Do you accept Duolingo certificates?
 
 - synonym: transfer
   examples: |
