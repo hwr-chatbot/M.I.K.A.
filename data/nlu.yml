@@ -1681,22 +1681,9 @@ nlu:
     - Can you explain the purpose of life?
     - What’s life’s significance?
 
-# - intent: ask_multiple_questions
-#   examples: |
-#     - Hello! How are you?
-#     - Whats APS? Do I need APS?
-#     - Whats GMAT? Do I need GMAT?
-#     - Hi! What is your name?
-#     - Thanks. Goodbye!
-#     - Whats APS? Can I hand it in after the deadline?
-#     - Can I apply for more than one program? Do I have to apply for more than one program?
-#     - Can I apply for more than one program? Will it increase my chances if I apply for more than one?
-#     - Can I hand in GRE instead of GMAT? Is GMAT mandatory?
-#     - Can you check my eligibility? Who can check my eligibility?
-#     - Can I defer my study start date? Can I defer my study place at HWR Berlin?
-#     - When does the semester start? How long is a typical semester?
-#     - Do I need GMAT? Does HWR give out GMAT tests?
-#     - What kind of english certificate do I need? Is duolingo accepted?
+- intent: ask_multiple_questions
+  examples: |
+    - .+[.?!]\s+.+[.?!]
 
 - synonym: transfer
   examples: |
