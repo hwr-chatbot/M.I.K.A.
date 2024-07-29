@@ -1,10 +1,10 @@
 version: '3.1'
 stories:
 
-- story: handle_multiple_questions
-  steps:
-  - intent: ask_multiple_questions
-  - action: action_process_and_respond
+# - story: handle_multiple_questions
+#   steps:
+#   - intent: ask_multiple_questions
+#   - action: action_process_and_respond
 
 - story: welcome_history
   steps:
