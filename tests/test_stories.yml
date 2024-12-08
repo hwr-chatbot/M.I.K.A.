@@ -1,28 +1,30 @@
-#### This file contains tests to evaluate that your bot behaves as expected.
-#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
-
 stories:
-- story: gutelaune_wetter_geschichte
+- story: teststory1
   steps:
   - user: |
-      Hallo!
-    intent: greet
-  - action: utter_greet
+      Hi
+    intent: welcome
+  - action: utter_welcome
   - user: |
-      Ganz gut.
-    intent: gute_laune
-  - action: utter_gutelaune
+      I am from Iran. Can I hand in GRE instead of GMAT?
+    intent: gre_instead_gmat
+  - action: utter_gre_instead_gmat
   - user: |
-      Wie wird das Wetter morgen?
-    intent: frage_wetter
-  - action: utter_wetter
+      Is GMAT even needed?
+    intent: whats_gmat
+  - action: utter_whats_gmat
   - user: |
-      Wie lange gibt's die HWR schon?
-    intent: frage_geschichte_hwr
-  - action: utter_geschichte
-  - user: |
-      Danke, tschüss!
-    intent: verabschieden
-  - action: utter_verabschieden  
+      Thanks
+    intent: thank
+  - action: utter_thank
      
-  
+- story: teststory2
+  steps:
+  - user: |
+      Hi
+    intent: welcome
+  - action: utter_welcome
+  - user: |
+      I studied at an international university. How can I apply?
+    intent: application_from_international_university
+  - action: utter_application_from_international_university
